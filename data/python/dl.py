@@ -35,17 +35,23 @@ subprocess.run("cp ./data/mod/whitelist.txt ./tmp/allow01.txt", shell=True)
 
 # 拦截规则
 adblock = [
-    "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/multi.txt",
-    "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt",
-    "https://raw.githubusercontent.com/xndeye/adblock_list/beta/rule/easylist.txt",
-    "https://lingeringsound.github.io/10007_auto/reward",
-    "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
-    "https://jihulab.com/Bibaiji/ad-rules/-/raw/main/rule/ad-rules.txt",
-    "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt",
-    "https://raw.gitmirror.com/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt",
-    "https://raw.gitmirror.com/PhoenixLjw/AdRules/main/filter-lite.txt",
+    "https://raw.gitmirror.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt",
+
+"https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt",
+
 "https://raw.hellogithub.com/hosts",
-    "https://raw.githubusercontent.com/ineo6/hosts/refs/heads/master/hosts"
+
+"https://lingeringsound.github.io/10007_auto/reward",
+
+"https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
+
+"https://raw.githubusercontent.com/PhoenixLjw/AdRules/main/adguard.txt",
+
+"https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt",
+
+"https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt",
+
+"https://raw.githubusercontent.com/PhoenixLjw/AdRules/main/dns.txt"
     ]
 
 # 白名单规则
