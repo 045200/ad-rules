@@ -45,15 +45,15 @@ adblock = [
 
 "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
 
-"https://raw.githubusercontent.com/PhoenixLjw/AdRules/main/adguard.txt",
+"https://raw.githubusercontent.com/PhoenixLjw/AdRules/main/adguard-home.txt",
 
 "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt",
 
-"https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt",
+"https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/dns.txt",
 
-"https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/all.txt",
+"https://mirror.ghproxy.com/raw.githubusercontent.com/qq5460168/666/master/rules.txt",
 
-"https://mirror.ghproxy.com/raw.githubusercontent.com/qq5460168/666/master/rules.txt"
+"https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt"
     ]
 
 # 白名单规则
