@@ -51,7 +51,9 @@ adblock = [
 
 "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt",
 
-"https://raw.githubusercontent.com/PhoenixLjw/AdRules/main/dns.txt"
+"https://raw.githubusercontent.com/PhoenixLjw/AdRules/main/dns.txt",
+
+"https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/all.txt"
     ]
 
 # 白名单规则
