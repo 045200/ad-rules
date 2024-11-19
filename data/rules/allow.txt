@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-11-19 11:02:57（北京时间）
+! Version: 2024-11-19 21:16:42（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 15095
+! Total count: 15096
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -14376,6 +14376,7 @@
 @@||vo.msecnd.net^$domain=gsmarena.com
 @@||vod*.myqcloud.com^$stealth,domain=cloud.tencent.com
 @@||vod-*=video/mp4$media,stealth=referrer,domain=animesonline.nz
+@@||vod-settings.bytedanceapi.com^$app=com.phoenix.read
 @@||vod.tvp.pl^$generichide
 @@||vodakpsdhdsdrm-vh.akamaihd.net/z/clips/
 @@||vodjk.com/offlights.js
