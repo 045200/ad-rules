@@ -49,23 +49,15 @@ adblock = [
 
 "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt",
 
-"https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/dns.txt",
-
-"https://mirror.ghproxy.com/raw.githubusercontent.com/qq5460168/666/master/rules.txt",
-
-"https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt"
+"https://p.xbta.cc/https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard",
     ]
 
 # 白名单规则
 allow = [
 
-"https://hub.gitmirror.com/https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt",
-
 "https://file-git.trli.club/file-hosts/allow/Domains",
 
-"https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt",
-
-"https://mirror.ghproxy.com/raw.githubusercontent.com/qq5460168/666/master/allow.txt"
+"https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt"
 ]
 
 # 下载
