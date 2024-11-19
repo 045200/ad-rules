@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-11-18 21:17:48（北京时间）
+! Version: 2024-11-19 11:02:57（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 15092
+! Total count: 15095
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -2011,6 +2011,7 @@
 @@||acs.youku.com^$important
 @@||act.vip.iqiyi.com^
 @@||act.vip.iqiyi.com^$important
+@@||action.metaffiliation.com^
 @@||actiris.be/urchin.js
 @@||activation.sls.microsoft.com^$important
 @@||activity.tuiapple.com^$important
@@ -4056,6 +4057,7 @@
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.needrom.com/advert*.js
 @@||cdn.nlark.com^$image,stealth,domain=yuque.com
+@@||cdn.ocmhood.com/sdk/hood.js$xmlhttprequest,domain=idlix.asia
 @@||cdn.ocmhood.com/sdk/hood.js$xmlhttprequest,domain=idlixofficials.com|idlixofficial.co|idlixofficial.net|idlixofficialx.net
 @@||cdn.odc.officeapps.live.com^$important
 @@||cdn.onlystream.tv/ads/pop.js
@@ -12765,6 +12767,7 @@
 @@||ssl.p.jwpcdn.com/player/v/*/*.js$domain=faselhd.cafe
 @@||ssl.p.jwpcdn.com/player/v/*/googima.js$xmlhttprequest,domain=play.nova.bg
 @@||ssl.p.jwpcdn.com/player/v/*/jwplayer.core.controls.html5.js$domain=kissasian.si
+@@||ssl.p.jwpcdn.com/player/v/*/vast.js$xmlhttprequest,domain=idlix.asia
 @@||ssl.p.jwpcdn.com^$domain=bdsmstreak.com
 @@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||ssl.sdcdn.com/cms/ads/*$domain=stardoll.com
