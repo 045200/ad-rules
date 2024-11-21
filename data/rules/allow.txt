@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-11-21 11:01:31（北京时间）
+! Version: 2024-11-21 21:16:06（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12542
+! Total count: 12545
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -7832,6 +7832,7 @@
 @@||onlinemschool.com/script/ads1.js
 @@||onlinemschool.com^$generichide
 @@||onlineproxy.online^$generichide
+@@||onlinetermine-agentur.allianz.de^$stealth=referrer
 @@||onlinetutorium.com^$generichide
 @@||onlinetyping.org/detroitchicago/cmbdv2.js
 @@||onlinevideoconverter.com^$generichide
@@ -11917,6 +11918,7 @@
 @@||viralfeed.xyz^$generichide
 @@||viralistics.com^$generichide
 @@||viralogic.xyz^$generichide
+@@||virginplus.ca^$stealth=dpi
 @@||virpe.cc/includes/js/adver.js
 @@||virtualearth.net^$stealth,domain=bing.com
 @@||visionias.net^$generichide
@@ -12114,6 +12116,7 @@
 @@||weviral.org^$generichide
 @@||wfirma.pl/*/add/*?_=$elemhide,jsinject,extension
 @@||wfirma.pl/*/add/*?_=$other
+@@||wfmz.com^$generichide
 @@||wgun.net^$elemhide
 @@||whatsapp.com^$generichide
 @@||whatsapp.com^$generichide,badfilter
