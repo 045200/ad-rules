@@ -41,10 +41,6 @@ adblock = [
 
 "https://raw.hellogithub.com/hosts",
 
-"https://lingeringsound.github.io/10007_auto/all",
-
-"https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
-
 "https://raw.githubusercontent.com/PhoenixLjw/AdRules/main/adguard-home.txt",
 
 "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt",
