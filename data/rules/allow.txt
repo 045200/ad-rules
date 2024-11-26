@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-11-26 00:21:33（北京时间）
+! Version: 2024-11-26 11:04:27（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12545
+! Total count: 12548
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -2556,6 +2556,7 @@
 @@||cdn*.pw/stream2/cdn-*/index.m3u8$stealth=ip|referrer
 @@||cdn*.vb*rexhammond.pw/stream*/cdn*$stealth
 @@||cdn-a.yieldlove.com/yieldlove-bidder.js?meczyki.pl_mobile$domain=meczyki.pl
+@@||cdn-lfs.hf.co/repos/$stealth=3p-cache
 @@||cdn-manga.com^$image,stealth=referrer
 @@||cdn-net.com/cc.js
 @@||cdn-pci.optimizely.com/public/*/sales_snippet.js$domain=talktalk.co.uk
@@ -3179,6 +3180,7 @@
 @@||comandotorrenthd.org^$generichide
 @@||comandotorrentshds.org^$generichide
 @@||comcast.net^$stealth
+@@||comci.kr:4081^$stealth=dpi
 @@||comci.net^$stealth
 @@||comingsoon.it^$generichide
 @@||commentimemorabili.it^$generichide
@@ -7662,6 +7664,7 @@
 @@||npr.org/sponsorship/targeting/$other,xmlhttprequest,domain=npr.org
 @@||npr.org/sponsorship/targeting/$~third-party,xmlhttprequest
 @@||nq-api.net^$stealth,domain=jellycat.com
+@@||nrc.nl^$generichide
 @@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
 @@||nsfwcrave.com^$generichide
 @@||ntcdntempv*.com/data/images/$stealth
