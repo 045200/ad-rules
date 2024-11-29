@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-11-29 11:06:57（北京时间）
+! Version: 2024-11-29 21:16:37（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12551
+! Total count: 12554
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -7515,6 +7515,7 @@
 @@||native.propellerclick.com/1?z=^$domain=swatchseries.to
 @@||native.sharethrough.com/assets/sfp.js$domain=looper.com
 @@||natlawreview.com^$generichide
+@@||natro.com^$stealth=dpi
 @@||naturalbd.com^$generichide
 @@||naturalhealthy.xyz^$generichide
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
@@ -11125,6 +11126,7 @@
 @@||th-sjy.com^$generichide
 @@||th-world.com^$generichide
 @@||th.thgim.com/static/js/adsframe.min.js$domain=thehindu.com
+@@||th2plant.com^$generichide
 @@||th7.cn/sanda2015/css/ads.js
 @@||thaiairways.com/static/common/js/wt_js/webtrends.min.js$~third-party
 @@||thatoneguy.com.au^$generichide
@@ -12447,6 +12449,7 @@
 @@||youmadcdn.xyz^$image,stealth,domain=mangabuddy.com
 @@||youmaker.com/js/prebid.js
 @@||youmaker.com/js/prebid.js$domain=epochtimes.com
+@@||youmath.it/*/prebid/prebid_*.js
 @@||youmath.it/_*.js$script
 @@||youmath.it/sidebar-ad-/-doubleclick.js
 @@||youneed.win^$generichide
