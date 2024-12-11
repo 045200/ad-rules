@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-12-11 15:28:16（北京时间）
+! Version: 2024-12-11 21:34:22（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12485
+! Total count: 12484
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -1002,7 +1002,7 @@
 @@||adjectives-for.com^$generichide
 @@||adjs.8591.com.tw^$script
 @@||adjust.com/adjust-latest.min.js$domain=anchor.fm
-@@||adligature.com^$domain=listeamed.net
+@@||adligature.com^$domain=listeamed.net|gaystream.click
 @@||adligature.com^|$xmlhttprequest,domain=work.ink
 @@||adlink.wf^
 @@||adlpu.com^$generichide
@@ -8048,7 +8048,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=coursesghar.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=crast.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=crazygames.com|shellshock.io|minijuegos.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cutlink.net|cutado.com|cutnet.net|cety.app|emxaw.com|mrgec.com|ijvam.com|olkuj.com|gamco.online|evernia.site
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cutlink.net|cutado.com|cutnet.net|cety.app|emxaw.com|mrgec.com|ijvam.com|olkuj.com|gamco.online|evernia.site|cuty.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cutsy.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cutty.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dailyrevs.com
@@ -8609,7 +8609,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=visalist.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=vwforum.ro
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=warsawnow.pl
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=watchhentai.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=watchx.top|phimlongtieng.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=webmail.email.it
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=webmatrices.com
@@ -9784,7 +9783,7 @@
 @@||secure.ccavenue.com/transaction/$stealth
 @@||secure.chase.com/web/auth/$stealth=referrer
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
-@@||secure.quantserve.com/quant.js$domain=listeamed.net
+@@||secure.quantserve.com/quant.js$domain=listeamed.net|gaystream.click
 @@||secure.quantserve.com/|$xmlhttprequest,domain=facciabuco.com
 @@||secure.selfwealth.com.au^$stealth
 @@||securecard.jp/card_input.html$stealth=referrer
@@ -10443,7 +10442,7 @@
 @@||srv.clickfuse.com/showads/showad.js$domain=aha-music.com
 @@||srv.vhls.ru.com/cdn/*/*/*.m3u8$stealth
 @@||srvtrck.com/assets/css/LineIcons.css$domain=work.ink
-@@||srvtrck.com^$domain=listeamed.net
+@@||srvtrck.com^$domain=listeamed.net|gaystream.click
 @@||ss.phncdn.com^$script,domain=redtube.com|redtube.net
 @@||ssante.com^$generichide
 @@||sshagan.net^$generichide
@@ -12071,7 +12070,7 @@
 @@||widgets.outbrain.com/nanoWidget/externals/obFrame/obFrame.htm$jsinject,elemhide
 @@||widgets.outbrain.com/outbrain.js$domain=apkmirror.com,stealth
 @@||widgets.outbrain.com/outbrain.js$domain=elcorreo.com
-@@||widgets.outbrain.com/outbrain.js$domain=listeamed.net
+@@||widgets.outbrain.com/outbrain.js$domain=listeamed.net|gaystream.click
 @@||widgets.outbrain.com/outbrain.js$xmlhttprequest,domain=work.ink
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
 @@||wikia.nocookie.net/*/css/*.scss$domain=fandom.com
