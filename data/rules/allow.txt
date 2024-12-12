@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-12-11 21:34:22（北京时间）
+! Version: 2024-12-12 11:11:40（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12484
+! Total count: 12476
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -510,7 +510,6 @@
 @@jd.com/*ad_
 @@mw*/static/upload/ads$image
 @@mwfimsvfast*/static/upload/ads$image
-@@mwfimsvfast.co/static/upload/ads/files/300x250*.gif
 @@p2p.$domain=tecms.net
 @@playlist/*/load-playlist$xmlhttprequest,stealth=referrer,domain=methstreamer.com|crackstreamer.net|thestreameast.ai|1stream.eu|1stream.soccer|streameast.app|thecrackstreams.live|meth-streams.ai|buffstreams.app
 @@safari-extension://com.adguard.safari-$document
@@ -1299,6 +1298,7 @@
 @@||afreesms.com^$generichide
 @@||aftonbladet.se^$generichide
 @@||ag.innovid.com/dv/sync$domain=mylifetime.com
+@@||ag.sytes.net/admgr.js$domain=infinityscans.xyz|infinityscans.net|infinityscans.org
 @@||agazeta.com.br^$generichide
 @@||aggressivecars.com^$generichide
 @@||agxapks.com^$generichide
@@ -2597,6 +2597,7 @@
 @@||cdn.betrad.com/pub/icon*.png$domain=ehow.co.uk
 @@||cdn.bg/live/$stealth
 @@||cdn.bluebillywig.com/apps/player/*/components/admanager.js$domain=eurogamer.net
+@@||cdn.blueconic.net/hearst.js$domain=theridgefieldpress.com|thetelegraph.com|beaumontenterprise.com|bigrapidsnews.com|chron.com|ctinsider.com|ctpost.com|darientimes.com|seattlepi.com|expressnews.com|fuelfix.com|greenwichtime.com|houstonchronicle.com|lakecountystar.com|lmtonline.com|manisteenews.com|michigansthumb.com|middletownpress.com|milfordmirror.com|mrt.com|myjournalcourier.com|myplainview.com|mysanantonio.com|ncadvertiser.com|newstimes.com|nhregister.com|ourmidland.com|recordpatriot.com|registercitizen.com|seattlepi.com|sfchronicle.com|sfgate.com|sheltonherald.com|smallbusiness.chron.com|stamfordadvocate.com|theheraldreview.com|thehour.com|theintelligencer.com|thethetelegraph.com|timesunion.com|trumbulltimes.com|weekand.com|wiltonbulletin.com|work.chron.com|yourconroenews.com
 @@||cdn.blueconic.net/pon.js$domain=seat.nl
 @@||cdn.bmcdn3.com/js/*aab.js$domain=earnhub.net
 @@||cdn.bootcdn.net^
@@ -5923,7 +5924,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=sonyliv.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=timesnownews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=vix.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=wcvb.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=winknews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=wsls.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=zee5.com
@@ -6900,7 +6900,6 @@
 @@||manhuagui.com^$stealth
 @@||manifest.auditude.com/auditude/*.m3u8?$domain=rickandmorty.com
 @@||manifest.auditude.com/auditude/variant/$domain=adultswim.com
-@@||manisteenews.com/sites/jquery.adx.js
 @@||manjaro.pl^$generichide
 @@||manoramamax.com/videojs/videojs-contrib-ads.min.js$domain=manoramamax.com
 @@||manta.com^$generichide
@@ -7454,7 +7453,6 @@
 @@||mzstatic.com/htmlResources/$elemhide,jsinject,domain=itunes.apple.com
 @@||mzzcloud.life/embed-$stealth
 @@||n4mo.org/advert.js
-@@||n730.timesunion.com/script.js
 @@||n8s.jp^$script,domain=nikkei.com
 @@||naiadsystems.com/*/hls/live$domain=pornhub.com|pornhub.org|pornhub.net
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp|myna.go.jp
@@ -8970,7 +8968,7 @@
 @@||player.ex.co/player/$domain=si.com
 @@||player.ex.co/player/$domain=thestreet.com
 @@||player.ex.co/player/$domain=usatoday.com
-@@||player.ex.co/player/$script,domain=mm-watch.com|theautopian.com|usatoday.com
+@@||player.ex.co/player/$script,domain=mm-watch.com|theautopian.com|usatoday.com|ydr.com
 @@||player.ex.co^$domain=reviewjournal.com
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
 @@||player.foxdcg.com/*/js/playback.js?*^ad$xmlhttprequest,domain=fox.com
@@ -9332,7 +9330,6 @@
 @@||queenfaucet.website^$generichide
 @@||quicasting.it^$generichide
 @@||quick-edit-cny.pages.dev^$domain=dash.cloudflare.com,stealth=useragent
-@@||quickmath.com/js/r/web-vitals.js$script,~third-party
 @@||quicksounds.com^$generichide
 @@||quicktelecast.com^$generichide
 @@||quizack.com/assets/img/ads.js
@@ -10414,7 +10411,6 @@
 @@||spolecznosci.net/js/core*-min.js$domain=shinden.pl
 @@||spolecznosci.net/js/modules/*.js$domain=shinden.pl
 @@||spolecznosci.net/js/reklama/advertisement.js
-@@||sport.virgilio.it/js/web-vitals-evnt.25/web-vitals.attribution.js$script,domain=sport.virgilio.it
 @@||sportbikerider.us^$generichide
 @@||sportnews.to/*?ref=$stealth=referrer,domain=sportshub.to
 @@||sportnews.to^$generichide
@@ -10992,7 +10988,6 @@
 @@||techtunes.com.bd^$generichide
 @@||tecknity.com^$generichide
 @@||teclane.com^$generichide
-@@||tecnologia.libero.it/js/dist.1/web-vitals.attribution.js$script,domain=tecnologia.libero.it
 @@||tecnomusic-evolution.com^$generichide
 @@||tehnotone.com^$generichide
 @@||tekfame.com/wp-content/plugins/ad-inserter/*/*.js
@@ -11178,7 +11173,6 @@
 @@||timeinc.net/people/static/mobile/j/tgx-ads.js$domain=people.com
 @@||timesofindia.indiatimes.com/ad-banner-zedo^
 @@||timesofindia.indiatimes.com/ads_native_js^
-@@||timesunion.com/sites/jquery.adx.js
 @@||timeweb.com/*/other-user-articles/google-ads
 @@||timvision.it/libs/fingerprint/fingerprint.js
 @@||tinyhomebuilders.com/scripts/ads.js
@@ -11580,7 +11574,6 @@
 @@||unpkg.com/just-detect-adblock@*/dist/bundle.umd.js$domain=stfly.*|airevue.net
 @@||unpkg.com/swiper*.js$domain=faselhd.cafe
 @@||unpkg.com/vue-recaptcha@*/dist/vue-recaptcha.js$domain=vidoza.net
-@@||unpkg.com/web-vitals/dist/web-vitals.base.iife.js$script,domain=wpolityce.pl
 @@||unpkg.com^$script,domain=vidsrc.stream
 @@||unreshiramor.com/*/|$domain=disneyplayvn.net
 @@||up-load.io/*/img/*.png#
@@ -12001,7 +11994,6 @@
 @@||web-sdk.urbanairship.com/notify/$script,domain=etoro.com
 @@||web.any.do^$document
 @@||web.basemark.com^$generichide
-@@||web.dev/patterns/web-vitals-$~third-party
 @@||web.np.playstation.com/api^$stealth
 @@||web.skype.com^$stealth
 @@||web.telegram.org^$generichide
