@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-12-20 10:54:54（北京时间）
+! Version: 2024-12-20 21:03:19（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12405
+! Total count: 12406
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -7421,7 +7421,6 @@
 @@||naszraciborz.pl^$generichide
 @@||natalie.mu^$generichide
 @@||nationwide.com/myaccount/includes/images/x.gif$~third-party
-@@||native.propellerclick.com/1?z=^$domain=swatchseries.to
 @@||native.sharethrough.com/assets/sfp.js$domain=looper.com
 @@||natlawreview.com^$generichide
 @@||natro.com^$stealth=dpi
@@ -9460,6 +9459,7 @@
 @@||ric-ul.ru^$stealth=dpi
 @@||ricasaude.com^$generichide
 @@||right.com.cn/forum/*300*250$image
+@@||right.com.cn/forum/static/image/common/logo_m.svg$domain=right.com.cn
 @@||ripple.is^$generichide
 @@||riverdesdelatribuna.com.ar^$generichide
 @@||riverlink.etcchosted.com/widgets/com/mendix/widget/web/googletag/GoogleTag.js$~third-party
@@ -11175,6 +11175,7 @@
 @@||tophostingapp.com^$generichide
 @@||toplay.biz/log_event$~third-party,xmlhttprequest
 @@||toplevelfaucet.website^$generichide
+@@||toplien.fr^$generichide
 @@||topnaturaltips.com^$generichide
 @@||topperpoint.com^$generichide
 @@||toppng.com^$generichide
