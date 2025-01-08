@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-01-07 20:33:32（北京时间）
+! Version: 2025-01-08 09:16:43（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12429
+! Total count: 12431
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -2984,6 +2984,7 @@
 @@||cizgifilmlerizle.com/getvid?$stealth
 @@||cizzy.cc^$generichide
 @@||cj.dotomi.com^
+@@||cl.link-ag.net^
 @@||cl9a.com/static/ad/main.js
 @@||claim.fun^$generichide
 @@||claimbits.net/static/js/noadblock.js
@@ -8410,6 +8411,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=unlockapk.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=up-4ever.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=updato.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=updown.fun
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=uploadbox.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=upshrink.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=userupload.*
