@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-01-15 20:32:10（北京时间）
+! Version: 2025-01-16 09:14:16（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12452
+! Total count: 12456
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -2535,6 +2535,7 @@
 @@||cd.connatix.com/connatix.playspace.js$domain=loot.tv
 @@||cd.connatix.com/connatix.playspace.js$domain=theverge.com
 @@||cda.pl/video/$subdocument,domain=szukajka.tv
+@@||cdc-api.account.sap.com^$stealth=referrer
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdi.ofiii.com^
 @@||cdn*-player.com^$stealth
@@ -3287,6 +3288,7 @@
 @@||count.video.sina.com.cn^*?video_ids=
 @@||countrygarden.com.cn/ad/
 @@||countrytabs.com^$generichide
+@@||coupang.com^$stealth=dpi
 @@||courrier.jp^$generichide
 @@||cours-de-droit.net^$generichide
 @@||courseclub.net^$generichide
@@ -8051,6 +8053,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dlpanda.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=docsach24.co
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dogeen.xyz
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dongknows.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=door2windows.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.mokeedev.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.shareappscrack.com
@@ -11961,6 +11964,7 @@
 @@||wcoforever.net/inc/embed/ads.js
 @@||wcofun.com/inc/embed/ads.js
 @@||wdr.ivwbox.de/cgi-bin/ivw/CP/$domain=wdr.de
+@@||we-stats.com/scripts/$script,domain=discover.com
 @@||weather.rambler.ru/static/*/dist/adfox/adfox-loader.min.js^$domain=weather.rambler.ru
 @@||weatherx.co.in^$generichide
 @@||web-ads.pulse.weatherbug.net/api/ads/targeting/$domain=weatherbug.com
