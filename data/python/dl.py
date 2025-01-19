@@ -55,7 +55,8 @@ allow = [
 
 "https://file-git.trli.club/file-hosts/allow/Domains",
 
-"https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt"
+"https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt",
+"https://raw.gitmirror.com/lingeringsound/10007_auto/master/Adaway_white_list.prop"
 ]
 
 # 下载
