@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-01-21 09:14:06（北京时间）
+! Version: 2025-01-21 20:32:32（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12460
+! Total count: 12467
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -491,6 +491,7 @@
 @@cc/o.js$third-party,script,domain=mpo18.com|xcupfox.com
 @@cdn.allflow.cn/assets/ad-utils.*.js$domain=flowus.cn
 @@cdn.eporner.com^$stealth=referrer
+@@chunklist.m3u8$stealth=referrer,domain=reliabletv.me
 @@clicks.$domain=cimbclicks.com.my,~third-party
 @@doubleclick.net/ads/preferences/
 @@embed/$stealth=webrtc,domain=vipbox.lc
@@ -4244,6 +4245,7 @@
 @@||file-upload.cc^$generichide
 @@||file-upload.com/js/advertisement.js
 @@||file-upload.com^$generichide
+@@||file-upload.net/include/adserver.js$domain=file-upload.net
 @@||file.fm/f/$stealth
 @@||file.myqcloud.com/*.mp4?token=$stealth
 @@||file.myqcloud.com^$stealth,image,domain=icezmz.com
@@ -5837,6 +5839,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=texastech.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=theticket.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=timesnownews.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=titans.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tokfm.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=trojmiasto.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tsn.ua
@@ -6093,6 +6096,7 @@
 @@||intersport.peerius.com^
 @@||interssh.com^$generichide
 @@||intoday.in/embeded/*_live?
+@@||intuitcdn.net/libs/*/track-star.min.js$script,domain=turbotax.intuit.com
 @@||inven.co.kr^$generichide
 @@||inven.co.kr^$stealth=dpi
 @@||inven.co.kr^$stealth=ip
@@ -6378,6 +6382,7 @@
 @@||key-hub.eu/js/prebid-ads.js
 @@||keylerbenden.com^$generichide
 @@||keytiles.com/tracking/$script,domain=blikk.hu
+@@||keyvdowallet.me^$stealth=referrer
 @@||kf.cn/ad/css/*.*.
 @@||kf.cn/ad/css/*.css
 @@||kf.cn/ad/css/images/
@@ -9466,6 +9471,7 @@
 @@||relap.io/api/v*/head.js$domain=briefly.ru|kulturologia.ru,stealth
 @@||relatosdesexo.xxx^$generichide
 @@||relevant-digital.com^$script,domain=20min.ch
+@@||reliabletv.me/*embed/$stealth=referrer
 @@||relmz.io^$generichide
 @@||remembering.ca^
 @@||remixsearch.co^$generichide
@@ -9651,6 +9657,7 @@
 @@||s2.adform.net/banners/scripts/st/trackpoint-async.js$domain=media.cms.markiza.sk
 @@||s3.amazonaws.com/khachack/*.js$script,domain=ndtv.com
 @@||s3.amazonaws.com^$stealth,domain=informationisbeautiful.net
+@@||s3t3d2y8.afcdn.net/library/$image,domain=pmvhaven.com
 @@||s41poke.com^$generichide
 @@||saabcentral.com^$generichide
 @@||sabishiidesu.com^$generichide
