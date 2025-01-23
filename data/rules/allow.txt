@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-01-22 20:32:45（北京时间）
+! Version: 2025-01-23 09:14:31（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12471
+! Total count: 12479
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -2645,6 +2645,8 @@
 @@||cdn.evolutionadv.it/money.it/*.mp4$domain=money.it
 @@||cdn.ex.co/player/$domain=reviewjournal.com
 @@||cdn.ex.co/player/*.js$domain=pagesix.com
+@@||cdn.ex.co/player/*.js$domain=sport24.gr
+@@||cdn.ex.co/transformations/production/$domain=sport24.gr
 @@||cdn.ex.co^$domain=mm-watch.com|theautopian.com
 @@||cdn.exmarketplace.com/bidder/video_scripts/video_updated_*.js$domain=tvserial.it
 @@||cdn.exp.qq.com/img/
@@ -3439,6 +3441,7 @@
 @@||d2o03z2xnyxlz5.cloudfront.net^|$xmlhttprequest,domain=kbjfree.com
 @@||d2qnx6y010m4rt.cloudfront.net^|$xmlhttprequest,domain=kbjfree.com
 @@||d2ujtyf7wfmq6y.cloudfront.net/ads/ads.html$domain=reisefrage.net|motorradfrage.net|autofrage.net|sportlerfrage.net|gesundheitsfrage.net|finanzfrage.net|computerfrage.net|gutefrage.net
+@@||d2wy8f7a9ursnm.cloudfront.net/v8/bugsnag.min.js$script,domain=forecastapp.com
 @@||d2zf5gu5e5mp87.cloudfront.net^$script,domain=ebaticalfel.com
 @@||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk
 @@||d3njgrq4uvb497.cloudfront.net/videojs/videojs-contrib-ads.js$domain=ksl.com
@@ -5730,6 +5733,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=iodonna.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ittf.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=iz.ru
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=javboys.upn.one
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kanald.ro
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kanalsportowy.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kissanime.ac
@@ -7498,6 +7502,7 @@
 @@||nelonenmedia.fi/logger/logger-ini.json$xmlhttprequest,domain=embed.sanoma-sndp.fi|supla.fi
 @@||nemlog-in.dk/resources/js/adrum.js$~third-party
 @@||nensaysubs.net^$generichide
+@@||neo.btrl.ro/Scripts/services/fingerprint2.min.js$~third-party
 @@||neobux.com/css/ads.css
 @@||nerdmaldito.com^$generichide
 @@||netatmo.commander1.com^
@@ -8967,8 +8972,10 @@
 @@||player.clevercast.com/players/video-js/video-js-plugins/videojs.ads.min.js
 @@||player.enetres.net/js/videojs-plugins/videojs-ads-contrib/videojs.ads.js
 @@||player.ex.co/config$domain=pagesix.com
+@@||player.ex.co/config$domain=sport24.gr
 @@||player.ex.co/player/$domain=pagesix.com
 @@||player.ex.co/player/$domain=si.com
+@@||player.ex.co/player/$domain=sport24.gr
 @@||player.ex.co/player/$domain=thestreet.com
 @@||player.ex.co/player/$domain=usatoday.com
 @@||player.ex.co/player/$script,domain=mm-watch.com|theautopian.com|usatoday.com|ydr.com
@@ -9997,6 +10004,7 @@
 @@||seeitworks.com/advertisement.js
 @@||seg-cdn.pumpkin.care/analytics.js/$~third-party
 @@||seg-cdn.pumpkin.care/next-integrations/integrations/mixpanel/$domain=get.pumpkin.care
+@@||seguridad.compensar.com/lib/js/fingerprint2.js$~third-party
 @@||seireshd.com^$generichide
 @@||seirsanduk.com/ad-server.js
 @@||seirsanduk.online^$generichide
