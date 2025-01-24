@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-01-23 20:32:46（北京时间）
+! Version: 2025-01-24 09:14:39（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12480
+! Total count: 12481
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -1423,7 +1423,6 @@
 @@||alllaw.112.2o7.net^
 @@||allmath.com^$generichide
 @@||allmusic.com/ads.js
-@@||allpornstream.com/api/ads?type=thumbnail$~third-party
 @@||allsport-live.net^$stealth
 @@||allthatsinteresting.com/wordpress/wp-content/plugins/bwp-minify^
 @@||allvideos.me^$generichide
@@ -10653,6 +10652,7 @@
 @@||static.popads.net/img/logo.png$domain=dropgalaxy.com
 @@||static.popads.net/js/trustguard.js
 @@||static.purexbox.com/javascript/popunder2.js
+@@||static.pushsquare.com/javascript/popunder2.js
 @@||static.realme.net/v1/knowledge/images/banner.jpg$image
 @@||static.shorte.st/bundles/smeweb/$domain=sh.st
 @@||static.shorte.st/js/packed/interstitial-page.js$domain=sh.st
@@ -10909,6 +10909,7 @@
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
 @@||tailieungon.com^$generichide
+@@||tailwindcss.com^$extension
 @@||taimanin-rpg.wikiru.jp^$generichide
 @@||tainhanhvn.com^$generichide
 @@||taipit-mebel.ru/upload/resize_cache/$image,~third-party
