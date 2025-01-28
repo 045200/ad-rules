@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-01-27 20:32:52（北京时间）
+! Version: 2025-01-28 09:14:15（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12480
+! Total count: 12482
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=stfly.cc
@@ -6631,6 +6631,7 @@
 @@||link-to.net^$generichide
 @@||link.adtidy.org/forward.html
 @@||link.morningbrew.com^
+@@||link.sylikes.com^
 @@||link.technics-goods.info^$generichide
 @@||link1s.*^$stealth
 @@||link1s.com/wp-banners.js
@@ -9399,6 +9400,7 @@
 @@||rbs.ta36.com^$generichide
 @@||rcm-na.amazon-adsystem.com^$domain=sixsave.com
 @@||rcsobjects.it/rcs_data-tracking/v*/distro/openx/gazzetta/openx_async.js$domain=gazzetta.it
+@@||rd.bizrate.com^
 @@||rd.ias.global.rakuten.com/adv/$domain=24.rakuten.co.jp
 @@||rddywd.com/adcode.png$domain=joblo.com
 @@||rddywd.com/adcode.png$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk|comicallyincorrect.com|thegatewaypundit.com
