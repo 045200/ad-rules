@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-02-28 09:18:28（北京时间）
+! Version: 2025-02-28 20:33:21（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12548
+! Total count: 12562
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -100,7 +100,7 @@
 @@/300x250.gif$domain=manwa1.vip|manwa2.vip|manwa3.vip|manwa4.vip|manwa5.vip|manwa6.vip|manwa7.vip|manwa8.vip|manwa9.vip|manwa10.vip|manwa.vip|manwa1.site|manwa2.site|manwa3.site|manwa4.site|manwa5.site|manwa6.site|manwa7.site|manwa8.site|manwa9.site|manwa10.site|manwa.site|manwa1.me|manwa2.me|manwa3.me|manwa4.me|manwa5.me|manwa6.me|manwa7.me|manwa8.me|manwa9.me|manwa10.me|manwa.me|mwcomic1.cc|mwcomic2.cc|mwcomic3.cc|mwcomic4.cc|mwcomic5.cc|mwcomic6.cc|mwcomic7.cc|mwcomic8.cc|mwcomic9.cc|mwcomic10.cc|mwcomic.cc|mwcomic1.biz|mwcomic2.biz|mwcomic3.biz|mwcomic4.biz|mwcomic5.biz|mwcomic6.biz|mwcomic7.biz|mwcomic8.biz|mwcomic9.biz|mwcomic10.biz|mwcomic.biz|mwcomic1.xyz|mwcomic2.xyz|mwcomic3.xyz|mwcomic4.xyz|mwcomic5.xyz|mwcomic6.xyz|mwcomic7.xyz|mwcomic8.xyz|mwcomic9.xyz|mwcomic10.xyz|mwcomic.xyz|mwcomic1.top|mwcomic2.top|mwcomic3.top|mwcomic4.top|mwcomic5.top|mwcomic6.top|mwcomic7.top|mwcomic8.top|mwcomic9.top|mwcomic10.top|mwcomic.top|manwa1.xyz|manwa2.xyz|manwa3.xyz|manwa4.xyz|manwa5.xyz|manwa6.xyz|manwa7.xyz|manwa8.xyz|manwa9.xyz|manwa10.xyz|manwa.xyz|mwcomic1.co|mwcomic2.co|mwcomic3.co|mwcomic4.co|mwcomic5.co|mwcomic6.co|mwcomic7.co|mwcomic8.co|mwcomic9.co|mwcomic10.co|mwcomic.co|mwcomic1.online|mwcomic2.online|mwcomic3.online|mwcomic4.online|mwcomic5.online|mwcomic6.online|mwcomic7.online|mwcomic8.online|mwcomic9.online|mwcomic10.online|mwcomic.online|manwafei1.cc|manwafei2.cc|manwafei3.cc|manwafei4.cc|manwafei5.cc|manwafei6.cc|manwafei7.cc|manwafei8.cc|manwafei9.cc|manwafei10.cc|manwafei.cc|manwafei1.com|manwafei2.com|manwafei3.com|manwafei4.com|manwafei5.com|manwafei6.com|manwafei7.com|manwafei8.com|manwafei9.com|manwafei10.com|manwafei.com|manwafei1.xyz|manwafei2.xyz|manwafei3.xyz|manwafei4.xyz|manwafei5.xyz|manwafei6.xyz|manwafei7.xyz|manwafei8.xyz|manwafei9.xyz|manwafei10.xyz|manwafei.xyz|manwafei1.top|manwafei2.top|manwafei3.top|manwafei4.top|manwafei5.top|manwafei6.top|manwafei7.top|manwafei8.top|manwafei9.top|manwafei10.top|manwafei.top|manwafei1.me|manwafei2.me|manwafei3.me|manwafei4.me|manwafei5.me|manwafei6.me|manwafei7.me|manwafei8.me|manwafei9.me|manwafei10.me|manwafei.me|manwafei1.site|manwafei2.site|manwafei3.site|manwafei4.site|manwafei5.site|manwafei6.site|manwafei7.site|manwafei8.site|manwafei9.site|manwafei10.site|manwafei.site|manwafei1.biz|manwafei2.biz|manwafei3.biz|manwafei4.biz|manwafei5.biz|manwafei6.biz|manwafei7.biz|manwafei8.biz|manwafei9.biz|manwafei10.biz|manwafei.biz|manwafei1.online|manwafei2.online|manwafei3.online|manwafei4.online|manwafei5.online|manwafei6.online|manwafei7.online|manwafei8.online|manwafei9.online|manwafei10.online|manwafei.online|manwaq1.vip|manwaq2.vip|manwaq3.vip|manwaq4.vip|manwaq5.vip|manwaq6.vip|manwaq7.vip|manwaq8.vip|manwaq9.vip|manwaq10.vip|manwaq.vip|manwaqq1.vip|manwaqq2.vip|manwaqq3.vip|manwaqq4.vip|manwaqq5.vip|manwaqq6.vip|manwaqq7.vip|manwaqq8.vip|manwaqq9.vip|manwaqq10.vip|manwaqq.vip|manwadb1.xyz|manwadb2.xyz|manwadb3.xyz|manwadb4.xyz|manwadb5.xyz|manwadb6.xyz|manwadb7.xyz|manwadb8.xyz|manwadb9.xyz|manwadb10.xyz|manwadb.xyz
 @@/:\/\/.*[.]wp[.]pl\/[a-z0-9_]+[.][a-z]+[/:&?]?/
 @@/?article=$stealth=referrer,domain=m10.asd.quest
-@@/?utm_source=*&utm_campaign=$domain=dlsite.com|yandex.kz|yandex.ru|yandex.com|yandex.fr|yandex.com.tr|yandex.ru|yandex.by|yandex.eu|yandex.net|yandex.uz|yandex.ua|yandex.*
+@@/?utm_source=*&utm_campaign=$domain=dlsite.com|yandex.*|yandex.by|yandex.com|yandex.com.tr|yandex.eu|yandex.fr|yandex.kz|yandex.net|yandex.ru|yandex.tr|yandex.ua|yandex.uz
 @@/OutbrainWidgetConnector.js$domain=foxnews.com
 @@/RealMedia/ads^$domain=aeroplan.com
 @@/Status/ping$stealth,domain=status.bigant.com
@@ -1096,11 +1096,13 @@
 @@||ads.a-static.com/ads.js$domain=ad4msan.com
 @@||ads.a-static.com/ads.js|
 @@||ads.adthrive.com/api/$domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
-@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
-@@||ads.adthrive.com/builds/core/*/prebid.min.js$domain=mediaite.com
+@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=adamtheautomator.com|laurelberninteriors.com|mediaite.com|packhacker.com|packinsider.com
+@@||ads.adthrive.com/builds/core/*/prebid.min.js$domain=laurelberninteriors.com|mediaite.com
+@@||ads.adthrive.com/builds/core/*/vendor/prebid/*/prebid.min.js$domain=laurelberninteriors.com
 @@||ads.adthrive.com/core/*/js/adthrive.min.js$domain=mediaite.com
 @@||ads.adthrive.com/core/gdpr/vendor/prebid/prebid.min.js$domain=mediaite.com
 @@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
+@@||ads.adthrive.com/sites/*/ads.min.js$domain=laurelberninteriors.com
 @@||ads.aiir.net/rf/feed?callback=jQuery
 @@||ads.alafish.cn^$~third-party
 @@||ads.allegro.pl^$domain=ads.allegro.pl
@@ -1305,6 +1307,7 @@
 @@||affiliates.bundlehunt.com/wp-json/$domain=bundlehunt.com
 @@||affiliates.sankmo.com/iframe-redirect$domain=getcashfree7.blogspot.com
 @@||affiliates.sankmo.com/iframe-redirect$domain=latestcooldeals.blogspot.com
+@@||affluentarmyequator.com^$domain=playhydrax.com|kissanime.com.ru
 @@||affyun.com^$generichide
 @@||afi-b.com^
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
@@ -1571,6 +1574,7 @@
 @@||animeflv.com/embed.php^
 @@||animeflv.net/redirector.php^
 @@||animeflv.ru/assets/vast/videojs.ads.min.js
+@@||animego.me^$~script,~stylesheet,~xmlhttprequest,~image,stealth=ip
 @@||animego.org^$stealth=ip
 @@||animeku.org/play*.php?id=$stealth
 @@||animeland.me/pa.js
@@ -1756,6 +1760,7 @@
 @@||api.production.k8s.y3o.tv/*/video-ads/$domain=yallo.tv
 @@||api.rhombusads.com/v*/embed/check$domain=spin.com
 @@||api.rmr.rocks^$stealth=3p-auth
+@@||api.schale.network^$stealth=referrer
 @@||api.smartystreets.com/lookup$stealth,domain=att.com
 @@||api.solvemedia.com/papi/
 @@||api.splice.com/www/advertisement/community-explore$domain=splice.com
@@ -1975,6 +1980,7 @@
 @@||auth.gfx.ms^$document
 @@||auth.mail.ru^$stealth
 @@||auth.opera.com^$stealth
+@@||auth.schale.network^$stealth=referrer
 @@||auth.xtrend.ru^$stealth
 @@||auth2.picpay.com^*/event-tracking.js$script,~third-party
 @@||authedmine.com/lib/captcha.min.js$domain=filecrypt.cc
@@ -2322,6 +2328,7 @@
 @@||bombhopper.io/prebid.js
 @@||bombom.io/ads.txt
 @@||bombuj.si^$generichide
+@@||boobausauhipsa.net^$domain=playhydrax.com|kissanime.com.ru
 @@||book.com.tw/image/getImage?
 @@||book.com.tw/image/getImage?$domain=books.com.tw
 @@||booking.vietjetair.com/searchrespax.aspx$stealth
@@ -3222,6 +3229,7 @@
 @@||concertads-configs.vox-cdn.com/sbn/verge/config.json$domain=theverge.com
 @@||config.aps.amazon-adsystem.com/configs/$domain=kitco.com
 @@||config.playwire.com/*/zeus.json$domain=explosm.net
+@@||connatix.com$domain=babycenter.com
 @@||connatix.com*/connatix.player.$script,domain=ebaumsworld.com|funker530.com|tvinsider.com|washingtonexaminer.com
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connatix.com^$domain=sport-fm.gr|sport24.gr|variety.com
@@ -3252,6 +3260,7 @@
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
 @@||content.googleapis.com$document
 @@||content.ingbank.pl^
+@@||content.ingbank.pl^$xmlhttprequest,image,domain=ingksiegowosc.pl
 @@||content.jwplatform.com^$domain=destructoid.com
 @@||content.jwplatform.com^$domain=tomshardware.com
 @@||content.newegg.com$document
@@ -4043,6 +4052,7 @@
 @@||embedstream.me^$generichide
 @@||embedstreams.me^$stealth=referrer,subdocument
 @@||embedupload.com^$generichide
+@@||emea.api.flow.microsoft.com/providers/Microsoft.ProcessSimple/environments/$domain=make.powerautomate.com,stealth=referrer
 @@||emjcd.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||emoji.gg^$generichide
 @@||emome.net/files/advertising/
@@ -4554,6 +4564,8 @@
 @@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|tv-tokyo.co.jp|voici.fr
 @@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=soranews24.com
 @@||g.doubleclick.net/gampad/ads?*%2Ftver.$xmlhttprequest,domain=imasdk.googleapis.com
+@@||g.doubleclick.net/gampad/ads?*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_Collapse_Autoplay_$xmlhttprequest,domain=imasdk.googleapis.com
+@@||g.doubleclick.net/gampad/ads?*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_In-Post_ClicktoPlay_$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*&prev_scp=kw%3Diqdspiegel%2Cdigtransform%2Ciqadtile4%2$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Fgames.poki.com$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Frepuls.io$xmlhttprequest,domain=imasdk.googleapis.com
@@ -4570,11 +4582,12 @@
 @@||g.doubleclick.net/pagead/managed/js/gpt/$script,domain=adamtheautomator.com|allestoringen.be|allestoringen.nl|aussieoutages.com|canadianoutages.com|downdetector.ae|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.br|downdetector.dk|downdetector.es|downdetector.fi|downdetector.fr|downdetector.hk|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.no|downdetector.pl|downdetector.pt|downdetector.ru|downdetector.se|downdetector.sg|downdetector.tw|downdetector.web.tr|euronews.com|filmweb.pl|hoyme.jp|ictnews.org|journaldequebec.com|kino.de|mediaite.com|spiegel.de|thestar.co.uk|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de|yorkshirepost.co.uk
 @@||g.doubleclick.net/pagead/managed/js/gpt/$script,domain=makeuseof.com|howtogeek.com
 @@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=games.coolgames.com
+@@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=laurelberninteriors.com
 @@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=soranews24.com
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
 @@||g.doubleclick.net/tag/js/gpt.js$domain=ccthesims.com
 @@||g.doubleclick.net/tag/js/gpt.js$domain=soranews24.com
-@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|adamtheautomator.com|bestiefy.com|blastingnews.com|bloomberg.com|chromatographyonline.com|cornwalllive.com|devclass.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|euronews.com|filmweb.pl|formularywatch.com|games.coolgames.com|gearpatrol.com|hoyme.jp|journaldequebec.com|kino.de|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nycgo.com|olx.pl|physicianspractice.com|repretel.com|spiegel.de|standard.co.uk|telsu.fi|theta.tv|weather.com|wralsportsfan.com
+@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|adamtheautomator.com|bestiefy.com|blastingnews.com|bloomberg.com|chromatographyonline.com|cornwalllive.com|devclass.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|euronews.com|filmweb.pl|formularywatch.com|games.coolgames.com|gearpatrol.com|hoyme.jp|journaldequebec.com|kino.de|laurelberninteriors.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nycgo.com|olx.pl|physicianspractice.com|repretel.com|spiegel.de|standard.co.uk|telsu.fi|theta.tv|weather.com|wralsportsfan.com
 @@||g17media.com/detect.html$domain=lcpdfr.com
 @@||g1novelas.org^$generichide
 @@||g2a.com/toolbar/$document
@@ -5645,7 +5658,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=10play.com.au|247sports.com|24h.com.vn|3bmeteo.com|4gtv.tv|7plus.com.au|881903.com|9am.ro|a1.ro|aksam.com.tr|amc.com|ani.gamer.com.tw|animeflv.ru|antena3.ro|antenaplay.ro|api.screen9.com|appledaily.com|arkadium.com|asa3ah.com|atozmath.com|autocentrum.pl|autokult.pl|autorambler.ru|babygames.com|baltimoresun.com|bbc.com|bbcamerica.com|bestgames.com|bighero.io|biters.io|blastingnews.com|bloomberg.co.jp|bloomberg.com|boas.io|bsfuji.tv|bullet.town|cbc.ca|cbsnews.com|cbssports.com|cdn.htmlgames.com|cdn.witchhut.com|cdnvideo.me|chicagotribune.com|chili.com|chromecastappstips.com|ciudad.com.ar|classicreload.com|clickorlando.com|clipbucket.com|clipmyhorse.tv|cnet.com|coolgames.com|corrieredellosport.it|cosmopolitan.com|crosswordsolver.org|crunchyroll.com|cubuffs.com|cwseed.com|czxxx.org|dailystar.co.uk|delish.com|digitalspy.com|dingit.tv|distro.tv|ditchthecarbs.com|diziler.com|docbao.vn|doodlygames.me|doubtnut.com|dressupmix.com|drphil.com|einthusan.ca|einthusan.com|einthusan.tv|elahmad.com|elle.pl|embed-zattoo.com|embed.comicbook.com|esgentside.com|etonline.com|express.co.uk|facepunch.io|farfeshplus.com|filmweb.pl|fisp.io|flipboard.com|fotoblogia.pl|fptplay.vn|funimation.com|gadzetomania.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamecocksonline.com|gamejolt.net|gamepix.com|games.gamesplaza.com|games.latimes.com|games.metro.us|games.metv.com|games.miamiherald.com|games.usatoday.com|games.word.tips|gameswf.com|gamezhero.com|gauchazh.clicrbs.com.br|gbnews.com|gentside.co.uk|gentside.com|gentside.com.br|gentside.de|geo.dailymotion.com|get.x-link.pl|givemesport.com|globoplay.globo.com|gmg-wjxt-prod.cdn.arcpublishing.com|gocolumbialions.com|goducks.com|goodmorningamerica.com|goodstream.uno|gospodari.com|gostanford.com|gousfbulls.com|greatdaygames.com|gsgazete.com|h5.4j.com|ha365.com|haber7.com|haberler.com|hackedarcadegames.com|hamaratabla.com|hamivideo.hinet.net|hanime.tv|hiddenobjectgames.com|howstuffworks.com|hqq.tv|html5.gamedistribution.com|humix.com|hungama.com|ignboards.com|iheart.com|ilmeteo.it|in.gr|independent.co.uk|insideedition.com|irctc.co.in|ittf.com|iz.ru|kanald.ro|kissanime.ac|kisscartoon.ac|kizi.com|klix.ba|knoxnews.com|kraloyun.com|ksl.com|laleggepertutti.it|lemino.docomo.ne.jp|lenta.ru|line.me|liner.hu|linetv.tw|litv.tv|livexlive.com|locipo.jp|loot.tv|m.timesofindia.com|maharashtratimes.com|manoramamax.com|mariogames.be|matchtv.ru|maxisciences.com|medyaradar.com|meilleurpronostic.fr|metacritic.com|minigame.aeriagames.jp|mirror.co.uk|missoulian.com|mlb.com|mobinozer.com|motorsport.tv|myspace.com|mytvsuper.com|nba.com|netd.com|nettavisen.no|newgames.com|news4jax.com|nextmedia.com|nova.cz|now.com|nowtv.com.tr|nrl.com|ntvspor.net|nuke.zone|nydailynews.com|oe24.at|ohmirevista.com|ohmymag.com|ohmymag.com.br|ohmymag.de|olympics.com|onlinemahjong.games|ottwow.com|paralympic.org|paramountplus.com|paroles2chansons.lemonde.fr|phonostar.de|pikes.io|play.joj.sk|play.nova.bg|player.abacast.net|player.earthtv.com|player.glomex.com|player.performgroup.com|player.pl|player.theplatform.com|playstore.pw|plex.tv|pluscdn.pl|pogo.com|pointmall.rakuten.co.jp|poki-gdn.com|popcorntv.it|popculture.com|primarygames.com|proper.io|pudelek.pl|radio.at|radio.de|radio.net|realmadrid.com|repubblica.it|repuls.io|romaniatv.net|rte.ie|rtl.arkadiumhosted.com|rtl.it|rumble.com|s.yimg.jp|sbs.com.au|scenelife.org|scrippsdigital.com|shahid.mbc.net|shares.enetres.net|smashers.io|sondakika.com|sonyliv.com|southpark.lat|southparkstudios.com|sportbox.ru|sportsbull.jp|sportsport.ba|spox.com|stack.com|startrek.com|stickgames.com|storyfire.com|success-games.net|supergames.com|swipeto.pl|synk-casualgames.com|tbs.co.jp|tdn.com|tenceretv.com|texastech.com|theticket.com|timesnownews.com|truvid.com|tubitv.com|tv-asahi.co.jp|tv.rakuten.co.jp|tvb.com|tver.jp|tvid.in|tvn.pl|tvn24.pl|tvp.info|tvp.pl|udn.com|ulifestyle.com.hk|ultimedia.com|umterps.com|univtec.com|uptostream.com|veedi.com|video.capital.it|video.deejay.it|video.foxbusiness.com|video.foxnews.com|video.gazzetta.it|video.lastampa.it|video.onnetwork.tv|video.tv-tokyo.co.jp|video.ufreegames.com|videonuz.ensonhaber.com|videotarget.pl|vidyome.com|vivo.sx|vizita.si|vlive.tv|vod.pl|voicetv.co.th|vtvgiaitri.vn|vvvvid.it|waaw.tv|watch.nba.com|wbal.com|weather.com|webdunia.com|wellgames.com|wetv.vip|wibc.com|wink.ru|wordgames.com|workandmoney.com|worldsurfleague.com|wowbiz.ro|wsj.com|wsls.com|wtk.pl|wuxiaworld.com|xda-developers.com|xxxdan.com|yad.com|yallo.tv|yandexcdn.com|yepi.com|ynet.co.il|zdnet.com|zee5.com|zeebiz.com|zoomtventertainment.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=20min.ch|lessentiel.lu
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|antena3.ro|api.screen9.com|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|clickorlando.com|cnet.com|crunchyroll.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|gameplayneo.com|games.usatoday.com|gbnews.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|gospodari.com|howstuffworks.com|humix.com|ignboards.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|ktla.com|kxan.com|lemino.docomo.ne.jp|locipo.jp|maharashtratimes.com|maxpreps.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|myspace.com|nettavisen.no|paralympic.org|paramountplus.com|player.abacast.net|player.amperwave.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|popculture.com|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|southpark.lat|southparkstudios.com|spiele.heise.de|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|thecw.com|truvid.com|tubitv.com|tunein.com|tv-asahi.co.jp|tv.abcnyheter.no|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|utsports.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|wbal.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|antena3.ro|api.screen9.com|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|clickorlando.com|cnet.com|crunchyroll.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|gameplayneo.com|games.usatoday.com|gbnews.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|gospodari.com|howstuffworks.com|humix.com|ignboards.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|ktla.com|kxan.com|laurelberninteriors.com|lemino.docomo.ne.jp|locipo.jp|maharashtratimes.com|maxpreps.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|myspace.com|nettavisen.no|paralympic.org|paramountplus.com|player.abacast.net|player.amperwave.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|popculture.com|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|southpark.lat|southparkstudios.com|spiele.heise.de|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|thecw.com|truvid.com|tubitv.com|tunein.com|tv-asahi.co.jp|tv.abcnyheter.no|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|utsports.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|wbal.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=24h.com.vn
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=3bmeteo.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv
@@ -7942,6 +7955,8 @@
 @@||pagead2.googleadservices.com^|$domain=sportfacts.net|topsporter.net
 @@||pagead2.googleadservices.com^|$xmlhttprequest,domain=werfgt.fun
 @@||pagead2.googlesyndication.com/favicon.ico$domain=hacksnation.com
+@@||pagead2.googlesyndication.com/gampad/ads?*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_Collapse_Autoplay_$domain=imasdk.googleapis.com
+@@||pagead2.googlesyndication.com/gampad/ads?*&iu=%2F18190176%2C22509719621%2FAdThrive_Video_In-Post_ClicktoPlay_$domain=imasdk.googleapis.com
 @@||pagead2.googlesyndication.com/getconfig/sodar$domain=forum.release-apk.com
 @@||pagead2.googlesyndication.com/getconfig/sodar$domain=freemcserver.net
 @@||pagead2.googlesyndication.com/pagead/$domain=free-scores.com,image
@@ -7986,7 +8001,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1cloudfile.com|koramaup.com|bowfile.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1shortlink.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=360haven.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=3dpchip.com|stbemuprocode.com|workxvacation.jp|itopmusics.com|medeberiya1.com|calvyn.com|huhulist.com|quicktelecast.com|freemagazinespdf.com|hobbykafe.com|gtf.com.ng|splashbase.co|xn--nbkw38mlu2a.com|yuki0918kw.com|bcanotesnepal.com|conoscereilrischioclinico.it|nvimfreak.com|ralli.ee|openstartup.tm|stablediffusionxl.com|techsbucket.com|f1ingenerale.com|maketoss.com|certificateland.com|camcam.cc|euskalnews.tv|mundovideoshd.com|studybullet.com|e-kitapstore.com|studybullet.com|zapcourses.com|eventiavversinews.it|sapphirescan.com|limontorrent.com|downloadtanku.org|techacode.com|claimsatoshi.xyz|claimtrx.com|onroid.com|codehelppro.com|sysguides.com|branditechture.agency|starwarsaddicted.it|ladypopularblog.com|novelasligeras.net|teluguflix.lol|branditechture.agency|team-octavi.com|azdly.com|mxcity.mx|softcobra.com|technorj.com|cizgifilmizle.info|kawaguchimaeda.com|herenscan.com|coursesdaddy.com|forum.release-apk.com|erreguete.gal|milanreports.com|freedom3d.art|plantswith.com|gazzettarossonera.it|network-knowledge.work|minioppai.org|bugswave.com|tech-bloggers.in|khohieu.com|automothink.com|bedrat.xyz|drake-scans.com|downev.com|profileviewpic.com|fx-24.xyz|migdalor-news.co.il|tweakdoor.com|spanish.visorsmr.com|minipet.online|drakecomic.com|noromax.my.id|loanoffering.in|savegame.pro|ftuapps.io|trendiqq.com|sexporncomic.com|mooonten.com|imperiofilmes.co|builtbybuilder.com|moto-station.com|arzmatic.com|texw.online|loiz.store|kickcharm.com|userupload.net|creditcarred.com|lovingsiren.com|expressurl.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=3dpchip.com|stbemuprocode.com|itopmusics.com|medeberiya1.com|calvyn.com|huhulist.com|quicktelecast.com|freemagazinespdf.com|hobbykafe.com|gtf.com.ng|splashbase.co|xn--nbkw38mlu2a.com|yuki0918kw.com|bcanotesnepal.com|conoscereilrischioclinico.it|nvimfreak.com|ralli.ee|openstartup.tm|stablediffusionxl.com|techsbucket.com|f1ingenerale.com|maketoss.com|certificateland.com|camcam.cc|euskalnews.tv|mundovideoshd.com|studybullet.com|e-kitapstore.com|studybullet.com|zapcourses.com|eventiavversinews.it|sapphirescan.com|limontorrent.com|downloadtanku.org|techacode.com|claimsatoshi.xyz|claimtrx.com|onroid.com|codehelppro.com|sysguides.com|branditechture.agency|starwarsaddicted.it|ladypopularblog.com|novelasligeras.net|teluguflix.lol|branditechture.agency|team-octavi.com|azdly.com|mxcity.mx|softcobra.com|technorj.com|cizgifilmizle.info|kawaguchimaeda.com|herenscan.com|coursesdaddy.com|forum.release-apk.com|erreguete.gal|milanreports.com|freedom3d.art|plantswith.com|gazzettarossonera.it|network-knowledge.work|minioppai.org|bugswave.com|tech-bloggers.in|khohieu.com|automothink.com|bedrat.xyz|drake-scans.com|downev.com|profileviewpic.com|fx-24.xyz|migdalor-news.co.il|tweakdoor.com|spanish.visorsmr.com|minipet.online|drakecomic.com|noromax.my.id|loanoffering.in|savegame.pro|ftuapps.io|trendiqq.com|sexporncomic.com|mooonten.com|imperiofilmes.co|builtbybuilder.com|moto-station.com|arzmatic.com|texw.online|loiz.store|kickcharm.com|userupload.net|creditcarred.com|lovingsiren.com|expressurl.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=3rabsports.com|gold-24.net|te-it.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=8wayrun.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=9animes.ru
@@ -12186,7 +12201,6 @@
 @@||wordpress.org/stats/plugin/$domain=wordpress.org
 @@||work.ink^$generichide
 @@||workers.dev/yayinstar$xmlhttprequest,stealth=referrer
-@@||workxvacation.jp^$generichide
 @@||world4.eu/wp-content/plugins/ad-inserter-pro/images/ads.png
 @@||world4.eu/wp-content/uploads/ad-inserter/*/*.js
 @@||world4.eu^$generichide
