@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-03-24 09:23:19（北京时间）
+! Version: 2025-03-24 20:36:30（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12663
+! Total count: 12668
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -451,6 +451,10 @@
 @@://*.xuk.ru^$stealth
 @@://*/static/ad/main.js
 @@://*cdn.com$domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com|youporngay.com
+@@://*xhamster*/*/ad/myvids$script
+@@://*xhamster*/adBlockDetector
+@@://*xhofficial*/*/ad/myvids$script
+@@://*xhofficial*/adBlockDetector
 @@://10.0.0.$generichide
 @@://10.1.1.$generichide
 @@://127.0.0.1$generichide
@@ -6902,6 +6906,7 @@
 @@||luminalearning.com/affiliate-content/$image,~third-party
 @@||luminousstreamhaven.com^$stealth=referrer,domain=edgedeliverynetwork.com
 @@||lumpiastudio.com^$generichide
+@@||luna.amazon.*/game$stealth=webrtc
 @@||lunaticfiles.com/ads.js|
 @@||luoxiadushu.com^$generichide
 @@||lv.adocean.pl/*/ad.js?$domain=metabro.hu
