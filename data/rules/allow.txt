@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-05-19 09:40:08（北京时间）
+! Version: 2025-05-19 20:39:45（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12798
+! Total count: 12795
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1169,7 +1169,6 @@
 @@||ads.host-cdn.net/ads2.js
 @@||ads.imprezzer.com/js/$script,domain=mgronline.com
 @@||ads.juicyads.com/jsclients/jac.js$domain=lewd.ninja
-@@||ads.kazakh-zerno.net^$popup
 @@||ads.kbmax.com^$domain=adspipe.com
 @@||ads.kiktu.com/index.js
 @@||ads.korri.fr/index.js$domain=dogefaucet.com
@@ -4924,7 +4923,6 @@
 @@||gnula.club/embed.php$stealth=referrer
 @@||go-ez.net^$generichide
 @@||go-links.net^$generichide
-@@||go.adjust.com^
 @@||go.admost.com/adx/get.ashx&accptck$domain=sahadan.com
 @@||go.admost.com/adx/js/admost.js^$domain=mackolik.com
 @@||go.affec.tv/cookie^$domain=youronlinechoices.com
@@ -5252,8 +5250,6 @@
 @@||gosuslugi.ru^$stealth=dpi
 @@||gotceleb.com/wp-content/plugins/wppas/templates/js/advertising.js
 @@||gotceleb.com^$generichide
-@@||goto.target.com^
-@@||goto.walmart.com^
 @@||gotofap.tk/wp-content/*#/ad_generator./adlink_/
 @@||gotofap.tk^$generichide
 @@||gotvach.bg^$generichide
@@ -8375,7 +8371,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hqq.to
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=htmlsave.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hyipstats.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=idol69.net|xcamcovid.com|fc2ppv.stream|blackwidof.org|sweetie-fox.com|hentaicovid.com|pig69.com|fikfok.net|ai18.pics|javball.com|javtele.net|cnxx.me|cosplay18.pics|cnpics.org|3minx.com|javsunday.com|porn4f.org|hentaipig.com|555fap.com|kin8-av.com|javbee.*|uploadsea.com|fikfok.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=idol69.net|xcamcovid.com|fc2ppv.stream|blackwidof.org|sweetie-fox.com|hentaicovid.com|pig69.com|fikfok.net|ai18.pics|javball.com|javtele.net|cnxx.me|cosplay18.pics|cnpics.org|3minx.com|javsunday.com|porn4f.org|hentaipig.com|555fap.com|kin8-av.com|javbee.*|uploadsea.com|fikfok.net|porn-pig.com|hentai4f.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=iembra2or.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ifate.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=igniel.com
@@ -10556,6 +10552,7 @@
 @@||smstibo.com^$generichide
 @@||smstome.com^$generichide
 @@||smtcaw.com^$generichide
+@@||smtp.focusgroupresearch.com^
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||sn.dplayer*.site/iframe.php$stealth=referrer
 @@||sna3talaflam.com^$generichide
