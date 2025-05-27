@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-05-27 09:26:58（北京时间）
+! Version: 2025-05-27 20:39:41（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 12816
+! Total count: 12807
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -3116,7 +3116,6 @@
 @@||clarity.ms/tag/$script,domain=phileweb.com
 @@||classic-retro-games.com^$generichide
 @@||classic.comunio.de/clubImg.phtml/$image,~third-party
-@@||classliving.lpages.co^
 @@||cle0desktop.blogspot.com^$generichide
 @@||clerk.io/clerk.js$script,domain=trony.it
 @@||cleverbot.com^$generichide
@@ -3124,14 +3123,8 @@
 @@||cleverpush.com/sdk/$script,domain=heise.de
 @@||cleviationly.com/adServe/aff?*mydealz*&dlink=$popup,domain=mydealz.de
 @@||click.accesstrade.vn/adv.php?url=
-@@||click.appcast.io^
-@@||click.avs.io^
-@@||click.cptrack.de^
-@@||click.simba.taobao.com^
 @@||click.trafficguard.ai^
 @@||click.uol.com.br^$domain=uol.com.br
-@@||click.virt.exacttarget.com^
-@@||clickattr.wayup.com^
 @@||clickhouse.xyz^$generichide
 @@||clickswin.tvchoicemagazine.co.uk/assets/advertisement/ads-*.js$domain=tvchoicemagazine.co.uk
 @@||client.falixnodes.net^$generichide
@@ -4205,7 +4198,6 @@
 @@||eu4cn.com^$generichide
 @@||euconfesso.com^$generichide
 @@||euoptout.mookie1.com^$domain=optout.mookie1.com
-@@||eurasiantimes.com^$extension="Disable AMP"
 @@||eurogamer.pt^$generichide
 @@||europeanclassiccomic.blogspot.com^$generichide
 @@||eurosport.co.uk^$generichide
@@ -10591,7 +10583,6 @@
 @@||so-magazyn.pl^$generichide
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||sobootlogo.blogspot.com^$generichide
-@@||sobot.com^
 @@||sobot.com^$domain=yaofangwang.com
 @@||soccerinhd.com/_prebid.js
 @@||soccerinhd.com/ad_code.js
