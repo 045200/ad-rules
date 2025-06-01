@@ -2,7 +2,7 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-06-01 09:52:26（北京时间）
+! Version: 2025-06-01 20:35:49（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 12818
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
@@ -10595,7 +10595,6 @@
 @@||so-magazyn.pl^$generichide
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||sobootlogo.blogspot.com^$generichide
-@@||sobot.com^
 @@||sobot.com^$domain=yaofangwang.com
 @@||soccerinhd.com/_prebid.js
 @@||soccerinhd.com/ad_code.js
@@ -12498,6 +12497,7 @@
 @@||www.google.com/ads/preferences/$image,script,subdocument
 @@||www.googleadservices.com^
 @@||www.ifon.ca^$generichide
+@@||www.jdoqocy.com^
 @@||www.literotica.com^$content
 @@||www.microsoft.com/onerfstatics/marketingsites-*/ad-$script
 @@||www.nfmovies.com/pic/tu/banner-03.jpg
