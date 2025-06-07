@@ -35,19 +35,11 @@ subprocess.run("cp ./data/mod/whitelist.txt ./tmp/allow01.txt", shell=True)
 
 # 拦截规则
 adblock = [
-    "https://raw.gitmirror.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt",
+    "https://lingeringsound.github.io/10007_auto/adb.txt",
 
 "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt",
 
-"https://raw.hellogithub.com/hosts",
-
-"https://raw.gitmirror.com/lingeringsound/10007_auto/master/reward",
-
-"https://raw.githubusercontent.com/PhoenixLjw/AdRules/main/adguard-home.txt",
-
-"https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt",
-
-"https://p.xbta.cc/https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard",
+"https://raw.hellogithub.com/hosts"
     ]
 
 # 白名单规则
