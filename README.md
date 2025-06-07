@@ -59,33 +59,12 @@
 </details>
 
 <details>
-<summary><b>📋 仅域名规则</b></summary>
-<br>
-
-| 规则类型 | 📥 GitHub直链 | 🚀 国内加速链接 |
-| :---- | :---- | :---- |
-| 黑名单域名列表 | [ad-domain.txt](https://raw.githubusercontent.com/045200/ad-rules/master/data/rules/ad-domain.txt) | [ad-domain.txt](https://ghfast.top/raw.githubusercontent.com/045200/ad-rules/master/data/rules/ad-domain.txt) |
-
-</details>
-
-<details>
 <summary><b>📱 Quantumult X规则</b></summary>
 <br>
 
 | 规则类型 | 📥 GitHub直链 | 🚀 国内加速链接 |
 | :---- | :---- | :---- |
 | Quantumult X规则 | [qx.list](https://raw.githubusercontent.com/045200/ad-rules/master/data/rules/qx.list) | [qx.list](https://ghfast.top/raw.githubusercontent.com/045200/ad-rules/master/data/rules/qx.list) |
-
-</details>
-
-<details>
-<summary><b>🔍 SmartDNS规则</b></summary>
-<br>
-
-| 规则类型 | 📥 GitHub直链 | 🚀 国内加速链接 |
-| :---- | :---- | :---- |
-| SmartDNS拦截规则 | [smartdns.conf](https://raw.githubusercontent.com/045200/ad-rules/master/data/rules/smartdns.conf) | [smartdns.conf](https://ghfast.top/raw.githubusercontent.com/045200/ad-rules/master/data/rules/smartdns.conf) |
-| SmartDNS白名单 | [smartdns-whitelist.conf](https://raw.githubusercontent.com/045200/ad-rules/master/data/rules/smartdns-whitelist.conf) | [smartdns-whitelist.conf](https://ghfast.top/raw.githubusercontent.com/045200/ad-rules/master/data/rules/smartdns-whitelist.conf) |
 
 </details>
 
