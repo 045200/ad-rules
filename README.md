@@ -83,14 +83,11 @@
 <summary><b>点击查看数据来源</b></summary>
 <br>
 
-- [AdGuard规则](https://github.com/AdguardTeam/AdguardFilters)
-- [Tv规则](https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt)
-- [EasyPrivacy规则](https://easylist.to/)
-- [乘风视频过滤规则](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt)
-- [去APP下载提示规则](https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt)
+- [GoodbyeADS规则](https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt)
+- [10007](https://lingeringsound.github.io/10007_auto/adb.txt)
+- [GithubHosts](https://raw.hellogithub.com/hosts
 - [oisd规则](https://small.oisd.nl/)
 - [AWAvenue 秋风广告规则](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt)
-- [CJX's Annoyance List](https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt)
 - [补充规则](https://github.com/045200/ad-rules)
 
 </details>
