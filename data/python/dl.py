@@ -37,6 +37,8 @@ subprocess.run("cp ./data/mod/whitelist.txt ./tmp/allow01.txt", shell=True)
 adblock = [
     "https://lingeringsound.github.io/10007_auto/adb.txt",
 
+"https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+
 "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt",
 
 "https://raw.hellogithub.com/hosts"
