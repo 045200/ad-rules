@@ -1,20 +1,20 @@
 <div align="center">
-<h1 align="center">GOODBYEADS<br>一个强力去广告的规则</h1>
+<h1 align="center">AD-Rules<br>一个强力去广告的规则</h1>
 <p>
-  <a href="https://github.com/8680/GOODBYEADS">
-    <img src="https://img.shields.io/github/last-commit/8680/GOODBYEADS?style=flat-square" alt="last update" />
+  <a href="https://github.com/045200/ad-rules">
+    <img src="https://img.shields.io/github/last-commit/045200/ad-rules?style=flat-square" alt="last update" />
   </a>
-  <a href="https://github.com/8680/GOODBYEADS">
-    <img src="https://img.shields.io/github/forks/8680/GOODBYEADS?style=flat-square" alt="forks" />
+  <a href="https://github.com/045200/ad-rules">
+    <img src="https://img.shields.io/github/forks/045200/ad-rules?style=flat-square" alt="forks" />
   </a>
-  <a href="https://github.com/8680/GOODBYEADS">
-    <img src="https://img.shields.io/github/stars/8680/GOODBYEADS?style=flat-square" alt="stars" />
+  <a href="https://github.com/045200/ad-rules">
+    <img src="https://img.shields.io/github/stars/045200/ad-rules?style=flat-square" alt="stars" />
   </a>
-  <a href="https://github.com/8680/GOODBYEADS/issues/">
-    <img src="https://img.shields.io/github/issues/8680/GOODBYEADS?style=flat-square" alt="open issues" />
+  <a href="https://github.com/045200/ad-rules/issues/">
+    <img src="https://img.shields.io/github/issues/045200/ad-rules?style=flat-square" alt="open issues" />
   </a>
-  <a href="https://github.com/8680/GOODBYEADS">
-    <img src="https://img.shields.io/github/license/8680/GOODBYEADS?style=flat-square" alt="license" />
+  <a href="https://github.com/045200/ad-rules">
+    <img src="https://img.shields.io/github/license/045200/ad-rules?style=flat-square" alt="license" />
   </a>
 </p>
 
@@ -43,14 +43,14 @@ DNS拦截规则数量: 435123
 <summary>规则列表</summary>
 <ul>
 
-- **[拦截规则（Github）](https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt)**
-- **[拦截规则(Ghproxy-国内加速)](https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt)**
-- **[DNS拦截规则（Github）](https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt)**
-- **[DNS拦截规则(Ghproxy-国内加速)](https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt)**
-- **[Qx规则（Github）](https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/qx.list)**
-- **[Qx规则(Ghproxy-国内加速)](https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/qx.list)**
-- **[白名单（Github）](https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/allow.txt)**
-- **[白名单(Ghproxy-国内加速)](https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/allow.txt)**
+- **[拦截规则（Github）](https://raw.githubusercontent.com/045200/ad-rules/master/data/rules/adblock.txt)**
+- **[拦截规则(Ghproxy-国内加速)](https://mirror.ghproxy.com/raw.githubusercontent.com/045200/ad-rules/master/data/rules/adblock.txt)**
+- **[DNS拦截规则（Github）](https://raw.githubusercontent.com/045200/ad-rules/master/data/rules/dns.txt)**
+- **[DNS拦截规则(Ghproxy-国内加速)](https://mirror.ghproxy.com/raw.githubusercontent.com/045200/ad-rules/master/data/rules/dns.txt)**
+- **[Qx规则（Github）](https://raw.githubusercontent.com/045200/ad-rules/master/data/rules/qx.list)**
+- **[Qx规则(Ghproxy-国内加速)](https://mirror.ghproxy.com/raw.githubusercontent.com/045200/ad-rules/master/data/rules/qx.list)**
+- **[白名单（Github）](https://raw.githubusercontent.com/045200/ad-rules/master/data/rules/allow.txt)**
+- **[白名单(Ghproxy-国内加速)](https://mirror.ghproxy.com/raw.githubusercontent.com/045200/ad-rules/master/data/rules/allow.txt)**
 
 </ul>
 </details>
@@ -68,7 +68,7 @@ DNS拦截规则数量: 435123
 - [oisd规则](https://small.oisd.nl/)
 - [秋风规则](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt)
 - [CJX's Annoyance List](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt)
-- [补充规则](https://github.com/8680/GOODBYEADS)
+- [补充规则](https://github.com/045200/ad-rules)
 </ul>
 </details>
 
@@ -91,7 +91,7 @@ DNS拦截规则数量: 435123
 
 ## ⭐ 感谢支持
 <p align='center'>
-  <a href="https://github.com/8680/GOODBYEADS/stargazers">
-    <img src="https://api.star-history.com/svg?repos=8680/GOODBYEADS&type=Date">
+  <a href="https://github.com/045200/ad-rules/stargazers">
+    <img src="https://api.star-history.com/svg?repos=045200/ad-rules&type=Date">
   </a>
 </p>
