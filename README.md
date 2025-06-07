@@ -85,8 +85,7 @@
 
 - [GoodbyeADS规则](https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt)
 - [10007](https://lingeringsound.github.io/10007_auto/adb.txt)
-- [GithubHosts](https://raw.hellogithub.com/hosts
-- [oisd规则](https://small.oisd.nl/)
+- [GithubHosts](https://raw.hellogithub.com/hosts)
 - [AWAvenue 秋风广告规则](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt)
 - [补充规则](https://github.com/045200/ad-rules)
 
