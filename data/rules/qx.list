@@ -13343,6 +13343,7 @@ DOMAIN,data-in.ads.oppomobile.com,reject
 DOMAIN,data-ipv6.flurry.com,reject
 DOMAIN,data-k8s.flurry.com,reject
 DOMAIN,data-retriever.advertising.a2z.com,reject
+DOMAIN,data-sdk-uuid-log.d.meituan.net,reject
 DOMAIN,data-sg.ads.oppomobile.com,reject
 DOMAIN,data.ad-score.com,reject
 DOMAIN,data.ads.heytapmobi.com,reject
@@ -20301,6 +20302,7 @@ DOMAIN,log.avlyun.com,reject
 DOMAIN,log.avlyun.sec.intl.miui.com,reject
 DOMAIN,log.byteoversea.com,reject
 DOMAIN,log.fc.yahoo.com,reject
+DOMAIN,log.iflytek.com,reject
 DOMAIN,log.kuwo.cn,reject
 DOMAIN,log.pinterest.com,reject
 DOMAIN,log.popin.cc,reject
@@ -27733,6 +27735,7 @@ DOMAIN,sensuallot.pro,reject
 DOMAIN,sentigyneo.pro,reject
 DOMAIN,sentrequil.pro,reject
 DOMAIN,sentry-v23.public.internal.adverity.net,reject
+DOMAIN,sentry.music.163.com,reject
 DOMAIN,sentry.rakutenadvertising.io,reject
 DOMAIN,sentry.sca.ad-tech.ru,reject
 DOMAIN,seosoftware.onlinedownloads.org,reject

@@ -2,9 +2,9 @@
 ! Title: Ad-Rules
 ! Homepage: https://github.com/045200/ad-rules
 ! Expires: 12 Hours
-! Version: 2025-06-18 09:37:47（北京时间）
+! Version: 2025-06-18 20:39:53（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 51708
+! Total count: 51711
 ||*.diwodiwo.xyz^
 ||*.p2p.huya.com^
 ||*.va.huya.com^
@@ -13353,6 +13353,7 @@
 ||data-ipv6.flurry.com^
 ||data-k8s.flurry.com^
 ||data-retriever.advertising.a2z.com^
+||data-sdk-uuid-log.d.meituan.net^
 ||data-sg.ads.oppomobile.com^
 ||data.ad-score.com^
 ||data.ads.heytapmobi.com^
@@ -20313,6 +20314,7 @@
 ||log.avlyun.sec.intl.miui.com^
 ||log.byteoversea.com^
 ||log.fc.yahoo.com^
+||log.iflytek.com^
 ||log.kuwo.cn^
 ||log.pinterest.com^
 ||log.popin.cc^
@@ -27747,6 +27749,7 @@
 ||sentigyneo.pro^
 ||sentrequil.pro^
 ||sentry-v23.public.internal.adverity.net^
+||sentry.music.163.com^
 ||sentry.rakutenadvertising.io^
 ||sentry.sca.ad-tech.ru^
 ||seosoftware.onlinedownloads.org^
