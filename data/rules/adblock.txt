@@ -2,9 +2,9 @@
 ! Title: Ad-Rules
 ! Homepage: https://github.com/045200/ad-rules
 ! Expires: 12 Hours
-! Version: 2025-06-20 09:38:10（北京时间）
+! Version: 2025-06-20 20:39:01（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 52205
+! Total count: 52313
 
 ###content-wrapper > div.container-fluid.pb-0:first-child > div.video-block.section-padding:last-child > div.row > div.col-md-4:last-child > div.single-video-right > div.row > div.col-md-12:first-child > div.adblock:first-child
 ###vid_overlay
@@ -42,14 +42,15 @@
 123pan.com##.slick-slider, .slick-initialized
 13.107.246.73                 vscode.dev
 13.107.42.16                  pipelines.actions.githubusercontent.com
-140.82.112.26                 alive.github.com
-140.82.113.17                 github.community
-140.82.113.21                 collector.github.com
+140.82.112.22                 collector.github.com
+140.82.112.22                 education.github.com
 140.82.113.22                 central.github.com
-140.82.114.21                 api.individual.githubcopilot.com
-140.82.114.22                 education.github.com
-140.82.114.25                 live.github.com
+140.82.114.17                 github.community
+140.82.114.22                 api.individual.githubcopilot.com
+140.82.114.25                 alive.github.com
+140.82.114.26                 live.github.com
 151.101.193.194               github.global.ssl.fastly.net
+16.15.216.217                 github-com.s3.amazonaws.com
 185.199.109.133               avatars.githubusercontent.com
 185.199.109.133               avatars0.githubusercontent.com
 185.199.109.133               avatars1.githubusercontent.com
@@ -67,7 +68,7 @@
 185.199.109.133               private-user-images.githubusercontent.com
 185.199.109.133               raw.githubusercontent.com
 185.199.109.133               user-images.githubusercontent.com
-185.199.110.154               github.githubassets.com
+185.199.109.154               github.githubassets.com
 185.199.111.153               github.io
 185.199.111.153               githubstatus.com
 192.0.66.2                    github.blog
@@ -75,13 +76,12 @@
 20.205.243.166                gist.github.com
 20.205.243.166                github.com
 20.205.243.168                api.github.com
-3.5.17.197                    github-production-repository-file-5c1aeb.s3.amazonaws.com
-3.5.8.210                     github-production-release-asset-2e65be.s3.amazonaws.com
+3.5.30.59                     github-production-release-asset-2e65be.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
-52.216.93.19                  github-com.s3.amazonaws.com
-52.217.175.73                 github-production-user-asset-6210df.s3.amazonaws.com
-54.231.128.217                github-cloud.s3.amazonaws.com
+52.216.9.35                   github-cloud.s3.amazonaws.com
+54.231.138.33                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+54.231.163.41                 github-production-user-asset-6210df.s3.amazonaws.com
 @@||1dot1dot1dot1.cloudflare-dns.com^$document
 @@||360.cn^$document
 @@||access1.tpns.tencent.com^$document
@@ -6495,6 +6495,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||advertise.twitpic.com^
 ||advertiseconclusiveactual.com^
 ||advertiseireland.com^
+||advertisement-2025.xyz^
 ||advertisement.avosapps.us^
 ||advertisement.vg.no^
 ||advertisementhelp2025-ai.site^
@@ -7280,6 +7281,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ams1-ib.adnxs.com^
 ||ams1-mobile.adnxs.com^
 ||ams1.ib.adnxs.com^
+||ams3.adventuretravelvibes.xyz^
 ||amusingalphabets.pro^
 ||amusingchachalaca.pro^
 ||amusingpartridge.pro^
@@ -8277,7 +8279,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||api.cloudconverse.net^
 ||api.cloudmobi.net^
 ||api.cludo.com^
-||api.co-operativefinance.com^
 ||api.coinerra.com^
 ||api.collect.data.intl.miui.com^
 ||api.compado.com^
@@ -9346,6 +9347,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||artichoketrout.pro^
 ||articpanna.pro^
 ||artiffamer.pro^
+||artifimmor.pro^
 ||artifsorbe.pro^
 ||artigcrede.pro^
 ||artioforfe.pro^
@@ -9416,6 +9418,8 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||asperkombi.pro^
 ||aspirebrilliance.pro^
 ||aspiringfrog.pro^
+||aspiringhedgehog.pro^
+||aspiringhog.pro^
 ||aspiringlabradoodle.pro^
 ||aspiringmarmoset.pro^
 ||aspiringnarwhal.pro^
@@ -9661,6 +9665,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||awapse2.advanced-web-analytics.com^
 ||awesomeads.staging.superawesome.tv^
 ||awesomeads.superawesome.tv^
+||awesomecaribou.pro^
 ||awesomelynx.pro^
 ||awesomeseagull.pro^
 ||awesometiger.pro^
@@ -9805,6 +9810,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||balzesgarb.pro^
 ||ban3ers.ero-advertising.com^
 ||ban4ers.ero-advertising.com^
+||bananagrouse.pro^
 ||bananatanuki.pro^
 ||bananatench.pro^
 ||bananauakari.pro^
@@ -10116,6 +10122,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||bernedisca.pro^
 ||berriborgh.pro^
 ||berserkgibbon.pro^
+||berserkherring.pro^
 ||berserkmantis.pro^
 ||berteusufr.pro^
 ||berthindur.pro^
@@ -10974,6 +10981,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||busyantelope.pro^
 ||busycapuchin.pro^
 ||busycricket.pro^
+||busydingo.pro^
 ||busyhamster.pro^
 ||busytoopor.pro^
 ||butemei3.pro^
@@ -11288,6 +11296,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||card.weibo.com/article/m/aj/uvead
 ||cardiarchi.pro^
 ||cardiarres.pro^
+||carduunexa.pro^
 ||care.help.360.cn^
 ||careeimami.pro^
 ||carefreecascade.pro^
@@ -11729,6 +11738,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||certificates.godaddy.com^
 ||certihydro.pro^
 ||certipiomb.pro^
+||ceruleanlabrador.pro^
 ||ceruleantapir.pro^
 ||ceruleantrogon.pro^
 ||cervicouth.pro^
@@ -12224,6 +12234,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||claycoua.pro^
 ||claygalago.pro^
 ||clayladybug.pro^
+||claysturgeon.pro^
 ||clck.adskeeper.co.uk^
 ||clck.adskeeper.com^
 ||cleaningmovies.analytics.qlook.net^
@@ -13220,6 +13231,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||crispsphere.pro^
 ||crispvibrance.pro^
 ||crispycloud.pro^
+||cristmadwo.pro^
 ||criteo-sync.teads.tv.edgekey.net^
 ||criteo-sync.teads.tv^
 ||critifiduc.pro^
@@ -13576,6 +13588,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||dandytwist.pro^
 ||dandywave.pro^
 ||dangerouscrane.pro^
+||dangeroushusky.pro^
 ||danitsuppo.pro^
 ||dappiinsol.pro^
 ||dappledgrove.pro^
@@ -13601,6 +13614,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||darkeabbot.pro^
 ||darkestnightskytwinkles.pro^
 ||darkflamingo.pro^
+||darkherring.pro^
 ||darknightshidesecrets.pro^
 ||darkorca.pro^
 ||darkshadowsconcealall.pro^
@@ -14006,6 +14020,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||deserriacc.pro^
 ||desertstormsblowing.pro^
 ||desertwindsinging.pro^
+||desesverte.pro^
 ||desicigneme.pro^
 ||designer.dynamic-dns.net^
 ||designstudios.pro^
@@ -14743,7 +14758,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||download.sd.baidu.com^
 ||download.sj.qq.com^
 ||download.studymathlive.com^
-||download.suxiazai.com^
 ||download.televisionfanatic.com^
 ||download.uc.cn^
 ||download.wan.sohu.com^
@@ -15328,6 +15342,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||emeraldmoonwhispers.pro^
 ||emeraldquasarburst.pro^
 ||emeraldraven.pro^
+||emeraldseahorse.pro^
 ||emeraldshadowstorm.pro^
 ||emeraldstormcloud.pro^
 ||emeraldstormdust.pro^
@@ -16005,6 +16020,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||featheredcapuchin.pro^
 ||featheredladybug.pro^
 ||featheredmarmot.pro^
+||featheredmoth.pro^
 ||febbropzio.pro^
 ||feciacoint.pro^
 ||fecksconf.pro^
@@ -17093,6 +17109,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||giravilliv.pro^
 ||giravya.pro^
 ||girelobes.pro^
+||girelscolo.pro^
 ||girelwhett.pro^
 ||girinrazia.pro^
 ||gironjoyan.pro^
@@ -17233,6 +17250,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||glorytwist.pro^
 ||glossovers.pro^
 ||glossviastu.pro^
+||glossyhyrax.pro^
 ||glossypegasus.pro^
 ||glossyvocabulary.pro^
 ||glossywolf.pro^
@@ -17433,6 +17451,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||gooseeroic.pro^
 ||gooseirrum.pro^
 ||gorberiann.pro^
+||gorgeousaardwark.pro^
 ||gorgeoushorse.pro^
 ||gorgeouszebu.pro^
 ||gorghscocu.pro^
@@ -17690,6 +17709,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||gymnoadvan.pro^
 ||gynansubte.pro^
 ||gypakau5.pro^
+||gyqowue4.pro^
 ||gysijie.pro^
 ||gyteniu7.pro^
 ||gywogey.pro^
@@ -17717,6 +17737,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||h7gruf.skadsdkless.appsflyersdk.com^
 ||h7m2ir.skadsdkless.appsflyersdk.com^
 ||ha-api.pushwoosh.com^
+||haddeunpar.pro^
 ||haemorimba.pro^
 ||hagakuy.pro^
 ||hagbuuccel.pro^
@@ -17978,6 +17999,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||hijack.baidu.com^
 ||hilariouscaterpillar.pro^
 ||hilariousdog.pro^
+||hilariousgoshawk.pro^
 ||hilarioushippo.pro^
 ||hildedesta.pro^
 ||hilltopads.com^
@@ -18203,6 +18225,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||hycigae.pro^
 ||hydrecsatered.pro^
 ||hydrocirco.pro^
+||hydrocompa.pro^
 ||hydrodiser.pro^
 ||hydroindol.pro^
 ||hydrosalts.pro^
@@ -18543,6 +18566,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||imbasester.pro^
 ||imbaspigeo.pro^
 ||imbaswhiff.pro^
+||imbataffro.pro^
 ||imbavsagli.pro^
 ||imbeltarta.pro^
 ||imberscurf.pro^
@@ -19242,6 +19266,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||interemal.pro^
 ||interest.mix.sina.com.cn^
 ||interestingbittern.pro^
+||interestingcow.pro^
 ||interface*.music.163.com/eapi/ad
 ||interface.music.163.com/eapi/ad
 ||interface3.music.163.com/eapi/ad
@@ -19298,6 +19323,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||intrarinno.pro^
 ||intrasuffu.pro^
 ||intraunhoi.pro^
+||intrepidcapuchin.pro^
 ||intrepidvole.pro^
 ||intrianywh.pro^
 ||intriceroo.pro^
@@ -19532,6 +19558,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||jaadsglobal.net^
 ||jack-threads.ojrq.net^
 ||jade01.webtrekk.net^
+||jadecheetah.pro^
 ||jadedpictu.pro^
 ||jadegreenhealing.pro^
 ||jadegreenpeaces.pro^
@@ -20599,6 +20626,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||lobulspoll.pro^
 ||local-analytics.uberinternal.com^
 ||local-download.com^
+||local-update.com^
 ||local.adsbynimbus.com^
 ||localads-statistics.maps.me^
 ||localads.maps.me^
@@ -21761,7 +21789,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||mobile-ads.gaygalls.net^
 ||mobile-ads.wycc.porn^
 ||mobile-browser.me^
-||mobile-sdk-config.gservice.emarsys.net^
 ||mobile-sdk-resources.jumio.com^
 ||mobile-static.adsafeprotected.com^
 ||mobile.adnxs.com^
@@ -22411,6 +22438,10 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||news.mpush.qq.com^
 ||newsadsppush.com^
 ||newsadst.com^
+||newsfeed-drcn.cloud.dbankcloud.cn^
+||newsfeed-drcn.cloud.dbankcloud.com^
+||newsfeed-drcn.cloud.hihonorcloud.cn^
+||newsfeed-drcn.cloud.hihonorcloud.com^
 ||newsfeedchronicle.pro^
 ||newsfeedheadline.pro^
 ||newshuntads.com^
@@ -22719,6 +22750,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||nuotaritra.pro^
 ||nuoterappi.pro^
 ||nuovitonsi.pro^
+||nursemanov.pro^
 ||nutgrtitol.pro^
 ||nutritrapi.pro^
 ||nutritromb.pro^
@@ -23101,6 +23133,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||orerrispi.pro^
 ||orfw.adsafeprotected.com^
 ||org-upgrade.com^
+||organiclyrebird.pro^
 ||organicserval.pro^
 ||organictiger.pro^
 ||organyouth.pro^
@@ -23694,6 +23727,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||papermagic.pro^
 ||papi.mynativeads.com^
 ||papilcarov.pro^
+||pappaabneg.pro^
 ||papyrdibar.pro^
 ||paraccalci.pro^
 ||paradoxquestionsall.pro^
@@ -23902,6 +23936,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||peachybundle.pro^
 ||peachysmile.pro^
 ||peaknimbus.pro^
+||pearlcorgi.pro^
 ||pearleuphoria.pro^
 ||pearllustergentle.pro^
 ||pearllusterglows.pro^
@@ -24170,6 +24205,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||pilot-api.flurry.com^
 ||pilot-data.flurry.com^
 ||pimaha-hurupa.pro^
+||pimencapri.pro^
 ||pimpleugen.pro^
 ||pin.hpplay.cn^
 ||pinacantic.pro^
@@ -24220,6 +24256,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||piroscorve.pro^
 ||pirroprefe.pro^
 ||piscainfur.pro^
+||piscifarre.pro^
 ||pispidiplo.pro^
 ||pispocooey.pro^
 ||pispomescu.pro^
@@ -24425,6 +24462,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||poeticcapybara.pro^
 ||poeticchital.pro^
 ||poeticgoldfish.pro^
+||poeticibex.pro^
 ||poeticorca.pro^
 ||poetierogh.pro^
 ||poetinaked.pro^
@@ -24883,6 +24921,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||properisca.pro^
 ||prophantap.pro^
 ||prophdeben.pro^
+||propheticfennec.pro^
 ||propheticjunglefowl.pro^
 ||propheticsturgeon.pro^
 ||propheticturkey.pro^
@@ -25305,6 +25344,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||quipnest.pro^
 ||quirkflare.pro^
 ||quirkspark.pro^
+||quirkybadger.pro^
 ||quirkybreeze.pro^
 ||quirkycharm.pro^
 ||quirkydash.pro^
@@ -26216,6 +26256,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||riammfavor.pro^
 ||riandsdonn.pro^
 ||riannfmet.pro^
+||riannfrise.pro^
 ||riannovera.pro^
 ||riannpunte.pro^
 ||riappabsor.pro^
@@ -26240,6 +26281,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||riattinqui.pro^
 ||riattmezzi.pro^
 ||riattmunic.pro^
+||riattnotav.pro^
 ||riattrioff.pro^
 ||riavvnonre.pro^
 ||riavvoverr.pro^
@@ -26297,6 +26339,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||riconinocu.pro^
 ||riconinsup.pro^
 ||riconinten.pro^
+||riconlocat.pro^
 ||riconmara.pro^
 ||riconmorki.pro^
 ||riconmutar.pro^
@@ -27516,6 +27559,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||scaledisco.pro^
 ||scaleripud.pro^
 ||scalestram.pro^
+||scalfsgraf.pro^
 ||scalmzymot.pro^
 ||scalpprese.pro^
 ||scamborpel.pro^
@@ -29046,6 +29090,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||sociablebumblebee.pro^
 ||sociablegrouse.pro^
 ||sociablesawfly.pro^
+||sociableskua.pro^
 ||social-ad-builder.fresh8.co^
 ||sociecolmi.pro^
 ||sociespeck.pro^
@@ -29875,6 +29920,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||stazzrinfr.pro^
 ||stbarth-adventure.top^
 ||stdl.qq.com^
+||steadywolverine.pro^
 ||steakflagg.pro^
 ||steamdesig.pro^
 ||steameallop.pro^
@@ -30103,6 +30149,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||stronphotp.pro^
 ||stronspook.pro^
 ||stropnatur.pro^
+||stropsbott.pro^
 ||stropsconf.pro^
 ||strucoverd.pro^
 ||strucselvi.pro^
@@ -30344,6 +30391,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||supply.advangelists.com^
 ||supply.inmobicdn.net^
 ||supply.xapads.com^
+||support-add-case-rdvn.vercel.app^
 ||support-ads-manage-local-591520365.vercel.app^
 ||support-opensea.pro^
 ||support.browser.heytapmobi.com^
@@ -30719,6 +30767,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||takealkrhin.pro^
 ||takiwyu1.pro^
 ||talasnovigo.pro^
+||talentedechidna.pro^
 ||talentedlori.pro^
 ||taleqram.pro^
 ||tali.iad-03.braze.com^
@@ -30835,6 +30884,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||techweb.iv.adsame.com^
 ||tecniacerb.pro^
 ||teconamulta.pro^
+||tectirisim.pro^
 ||teecadorma.pro^
 ||teenaperfe.pro^
 ||teflobolsc.pro^
@@ -31263,6 +31313,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||toletshake.pro^
 ||tolidcardi.pro^
 ||tolylcathe.pro^
+||tomatobeluga.pro^
 ||tomatocollie.pro^
 ||tomatofrog.pro^
 ||tombismutt.pro^
@@ -32952,6 +33003,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||vengeingel.pro^
 ||vengepetto.pro^
 ||vengipunte.pro^
+||venomousbandicoot.pro^
 ||venomousmink.pro^
 ||venouincho.pro^
 ||ventecalun.pro^
@@ -33227,6 +33279,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||violetbloomssoftly.pro^
 ||violetchupacabra.pro^
 ||violetmayfly.pro^
+||violetskunk.pro^
 ||violetssmellingweet.pro^
 ||vip.adstatic.com^
 ||vipads.cc^
@@ -33734,6 +33787,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||wager.dm^
 ||wahacondrax.iad-03.braze.com^
 ||wailtofolgo.pro^
+||wakefulperch.pro^
 ||wakenveggh.pro^
 ||walatii6.pro^
 ||wallaponta.pro^
@@ -34129,6 +34183,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||willowtreesweeping.pro^
 ||wilyzanza.pro^
 ||wimekeacran.pro^
+||wimilyu.pro^
 ||win.ad-stir.com^
 ||win.adx.roockmobile.com^
 ||win.gdt.qq.com^
@@ -34939,6 +34994,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.advertise-bingads-microsoft.com^
 ||www.advertise.bingads.microsoft.com^
 ||www.advertise.com^
+||www.advertisement-2025.xyz^
 ||www.advertisementhelp2025-ai.site^
 ||www.advertisementpolicy-2025.xyz^
 ||www.advertising365.com^
@@ -35195,6 +35251,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.amphinonae.pro^
 ||www.amphiscerv.pro^
 ||www.amplideflo.pro^
+||www.ams3.adventuretravelvibes.xyz^
 ||www.amusingalphabets.pro^
 ||www.amusingchachalaca.pro^
 ||www.amusingpartridge.pro^
@@ -35510,6 +35567,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.artichoketrout.pro^
 ||www.articpanna.pro^
 ||www.artiffamer.pro^
+||www.artifimmor.pro^
 ||www.artifsorbe.pro^
 ||www.artigcrede.pro^
 ||www.artioforfe.pro^
@@ -35527,6 +35585,8 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.asperkombi.pro^
 ||www.aspirebrilliance.pro^
 ||www.aspiringfrog.pro^
+||www.aspiringhedgehog.pro^
+||www.aspiringhog.pro^
 ||www.aspiringlabradoodle.pro^
 ||www.aspiringmarmoset.pro^
 ||www.aspiringnarwhal.pro^
@@ -35692,6 +35752,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.avvinsconv.pro^
 ||www.avvitrestr.pro^
 ||www.avvolperid.pro^
+||www.awesomecaribou.pro^
 ||www.awesomelynx.pro^
 ||www.awesomeseagull.pro^
 ||www.awesometiger.pro^
@@ -35765,6 +35826,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.balzesgarb.pro^
 ||www.ban3ers.ero-advertising.com^
 ||www.ban4ers.ero-advertising.com^
+||www.bananagrouse.pro^
 ||www.bananatanuki.pro^
 ||www.bananatench.pro^
 ||www.bananauakari.pro^
@@ -35909,6 +35971,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.bernedisca.pro^
 ||www.berriborgh.pro^
 ||www.berserkgibbon.pro^
+||www.berserkherring.pro^
 ||www.berserkmantis.pro^
 ||www.berteusufr.pro^
 ||www.berthindur.pro^
@@ -36600,6 +36663,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.busyantelope.pro^
 ||www.busycapuchin.pro^
 ||www.busycricket.pro^
+||www.busydingo.pro^
 ||www.busyhamster.pro^
 ||www.busytoopor.pro^
 ||www.butemei3.pro^
@@ -36775,6 +36839,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.carcisiama.pro^
 ||www.cardiarchi.pro^
 ||www.cardiarres.pro^
+||www.carduunexa.pro^
 ||www.careeimami.pro^
 ||www.carefreecascade.pro^
 ||www.carefreenestglow.pro^
@@ -36923,6 +36988,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.certietnos.pro^
 ||www.certihydro.pro^
 ||www.certipiomb.pro^
+||www.ceruleanlabrador.pro^
 ||www.ceruleantapir.pro^
 ||www.ceruleantrogon.pro^
 ||www.cervicouth.pro^
@@ -37335,6 +37401,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.claycoua.pro^
 ||www.claygalago.pro^
 ||www.clayladybug.pro^
+||www.claysturgeon.pro^
 ||www.cleanlatif.pro^
 ||www.clearstrategies.pro^
 ||www.clearvisionpro.pro^
@@ -37897,6 +37964,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.crispsphere.pro^
 ||www.crispvibrance.pro^
 ||www.crispycloud.pro^
+||www.cristmadwo.pro^
 ||www.critifiduc.pro^
 ||www.critisucce.pro^
 ||www.croakruggh.pro^
@@ -38139,6 +38207,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.dandytwist.pro^
 ||www.dandywave.pro^
 ||www.dangerouscrane.pro^
+||www.dangeroushusky.pro^
 ||www.danitsuppo.pro^
 ||www.dappiinsol.pro^
 ||www.dappledgrove.pro^
@@ -38164,6 +38233,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.darkeabbot.pro^
 ||www.darkestnightskytwinkles.pro^
 ||www.darkflamingo.pro^
+||www.darkherring.pro^
 ||www.darknightshidesecrets.pro^
 ||www.darkorca.pro^
 ||www.darkshadowsconcealall.pro^
@@ -38449,6 +38519,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.deserriacc.pro^
 ||www.desertstormsblowing.pro^
 ||www.desertwindsinging.pro^
+||www.desesverte.pro^
 ||www.desicigneme.pro^
 ||www.designstudios.pro^
 ||www.desigparas.pro^
@@ -39374,6 +39445,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.emeraldmoonwhispers.pro^
 ||www.emeraldquasarburst.pro^
 ||www.emeraldraven.pro^
+||www.emeraldseahorse.pro^
 ||www.emeraldshadowstorm.pro^
 ||www.emeraldstormcloud.pro^
 ||www.emeraldstormdust.pro^
@@ -39846,6 +39918,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.featheredcapuchin.pro^
 ||www.featheredladybug.pro^
 ||www.featheredmarmot.pro^
+||www.featheredmoth.pro^
 ||www.febbropzio.pro^
 ||www.feciacoint.pro^
 ||www.fecksconf.pro^
@@ -40646,6 +40719,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.giravilliv.pro^
 ||www.giravya.pro^
 ||www.girelobes.pro^
+||www.girelscolo.pro^
 ||www.girelwhett.pro^
 ||www.girinrazia.pro^
 ||www.gironjoyan.pro^
@@ -40759,6 +40833,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.glorytwist.pro^
 ||www.glossovers.pro^
 ||www.glossviastu.pro^
+||www.glossyhyrax.pro^
 ||www.glossypegasus.pro^
 ||www.glossyvocabulary.pro^
 ||www.glossywolf.pro^
@@ -40903,6 +40978,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.gooseeroic.pro^
 ||www.gooseirrum.pro^
 ||www.gorberiann.pro^
+||www.gorgeousaardwark.pro^
 ||www.gorgeoushorse.pro^
 ||www.gorgeouszebu.pro^
 ||www.gorghscocu.pro^
@@ -41092,11 +41168,13 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.gymnoadvan.pro^
 ||www.gynansubte.pro^
 ||www.gypakau5.pro^
+||www.gyqowue4.pro^
 ||www.gysijie.pro^
 ||www.gyteniu7.pro^
 ||www.gywogey.pro^
 ||www.gyzytey0.pro^
 ||www.gzpwuzjliooz.pro^
+||www.haddeunpar.pro^
 ||www.haemorimba.pro^
 ||www.hagakuy.pro^
 ||www.hagbuuccel.pro^
@@ -41302,6 +41380,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.hihagiy4.pro^
 ||www.hilariouscaterpillar.pro^
 ||www.hilariousdog.pro^
+||www.hilariousgoshawk.pro^
 ||www.hilarioushippo.pro^
 ||www.hildedesta.pro^
 ||www.hingeproch.pro^
@@ -41419,6 +41498,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.hycigae.pro^
 ||www.hydrecsatered.pro^
 ||www.hydrocirco.pro^
+||www.hydrocompa.pro^
 ||www.hydrodiser.pro^
 ||www.hydroindol.pro^
 ||www.hydrosalts.pro^
@@ -41562,6 +41642,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.imbasester.pro^
 ||www.imbaspigeo.pro^
 ||www.imbaswhiff.pro^
+||www.imbataffro.pro^
 ||www.imbavsagli.pro^
 ||www.imbeltarta.pro^
 ||www.imberscurf.pro^
@@ -42103,6 +42184,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.intereduca.pro^
 ||www.interemal.pro^
 ||www.interestingbittern.pro^
+||www.interestingcow.pro^
 ||www.intergnzi.pro^
 ||www.interhisto.pro^
 ||www.interipome.pro^
@@ -42149,6 +42231,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.intrarinno.pro^
 ||www.intrasuffu.pro^
 ||www.intraunhoi.pro^
+||www.intrepidcapuchin.pro^
 ||www.intrepidvole.pro^
 ||www.intrianywh.pro^
 ||www.intriceroo.pro^
@@ -42299,6 +42382,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.iyxac.pro^
 ||www.jaadsglobal.com^
 ||www.jaadsglobal.net^
+||www.jadecheetah.pro^
 ||www.jadedpictu.pro^
 ||www.jadegreenhealing.pro^
 ||www.jadegreenpeaces.pro^
@@ -44262,6 +44346,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.nuotaritra.pro^
 ||www.nuoterappi.pro^
 ||www.nuovitonsi.pro^
+||www.nursemanov.pro^
 ||www.nutgrtitol.pro^
 ||www.nutritrapi.pro^
 ||www.nutritromb.pro^
@@ -44490,6 +44575,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.ordeastaba.pro^
 ||www.orerrispi.pro^
 ||www.org-upgrade.com^
+||www.organiclyrebird.pro^
 ||www.organicserval.pro^
 ||www.organictiger.pro^
 ||www.organyouth.pro^
@@ -44693,6 +44779,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.papayamagpie.pro^
 ||www.papermagic.pro^
 ||www.papilcarov.pro^
+||www.pappaabneg.pro^
 ||www.papyrdibar.pro^
 ||www.paraccalci.pro^
 ||www.paradoxquestionsall.pro^
@@ -44836,6 +44923,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.peachybundle.pro^
 ||www.peachysmile.pro^
 ||www.peaknimbus.pro^
+||www.pearlcorgi.pro^
 ||www.pearleuphoria.pro^
 ||www.pearllustergentle.pro^
 ||www.pearllusterglows.pro^
@@ -45037,6 +45125,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.pilifords.pro^
 ||www.pilkiadone.pro^
 ||www.pimaha-hurupa.pro^
+||www.pimencapri.pro^
 ||www.pimpleugen.pro^
 ||www.pinacantic.pro^
 ||www.pinchebn.pro^
@@ -45076,6 +45165,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.piroscorve.pro^
 ||www.pirroprefe.pro^
 ||www.piscainfur.pro^
+||www.piscifarre.pro^
 ||www.pispidiplo.pro^
 ||www.pispocooey.pro^
 ||www.pispomescu.pro^
@@ -45215,6 +45305,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.poeticcapybara.pro^
 ||www.poeticchital.pro^
 ||www.poeticgoldfish.pro^
+||www.poeticibex.pro^
 ||www.poeticorca.pro^
 ||www.poetierogh.pro^
 ||www.poetinaked.pro^
@@ -45544,6 +45635,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.properisca.pro^
 ||www.prophantap.pro^
 ||www.prophdeben.pro^
+||www.propheticfennec.pro^
 ||www.propheticjunglefowl.pro^
 ||www.propheticsturgeon.pro^
 ||www.propheticturkey.pro^
@@ -45795,6 +45887,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.quipnest.pro^
 ||www.quirkflare.pro^
 ||www.quirkspark.pro^
+||www.quirkybadger.pro^
 ||www.quirkybreeze.pro^
 ||www.quirkycharm.pro^
 ||www.quirkydash.pro^
@@ -46493,6 +46586,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.riammfavor.pro^
 ||www.riandsdonn.pro^
 ||www.riannfmet.pro^
+||www.riannfrise.pro^
 ||www.riannovera.pro^
 ||www.riannpunte.pro^
 ||www.riappabsor.pro^
@@ -46517,6 +46611,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.riattinqui.pro^
 ||www.riattmezzi.pro^
 ||www.riattmunic.pro^
+||www.riattnotav.pro^
 ||www.riattrioff.pro^
 ||www.riavvnonre.pro^
 ||www.riavvoverr.pro^
@@ -46570,6 +46665,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.riconinocu.pro^
 ||www.riconinsup.pro^
 ||www.riconinten.pro^
+||www.riconlocat.pro^
 ||www.riconmara.pro^
 ||www.riconmorki.pro^
 ||www.riconmutar.pro^
@@ -47312,6 +47408,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.scaledisco.pro^
 ||www.scaleripud.pro^
 ||www.scalestram.pro^
+||www.scalfsgraf.pro^
 ||www.scalmzymot.pro^
 ||www.scalpprese.pro^
 ||www.scamborpel.pro^
@@ -48244,6 +48341,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.sociablebumblebee.pro^
 ||www.sociablegrouse.pro^
 ||www.sociablesawfly.pro^
+||www.sociableskua.pro^
 ||www.sociecolmi.pro^
 ||www.sociespeck.pro^
 ||www.sodohyi4.pro^
@@ -48749,6 +48847,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.statuincap.pro^
 ||www.staveinges.pro^
 ||www.stazzrinfr.pro^
+||www.steadywolverine.pro^
 ||www.steakflagg.pro^
 ||www.steamdesig.pro^
 ||www.steameallop.pro^
@@ -48929,6 +49028,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.stronphotp.pro^
 ||www.stronspook.pro^
 ||www.stropnatur.pro^
+||www.stropsbott.pro^
 ||www.stropsconf.pro^
 ||www.strucoverd.pro^
 ||www.strucselvi.pro^
@@ -49144,6 +49244,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.suppldelim.pro^
 ||www.supplsgatt.pro^
 ||www.suppltarta.pro^
+||www.support-add-case-rdvn.vercel.app^
 ||www.support-ads-manage-local-591520365.vercel.app^
 ||www.support-opensea.pro^
 ||www.suppotadsmarketplace.ubpages.com^
@@ -49306,6 +49407,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.takealkrhin.pro^
 ||www.takiwyu1.pro^
 ||www.talasnovigo.pro^
+||www.talentedechidna.pro^
 ||www.talentedlori.pro^
 ||www.taleqram.pro^
 ||www.talkfhumdr.pro^
@@ -49368,6 +49470,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.teazlincanu.pro^
 ||www.tecniacerb.pro^
 ||www.teconamulta.pro^
+||www.tectirisim.pro^
 ||www.teecadorma.pro^
 ||www.teenaperfe.pro^
 ||www.teflobolsc.pro^
@@ -49613,6 +49716,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.toletshake.pro^
 ||www.tolidcardi.pro^
 ||www.tolylcathe.pro^
+||www.tomatobeluga.pro^
 ||www.tomatocollie.pro^
 ||www.tomatofrog.pro^
 ||www.tombismutt.pro^
@@ -50566,6 +50670,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.vengeingel.pro^
 ||www.vengepetto.pro^
 ||www.vengipunte.pro^
+||www.venomousbandicoot.pro^
 ||www.venomousmink.pro^
 ||www.venouincho.pro^
 ||www.ventecalun.pro^
@@ -50753,6 +50858,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.violetbloomssoftly.pro^
 ||www.violetchupacabra.pro^
 ||www.violetmayfly.pro^
+||www.violetskunk.pro^
 ||www.violetssmellingweet.pro^
 ||www.vipads.cc^
 ||www.vipads.live^
@@ -50921,6 +51027,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.wagbestrut.pro^
 ||www.wager.dm^
 ||www.wailtofolgo.pro^
+||www.wakefulperch.pro^
 ||www.wakenveggh.pro^
 ||www.walatii6.pro^
 ||www.wallaponta.pro^
@@ -51210,6 +51317,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||www.willowtreesweeping.pro^
 ||www.wilyzanza.pro^
 ||www.wimekeacran.pro^
+||www.wimilyu.pro^
 ||www.winads.cn^
 ||www.windfirewind.pro^
 ||www.windideaidea.pro^
