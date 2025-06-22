@@ -2,9 +2,9 @@
 ! Title: Ad-Rules
 ! Homepage: https://github.com/045200/ad-rules
 ! Expires: 12 Hours
-! Version: 2025-06-21 20:35:23（北京时间）
+! Version: 2025-06-22 09:45:56（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 52312
+! Total count: 52314
 
 ###content-wrapper > div.container-fluid.pb-0:first-child > div.video-block.section-padding:last-child > div.row > div.col-md-4:last-child > div.single-video-right > div.row > div.col-md-12:first-child > div.adblock:first-child
 ###vid_overlay
@@ -43,30 +43,31 @@
 13.107.246.73                 vscode.dev
 13.107.42.16                  pipelines.actions.githubusercontent.com
 140.82.112.21                 central.github.com
-140.82.112.22                 collector.github.com
-140.82.112.25                 alive.github.com
-140.82.112.26                 live.github.com
 140.82.113.18                 github.community
-140.82.113.22                 education.github.com
-140.82.114.22                 api.individual.githubcopilot.com
+140.82.113.21                 api.individual.githubcopilot.com
+140.82.113.21                 education.github.com
+140.82.113.25                 alive.github.com
+140.82.114.22                 collector.github.com
+140.82.114.26                 live.github.com
 151.101.193.194               github.global.ssl.fastly.net
-185.199.111.133               avatars.githubusercontent.com
-185.199.111.133               avatars0.githubusercontent.com
-185.199.111.133               avatars1.githubusercontent.com
-185.199.111.133               avatars2.githubusercontent.com
-185.199.111.133               avatars3.githubusercontent.com
-185.199.111.133               avatars4.githubusercontent.com
-185.199.111.133               avatars5.githubusercontent.com
-185.199.111.133               camo.githubusercontent.com
-185.199.111.133               cloud.githubusercontent.com
-185.199.111.133               desktop.githubusercontent.com
-185.199.111.133               favicons.githubusercontent.com
-185.199.111.133               github.map.fastly.net
-185.199.111.133               media.githubusercontent.com
-185.199.111.133               objects.githubusercontent.com
-185.199.111.133               private-user-images.githubusercontent.com
-185.199.111.133               raw.githubusercontent.com
-185.199.111.133               user-images.githubusercontent.com
+16.15.193.253                 github-cloud.s3.amazonaws.com
+185.199.109.133               avatars.githubusercontent.com
+185.199.109.133               avatars0.githubusercontent.com
+185.199.109.133               avatars1.githubusercontent.com
+185.199.109.133               avatars2.githubusercontent.com
+185.199.109.133               avatars3.githubusercontent.com
+185.199.109.133               avatars4.githubusercontent.com
+185.199.109.133               avatars5.githubusercontent.com
+185.199.109.133               camo.githubusercontent.com
+185.199.109.133               cloud.githubusercontent.com
+185.199.109.133               desktop.githubusercontent.com
+185.199.109.133               favicons.githubusercontent.com
+185.199.109.133               github.map.fastly.net
+185.199.109.133               media.githubusercontent.com
+185.199.109.133               objects.githubusercontent.com
+185.199.109.133               private-user-images.githubusercontent.com
+185.199.109.133               raw.githubusercontent.com
+185.199.109.133               user-images.githubusercontent.com
 185.199.111.153               github.io
 185.199.111.153               githubstatus.com
 185.199.111.154               github.githubassets.com
@@ -75,13 +76,12 @@
 20.205.243.166                gist.github.com
 20.205.243.166                github.com
 20.205.243.168                api.github.com
-3.5.16.183                    github-production-user-asset-6210df.s3.amazonaws.com
-3.5.20.136                    github-production-release-asset-2e65be.s3.amazonaws.com
-3.5.20.225                    github-com.s3.amazonaws.com
+3.5.11.148                    github-production-user-asset-6210df.s3.amazonaws.com
+3.5.30.126                    github-production-release-asset-2e65be.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
-52.217.83.220                 github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.217.95.97                  github-cloud.s3.amazonaws.com
+52.216.147.132                github-com.s3.amazonaws.com
+52.217.141.129                github-production-repository-file-5c1aeb.s3.amazonaws.com
 @@||1dot1dot1dot1.cloudflare-dns.com^$document
 @@||360.cn^$document
 @@||access1.tpns.tencent.com^$document
@@ -516,6 +516,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||113.240.86.171^
 ||114.55.123.44^
 ||116.205.193.167^
+||1167.adsina.allyes.com^
 ||11bet.mobi^
 ||11bet.pro^
 ||11gtest.bj2cu.u3.ucweb.com^
@@ -597,6 +598,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||25gtest.bj2cu.u3.ucweb.com^
 ||2632ce734-frontier.amazon-adsystem.com^
 ||26gtest.bj2cu.u3.ucweb.com^
+||273.adsina.allyes.com^
 ||27gtest.bj2cu.u3.ucweb.com^
 ||28gtest.bj2cu.u3.ucweb.com^
 ||29gtest.bj2cu.u3.ucweb.com^
@@ -631,6 +633,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||372-aad-485.mktoresp.com^
 ||39.96.184.178^
 ||39.96.185.90^
+||39.adsina.allyes.com^
 ||397c0.admaster.com.cn^
 ||3ad71877eb.plus-d.eu^
 ||3denvironments.adsafeprotected.com^
@@ -650,6 +653,8 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||3px.axp.amazon-adsystem.com^
 ||4.adsco.re^
 ||4.afs.googleadservices.com^
+||43.adsina.allyes.com^
+||46.adsina.allyes.com^
 ||47.110.187.87^
 ||47.243.147.125^
 ||47.56.131.76^
@@ -687,6 +692,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||6063.bapi.adsafeprotected.com^
 ||61.156.8.189^
 ||61.170.72.15^
+||61.adsina.allyes.com^
 ||631.dlads.cn^
 ||64.adsco.re^
 ||66926e18fb422e99217bead821bfa976.groupsorlink.com^
@@ -757,6 +763,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||922441.bapi.adsafeprotected.com^
 ||92lottery.mobi^
 ||9308935.com^
+||992.adsina.allyes.com^
 ||99ads.net^
 ||9aad7115.amy.gs^
 ||9ata.ero-advertising.com^
@@ -1181,6 +1188,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ad-drcn.dt.dbankcloud.com^
 ||ad-drcn.dt.hihonorcloud.cn^
 ||ad-drcn.dt.hihonorcloud.com^
+||ad-drop.jp^
 ||ad-emea.doubleclick.net^
 ||ad-ettoday.cdn.hinet.net^
 ||ad-eu-imp.rtbmax.com^
@@ -1198,6 +1206,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ad-exchange.toast.com^
 ||ad-experience.g2afse.com^
 ||ad-extra.kajicam.com^
+||ad-falcon.com^
 ||ad-fam.com^
 ||ad-feed.com^
 ||ad-feeds.com^
@@ -1408,6 +1417,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ad.adriver.ru^
 ||ad.adrttt.com^
 ||ad.adschemist.com^
+||ad.adservon.com^
 ||ad.adsmart.net^
 ||ad.adsniper.ru^
 ||ad.adsonpop.com^
@@ -2905,7 +2915,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
 ||ads-privacy.gadsme.com^
 ||ads-query.luizalabs.com^
-||ads-r9cddc.ortb.vdo.ai^
 ||ads-r9cddd.ortb.vdo.ai^
 ||ads-r9cdde.ortb.vdo.ai^
 ||ads-r9cdds.ortb.vdo.ai^
@@ -2953,7 +2962,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ads-trk.vidible.tv^
 ||ads-twitter.com^
 ||ads-uk.jiwire.com^
-||ads-unibet.adhese.com^
 ||ads-union.jd.com^
 ||ads-us.amillionads.com^
 ||ads-us.loopaautomate.com^
@@ -4220,7 +4228,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ads.skupe.net^
 ||ads.sl.interpals.net^
 ||ads.sladur.com^
-||ads.slava.bg^
 ||ads.slmads.com^
 ||ads.smaato.com^
 ||ads.smartadserver.com^
@@ -4871,16 +4878,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ads22.focalink.com^
 ||ads22.host-cdn.net^
 ||ads22.vertamedia.com^
-||ads220.adtelligent.com^
-||ads221.adtelligent.com^
-||ads222.adtelligent.com^
-||ads223.adtelligent.com^
-||ads224.adtelligent.com^
-||ads225.adtelligent.com^
-||ads226.adtelligent.com^
-||ads227.adtelligent.com^
-||ads228.adtelligent.com^
-||ads229.adtelligent.com^
 ||ads23-normal-hl.zijieapi.com^
 ||ads23-normal-lf.zijieapi.com^
 ||ads23-normal-lq.zijieapi.com^
@@ -4888,17 +4885,11 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ads23.focalink.com^
 ||ads23.vertamedia.com^
 ||ads23.win888b.com^
-||ads230.adtelligent.com^
-||ads231.adtelligent.com^
 ||ads232.adtelligent.com^
 ||ads233.adtelligent.com^
 ||ads234.adtelligent.com^
 ||ads234.com^
 ||ads235.adtelligent.com^
-||ads236.adtelligent.com^
-||ads237.adtelligent.com^
-||ads238.adtelligent.com^
-||ads239.adtelligent.com^
 ||ads24-normal-hl.zijieapi.com^
 ||ads24-normal-lf.zijieapi.com^
 ||ads24-normal-lq.zijieapi.com^
@@ -5252,6 +5243,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||adsdk.vrvm.com^
 ||adsdk.whjzjx.cn^
 ||adsdk.yandex.ru^
+||adsdk.zeasn.tv^
 ||adsdkapi.dxys.pro^
 ||adsdkprod.azureedge.net^
 ||adsdolf.in^
@@ -5392,7 +5384,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||adserver.asiafriendfinder.com^
 ||adserver.asnetworks.de^
 ||adserver.assistads.net^
-||adserver.associationheadquarters.com^
 ||adserver.atdnetwork.com^
 ||adserver.b2c.com^
 ||adserver.bafrahaber.com^
@@ -5814,6 +5805,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||adservingfront.com^
 ||adservings.ru^
 ||adservob.com^
+||adservon.com^
 ||adservone.com^
 ||adservrs.com.edgekey.net^
 ||adservrs.com^
@@ -6700,12 +6692,14 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||adx-ad-prod.wkanx.com^
 ||adx-ad.smart-tv.cn^
 ||adx-apac.adnxs.com^
+||adx-api.bobbleapp.me^
 ||adx-asia-imp.aarki.net^
 ||adx-asia.aarki.net^
 ||adx-bid.tianzhuobj.com^
 ||adx-bj-req.anythinktech.com^
 ||adx-bj.anythinktech.com^
 ||adx-bm1.videonow.ru^
+||adx-bm2.videonow.ru^
 ||adx-cn.ads.vungle.com^
 ||adx-cn.anythinktech.com^
 ||adx-core.youku.com^
@@ -6743,6 +6737,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||adx-in.ads.heytapmobile.com^
 ||adx-in.ads.oppomobile.com^
 ||adx-kh.ads.heytapmobile.com^
+||adx-lb-linode-us.rtblab.net^
 ||adx-linode.dable.io^
 ||adx-mm.ads.heytapmobile.com^
 ||adx-my.ads.heytapmobile.com^
@@ -6819,6 +6814,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||adx.alimama.com^
 ||adx.ants.vn^
 ||adx.anythinktech.com^
+||adx.apicgate.com^
 ||adx.apiok.net^
 ||adx.appsdk.com.cn^
 ||adx.apx.appier.net^
@@ -7190,7 +7186,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||alphaapi.autoads.asia^
 ||alresidtlly.pro^
 ||als.baidu.com^
-||alsterspree.adspirit.de^
 ||altalgrami.pro^
 ||alterbaria.pro^
 ||alternativos.iw-advertising.com^
@@ -8788,7 +8783,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||api.richlifeads.ru^
 ||api.ril.com^
 ||api.ringlead.com^
-||api.rjmetrics.com^
 ||api.rlcdn.com^
 ||api.rnet.plus^
 ||api.rollbar.com^
@@ -8835,7 +8829,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||api.siftscience.com^
 ||api.signifyd.com^
 ||api.simpleanalytics.io^
-||api.siteimprove.com^
 ||api.sjpf.io^
 ||api.skipperx.net^
 ||api.sky88.com^
@@ -13107,6 +13100,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||cr-p10060.ladsp.com^
 ||cr-p10500.ladsp.com^
 ||cr-p11.ladsp.com^
+||cr-p15.ladsp.jp^
 ||cr-p16.ladsp.com^
 ||cr-p22000.ladsp.jp^
 ||cr-p28.ladsp.com^
@@ -15797,6 +15791,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||events.redditmedia.com^
 ||events.samsungads.com^
 ||events.us-east-1.v3.awesomeads.superawesome.tv^
+||events.us-west-2.v3.awesomeads.superawesome.tv^
 ||everblossom.pro^
 ||everember.pro^
 ||everestads.net^
@@ -17875,6 +17870,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||hata.ero-advertising.com^
 ||hathmoimpor.pro^
 ||haulirefer.pro^
+||haunting-advantage.pro^
 ||havcinvai.pro^
 ||havenwhirl.pro^
 ||havusyy9.pro^
@@ -18321,8 +18317,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||i4amb9u1wymi.l.adsco.re^
 ||i6.smartnews-ads.com^
 ||i79zj-tzyj9.ads.tremorhub.com^
-||i79zj-x6hb8.ads.tremorhub.com^
-||i79zj-zf9d6.ads.tremorhub.com^
 ||i867.journal-advocate.com^
 ||i9.pro^
 ||iab-imp-gateway.supersonicads.com^
@@ -20137,6 +20131,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||kyoads.com^
 ||kyson.ad.daum.net^
 ||kz.admaster.com.cn^
+||kzbe3p.skadsdk.appsflyersdk.com^
 ||kznnvknblmfl.pro^
 ||kztxtbzlidr.pro^
 ||l.aaxads.com^
@@ -21173,7 +21168,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||maritwoozi.pro^
 ||mark.l.qq.com^
 ||markab.iad-03.braze.com^
-||markadver.com^
 ||markbarkpace.pro^
 ||market-ad.oss-accelerate.aliyuncs.com^
 ||market-ad.oss-cn-shenzhen.aliyuncs.com^
@@ -24266,7 +24260,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||pittaascia.pro^
 ||pittadisap.pro^
 ||pittodisme.pro^
-||piwik.advantic.de^
 ||piwik.ero-advertising.com^
 ||piwik.unoadsrv.com^
 ||pixel-dsp.pubadx.one^
@@ -24282,6 +24275,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||pixel.leadsleap.net^
 ||pixel.madadsmedia.com^
 ||pixel.moatads.com^
+||pixel.prfrm-ads.com^
 ||pixel.rtgads.com^
 ||pixel.xapads.com^
 ||pixel.xpsads.com^
@@ -24992,6 +24986,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ps.avads.net^
 ||ps.browser.qq.com^
 ||ps.dlads.cn^
+||ps.ladsp.com^
 ||pseudinciu.pro^
 ||pseudzygen.pro^
 ||psgorobin.pro^
@@ -26940,6 +26935,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||rtb9.adscience.nl^
 ||rtbapi.douyucdn.cn^
 ||rtbflairads.com^
+||rtbus.metaxads.com^
 ||rtbus.ssp.metaxads.com^
 ||rtk.trk.smartexpenseadvisor.com^
 ||rts.mobula.sdk.duapps.com^
@@ -27156,7 +27152,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||s2.c.adhitzads.com^
 ||s2.cnzz.com^
 ||s2.mpsuadv.ru^
-||s2.paa-reporting-advertising.amazon^
 ||s2.video.doubleclick.net^
 ||s20.cnzz.com^
 ||s21.cnzz.com^
@@ -31475,6 +31470,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||tracelog-debug.qquanquan.com^
 ||trachmassi.pro^
 ||trachocclu.pro^
+||track-dmp.ad-falcon.com^
 ||track-help.admaster.com.cn^
 ||track-sc-main-was.adservrs.com^
 ||track.ad.xiaomi.com^
@@ -31515,6 +31511,8 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||trackadsb1.com^
 ||trackadshub.com^
 ||tracker-api.my.com^
+||tracker-b.ads-rtbdemand.com^
+||tracker-b.ads-tinyorbit.com^
 ||tracker-b.iionads.com^
 ||tracker.ads-rtbdemand.com^
 ||tracker.ads-tinyorbit.com^
@@ -31623,7 +31621,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||trade95neupro.net^
 ||tradeads.online^
 ||tradearabia.advertserve.com^
-||tradearabia2.advertserve.com^
 ||tradegpt-360-evix.net^
 ||tradehouse.advertserve.com^
 ||tradeleads.su^
@@ -31995,6 +31992,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||tw2.adserver.yahoo.com^
 ||twads.gg^
 ||twasp.adsame.com^
+||twcn.adsame.com^
 ||tweemaripre.pro^
 ||twelvaccom.pro^
 ||twentyfourhonlineadvertising-d.openx.net^
@@ -32719,6 +32717,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||usw2-ads-proxy-temp-general-v4.yieldmo.com^
 ||usw2-ads-proxy-temp-general-v5.yieldmo.com^
 ||usw2.smartadserver.com^
+||usw3.smartadserver.com^
 ||uswdirect.adsrvr.org^
 ||ut.iadsdk.apple.com^
 ||utdxrr.pro^
@@ -33464,7 +33463,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||vpptv.admaster.com.cn^
 ||vqq.admaster.com.cn^
 ||vr.gdt.qq.com^
-||vrc9kq.skadsdk.appsflyersdk.com^
 ||vrc9kq.skadsdkless.appsflyersdk.com^
 ||vrtzads.com^
 ||vryndolar.pro^
@@ -34212,6 +34210,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||wingedalligator.pro^
 ||winkgrove.pro^
 ||winkleads.com^
+||winkleads.xml-v4.ak-is2.net^
 ||winneradsmedia.com^
 ||winninggrowth.pro^
 ||winningteam.pro^
@@ -34272,6 +34271,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||wlbetzoneuk.adsrv.eacdn.com^
 ||wlcoolbet.adsrv.eacdn.com^
 ||wlfanduelus.adsrv.eacdn.com^
+||wlkwiff.adsrv.eacdn.com^
 ||wlmarathonbet.adsrv.eacdn.com^
 ||wlmicasino.adsrv.eacdn.com^
 ||wlneteller.adsrv.eacdn.com^
@@ -51862,6 +51862,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||xml-v4.pwr-ads.com^
 ||xml-v4.staradsmedia.com^
 ||xml-v4.winkleads.com^
+||xml-v4.xmladsystem.com^
 ||xml-v4.zentrixads.com^
 ||xml.ad-maven.com^
 ||xml.admeridianads.com^
@@ -52313,6 +52314,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||zyhinue4.pro^
 ||zynyboi.pro^
 ||zythuspium.pro^
+||zyvrcw.skadsdkless.appsflyersdk.com^
 ||zywytuy6.pro^
 ||zyzulay.pro^
 ||zz.bdstatic.com^
