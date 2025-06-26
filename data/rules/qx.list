@@ -142,6 +142,7 @@ DOMAIN,30ads.com,reject
 DOMAIN,30gtest.bj2cu.u3.ucweb.com,reject
 DOMAIN,31gtest.bj2cu.u3.ucweb.com,reject
 DOMAIN,35.adsina.allyes.com,reject
+DOMAIN,35y9sib5azfou7f6eyxygbr34r3x7konx32wadsabb36c4fcc8a4d183sac.d.aa.online-metrix.net,reject
 DOMAIN,36.adsina.allyes.com,reject
 DOMAIN,360-g.cn,reject
 DOMAIN,360.anatic.net,reject
@@ -504,6 +505,7 @@ DOMAIN,absuragghi.pro,reject
 DOMAIN,abtest-ch.snssdk.com,reject
 DOMAIN,abtest.mistat.xiaomi.com,reject
 DOMAIN,abuijx.skadsdk.appsflyersdk.com,reject
+DOMAIN,abuijx.skadsdkless.appsflyersdk.com,reject
 DOMAIN,abygzwpljt.pro,reject
 DOMAIN,ac.mmstat.com,reject
 DOMAIN,ac.o2.qq.com,reject
@@ -1110,6 +1112,7 @@ DOMAIN,ad.directmirror.com,reject
 DOMAIN,ad.directrev.com,reject
 DOMAIN,ad.dk.doubleclick.net,reject
 DOMAIN,ad.dl.mainpost.de,reject
+DOMAIN,ad.dl.mz.de,reject
 DOMAIN,ad.dl.volksstimme.de,reject
 DOMAIN,ad.dlbooks.to,reject
 DOMAIN,ad.dlrwebservice.com,reject
@@ -2316,6 +2319,8 @@ DOMAIN,ads-2479l.iionads.com,reject
 DOMAIN,ads-2479t.iionads.com,reject
 DOMAIN,ads-247bg.iionads.com,reject
 DOMAIN,ads-247cr.iionads.com,reject
+DOMAIN,ads-247cu.iionads.com,reject
+DOMAIN,ads-247cv.iionads.com,reject
 DOMAIN,ads-58hnjs.rtb.admanmedia.com,reject
 DOMAIN,ads-87rvqi.bidder-embi.media,reject
 DOMAIN,ads-a.juicyads.com,reject
@@ -2785,6 +2790,7 @@ DOMAIN,ads.brazzers.com,reject
 DOMAIN,ads.bridgebase.com,reject
 DOMAIN,ads.bridgetrack.com.edgesuite.net,reject
 DOMAIN,ads.bridgetrack.com,reject
+DOMAIN,ads.brzchecagem.com,reject
 DOMAIN,ads.bsplayer.com,reject
 DOMAIN,ads.bstlnk.com,reject
 DOMAIN,ads.buljobs.bg,reject
@@ -2940,6 +2946,7 @@ DOMAIN,ads.digital-digest.com,reject
 DOMAIN,ads.digital.disneyadvertising.com,reject
 DOMAIN,ads.digitalacre.com,reject
 DOMAIN,ads.digitalalchemy.tv,reject
+DOMAIN,ads.digitalbee.al,reject
 DOMAIN,ads.digitalcaramel.com,reject
 DOMAIN,ads.digitalfirstmedia.com,reject
 DOMAIN,ads.digitalmedianet.com,reject
@@ -5211,7 +5218,6 @@ DOMAIN,adservice.google.com.bz,reject
 DOMAIN,adservice.google.com.cu,reject
 DOMAIN,adservice.google.com.cy,reject
 DOMAIN,adservice.google.com.do,reject
-DOMAIN,adservice.google.com.ec,reject
 DOMAIN,adservice.google.com.eg,reject
 DOMAIN,adservice.google.com.et,reject
 DOMAIN,adservice.google.com.gh,reject
@@ -7338,6 +7344,7 @@ DOMAIN,ap.dongqiudi.com,reject
 DOMAIN,ap.read.mediation.pns.ap.orangeads.fr,reject
 DOMAIN,apa-sin.adsrvr.org,reject
 DOMAIN,apac-ads.flurry.com,reject
+DOMAIN,apac-bid-openpath.adsrvr.org,reject
 DOMAIN,apac-hk-ads.aralego.net,reject
 DOMAIN,apac-sg-ad-track.aralego.com,reject
 DOMAIN,apac-tw-ad-track.aralego.com,reject
@@ -13237,6 +13244,8 @@ DOMAIN,dcapi.dmp.3lift.com,reject
 DOMAIN,dcapi.tagger.opecloud.com,reject
 DOMAIN,dcci.adsame.com,reject
 DOMAIN,dcdn.adnxs.com,reject
+DOMAIN,dcm-gql.digital.disneyadvertising.com,reject
+DOMAIN,dcm.disneyadvertising.com,reject
 DOMAIN,dcntr-ads.com,reject
 DOMAIN,dco-assets.everestads.net,reject
 DOMAIN,dcrfnt-us.adsmoloco.com,reject
@@ -15219,6 +15228,7 @@ DOMAIN,euphoricjourneys.pro,reject
 DOMAIN,euphoricspace.pro,reject
 DOMAIN,euploadatt.pro,reject
 DOMAIN,eur-bid-hubvisor.adsrvr.org,reject
+DOMAIN,eur-bid-openpath.adsrvr.org,reject
 DOMAIN,eur-ukp.adsrvr.org,reject
 DOMAIN,eurads.simpli.fi,reject
 DOMAIN,eurascariu.pro,reject
@@ -32480,7 +32490,6 @@ DOMAIN,vadavrusin.pro,reject
 DOMAIN,vads.net.vn,reject
 DOMAIN,vads.vn,reject
 DOMAIN,vae-bid.adsrvr.org,reject
-DOMAIN,vaes.amazon-adsystem.com,reject
 DOMAIN,vafw.adsafeprotected.com,reject
 DOMAIN,vagabondhorse.pro,reject
 DOMAIN,vagarumfaa.pro,reject
@@ -32912,6 +32921,7 @@ DOMAIN,viridianlabradoodle.pro,reject
 DOMAIN,viridianrad.pro,reject
 DOMAIN,viridianraven.pro,reject
 DOMAIN,virusinfo-cloudscan-cn.heytapmobi.com,reject
+DOMAIN,visableleads.com,reject
 DOMAIN,visagnonpr.pro,reject
 DOMAIN,viscitimpa.pro,reject
 DOMAIN,viscomonod.pro,reject
@@ -50724,6 +50734,7 @@ DOMAIN,www.viridianferret.pro,reject
 DOMAIN,www.viridianlabradoodle.pro,reject
 DOMAIN,www.viridianrad.pro,reject
 DOMAIN,www.viridianraven.pro,reject
+DOMAIN,www.visableleads.com,reject
 DOMAIN,www.visagnonpr.pro,reject
 DOMAIN,www.viscitimpa.pro,reject
 DOMAIN,www.viscomonod.pro,reject
