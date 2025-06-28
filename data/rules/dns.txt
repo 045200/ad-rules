@@ -2,7 +2,7 @@
 ! Title: Ad-Rules
 ! Homepage: https://github.com/045200/ad-rules
 ! Expires: 12 Hours
-! Version: 2025-06-28 09:27:39（北京时间）
+! Version: 2025-06-28 20:35:35（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 55775
 ||*.diwodiwo.xyz^
