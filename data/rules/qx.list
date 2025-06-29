@@ -1694,6 +1694,7 @@ DOMAIN,ad07.focalink.com,reject
 DOMAIN,ad08.focalink.com,reject
 DOMAIN,ad09.focalink.com,reject
 DOMAIN,ad0besenderforward.com,reject
+DOMAIN,ad0c5ab94fde4532b5c2ac3faa685c61-aac473ea903c.cdn.forter.com,reject
 DOMAIN,ad1.ad-srv.net,reject
 DOMAIN,ad1.adfarm1.adition.com,reject
 DOMAIN,ad1.adtitan.net,reject
@@ -1781,7 +1782,6 @@ DOMAIN,ad19.focalink.com,reject
 DOMAIN,ad19digital.checkm8.com,reject
 DOMAIN,ad1digital.checkm8.com,reject
 DOMAIN,ad1game.ru,reject
-DOMAIN,ad1x7.mea5ms.com,reject
 DOMAIN,ad2.360yield.com,reject
 DOMAIN,ad2.ad-srv.net,reject
 DOMAIN,ad2.adecn.com,reject
@@ -2370,6 +2370,7 @@ DOMAIN,ads-58hnjs.rtb.admanmedia.com,reject
 DOMAIN,ads-87rvqi.bidder-embi.media,reject
 DOMAIN,ads-a.juicyads.com,reject
 DOMAIN,ads-admin.hubs.vn,reject
+DOMAIN,ads-adrm.adhese.com,reject
 DOMAIN,ads-ads-main-awesomeads.sacdn.net,reject
 DOMAIN,ads-adsanddata.adhese.com,reject
 DOMAIN,ads-adswag.adhese.com,reject
@@ -2405,6 +2406,7 @@ DOMAIN,ads-candid.adhese.com,reject
 DOMAIN,ads-cdn.fptplay.net,reject
 DOMAIN,ads-cdn.loopaautomate.com,reject
 DOMAIN,ads-cdn.tenmax.io,reject
+DOMAIN,ads-cle-nfl.yinzcam.com,reject
 DOMAIN,ads-cloud.rovio.com,reject
 DOMAIN,ads-collector.luizalabs.com,reject
 DOMAIN,ads-colruytgroup.adhese.com,reject
@@ -2703,6 +2705,7 @@ DOMAIN,ads.amgdgt.com,reject
 DOMAIN,ads.ami-admin.com,reject
 DOMAIN,ads.amigos.com,reject
 DOMAIN,ads.amxrtb.com,reject
+DOMAIN,ads.androworks.org,reject
 DOMAIN,ads.annabac.com,reject
 DOMAIN,ads.ants.vn,reject
 DOMAIN,ads.anura.io,reject
@@ -3500,6 +3503,7 @@ DOMAIN,ads.mythad.com,reject
 DOMAIN,ads.narrowline.com,reject
 DOMAIN,ads.nationalreview.com,reject
 DOMAIN,ads.nationchannel.com,reject
+DOMAIN,ads.navymwr.org,reject
 DOMAIN,ads.ncm.com,reject
 DOMAIN,ads.ndtv1.com,reject
 DOMAIN,ads.nerve.com,reject
@@ -5816,6 +5820,7 @@ DOMAIN,adv.alo.bg,reject
 DOMAIN,adv.anhsangvacuocsong.vn,reject
 DOMAIN,adv.aport.ru,reject
 DOMAIN,adv.app.qq.com,reject
+DOMAIN,adv.aryel.io,reject
 DOMAIN,adv.autosurf.vn,reject
 DOMAIN,adv.axiatraders.com,reject
 DOMAIN,adv.bandi.so,reject
@@ -5899,6 +5904,7 @@ DOMAIN,adv2.rcspubblicita.it,reject
 DOMAIN,adv3.clickadu.net,reject
 DOMAIN,advack.net,reject
 DOMAIN,advaction.ru,reject
+DOMAIN,advally-baseballamerica-tagan.adlightning.com,reject
 DOMAIN,advally-mcm-tagan.adlightning.com,reject
 DOMAIN,advally-rogerebert-tagan.adlightning.com,reject
 DOMAIN,advally-toyota4runner-tagan.adlightning.com,reject
@@ -5994,6 +6000,7 @@ DOMAIN,adventures-from-home.com,reject
 DOMAIN,adventures-nacho-social.com,reject
 DOMAIN,adventurostravel.com,reject
 DOMAIN,adventurousamount.com,reject
+DOMAIN,adventurouscomparison.pro,reject
 DOMAIN,adventuroussoul.pro,reject
 DOMAIN,adventurousspiritss.sbs,reject
 DOMAIN,adventuroustame.com,reject
@@ -9028,6 +9035,7 @@ DOMAIN,assetadvbd.com,reject
 DOMAIN,assetrinzu.pro,reject
 DOMAIN,assets.adspruce.com,reject
 DOMAIN,assets.adstage.io,reject
+DOMAIN,assets.adv.aryel.io,reject
 DOMAIN,assets.buysellads.com,reject
 DOMAIN,assets.cntdy.mobi,reject
 DOMAIN,assets.deployads.com,reject
@@ -9283,6 +9291,7 @@ DOMAIN,awesometiger.pro,reject
 DOMAIN,aweucn1-2.advanced-web-analytics.com,reject
 DOMAIN,aweucn1-3.advanced-web-analytics.com,reject
 DOMAIN,aweucn1.advanced-web-analytics.com,reject
+DOMAIN,aweuw3.advanced-web-analytics.com,reject
 DOMAIN,aweuwv.advanced-web-analytics.com,reject
 DOMAIN,awppcivuse1.advanced-web-analytics.com,reject
 DOMAIN,awpwzbbhixuo.pro,reject
@@ -10718,6 +10727,7 @@ DOMAIN,c.aaxads.com,reject
 DOMAIN,c.ad-srv.co,reject
 DOMAIN,c.ad6media.fr,reject
 DOMAIN,c.admaster.com.cn,reject
+DOMAIN,c.ads.roku.com,reject
 DOMAIN,c.adsco.re,reject
 DOMAIN,c.adskeeper.co.uk,reject
 DOMAIN,c.adskeeper.com,reject
@@ -11268,6 +11278,7 @@ DOMAIN,cdn.oas-c17.adnxs.com,reject
 DOMAIN,cdn.oas-c18.adnxs.com,reject
 DOMAIN,cdn.optoutadvertising.com,reject
 DOMAIN,cdn.otclick-adv.ru,reject
+DOMAIN,cdn.pave-ads.com,reject
 DOMAIN,cdn.popmyads.com,reject
 DOMAIN,cdn.premiumads.net,reject
 DOMAIN,cdn.proadscdn.com,reject
@@ -20906,6 +20917,7 @@ DOMAIN,live-api.hktvmall.com,reject
 DOMAIN,live-api.immomo.com,reject
 DOMAIN,live-api.oncustomer.asia,reject
 DOMAIN,live-trace.bilibili.com,reject
+DOMAIN,live.pave-ads.com,reject
 DOMAIN,live.rads.msn.com,reject
 DOMAIN,live.xunlei.com,reject
 DOMAIN,liveads.jp,reject
@@ -24538,6 +24550,7 @@ DOMAIN,patulfitne.pro,reject
 DOMAIN,patulrasse.pro,reject
 DOMAIN,paucibarri.pro,reject
 DOMAIN,pauciuntip.pro,reject
+DOMAIN,pave-ads.com,reject
 DOMAIN,pavimunwir.pro,reject
 DOMAIN,pay-update.maliko.com.mx,reject
 DOMAIN,pay.iagadvanced.com,reject
@@ -25925,6 +25938,7 @@ DOMAIN,push-ad.com,reject
 DOMAIN,push-ads-cn.heytapmobi.com,reject
 DOMAIN,push-api.topaz-analytics.com,reject
 DOMAIN,push.lx.netease.com,reject
+DOMAIN,push.mayads.store,reject
 DOMAIN,push.mob.com,reject
 DOMAIN,push.pgl.qq.com,reject
 DOMAIN,push.res.meizu.com,reject
@@ -26255,6 +26269,7 @@ DOMAIN,r2.adwo.com,reject
 DOMAIN,r2.leadsy.ai,reject
 DOMAIN,r3.adwo.com,reject
 DOMAIN,ra.gtimg.com,reject
+DOMAIN,raadsomrmitvd.online,reject
 DOMAIN,rabbit.tg.meitu.com,reject
 DOMAIN,rabblindor.pro,reject
 DOMAIN,rabbomescu.pro,reject
@@ -30782,6 +30797,7 @@ DOMAIN,ssp-pix.adstk.io,reject
 DOMAIN,ssp-res.flyme.cn,reject
 DOMAIN,ssp-sdk-config.uc.cn,reject
 DOMAIN,ssp-service.monetixads.com,reject
+DOMAIN,ssp-tr-oe.rierra-ads.com,reject
 DOMAIN,ssp.1rtb.com,reject
 DOMAIN,ssp.ad-plus.com.tr,reject
 DOMAIN,ssp.ads.betweendigital.com,reject
@@ -32786,6 +32802,7 @@ DOMAIN,tracker2.yfanads.com,reject
 DOMAIN,tracker4.yfanads.com,reject
 DOMAIN,trackerads.com,reject
 DOMAIN,trackers.voodoo-analytics.io,reject
+DOMAIN,trackerus.maticooads.com,reject
 DOMAIN,trackifyads.com,reject
 DOMAIN,tracking-ch.adsafety.net,reject
 DOMAIN,tracking-dev.adsafety.net,reject
@@ -34566,6 +34583,7 @@ DOMAIN,videoads-cloud.rovio.com,reject
 DOMAIN,videoads.creativecdn.com,reject
 DOMAIN,videoads.hotstar.com,reject
 DOMAIN,videoadschallenge.com,reject
+DOMAIN,videoapi-2058.smartadserver.com,reject
 DOMAIN,videoapi-2161.smartadserver.com,reject
 DOMAIN,videoapi.smartadserver.com,reject
 DOMAIN,videocdn.adspeed.net,reject
@@ -34836,6 +34854,7 @@ DOMAIN,voxofaa5.pro,reject
 DOMAIN,vp.html5.qq.com,reject
 DOMAIN,vpic.video.qq.com,reject
 DOMAIN,vpptv.admaster.com.cn,reject
+DOMAIN,vpyzbp.skadsdkless.appsflyersdk.com,reject
 DOMAIN,vqq.admaster.com.cn,reject
 DOMAIN,vr.gdt.qq.com,reject
 DOMAIN,vrc9kq.skadsdkless.appsflyersdk.com,reject
@@ -55287,6 +55306,7 @@ DOMAIN,xml-v4.kunvertads.com,reject
 DOMAIN,xml-v4.optumads.com,reject
 DOMAIN,xml-v4.pwr-ads.com,reject
 DOMAIN,xml-v4.staradsmedia.com,reject
+DOMAIN,xml-v4.tenxads.com,reject
 DOMAIN,xml-v4.winkleads.com,reject
 DOMAIN,xml-v4.xmladsystem.com,reject
 DOMAIN,xml-v4.zentrixads.com,reject

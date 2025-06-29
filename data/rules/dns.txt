@@ -2,9 +2,9 @@
 ! Title: Ad-Rules
 ! Homepage: https://github.com/045200/ad-rules
 ! Expires: 12 Hours
-! Version: 2025-06-28 20:35:35（北京时间）
+! Version: 2025-06-29 09:47:48（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 55775
+! Total count: 55795
 ||*.diwodiwo.xyz^
 ||*.p2p.huya.com^
 ||*.va.huya.com^
@@ -1701,6 +1701,7 @@
 ||ad08.focalink.com^
 ||ad09.focalink.com^
 ||ad0besenderforward.com^
+||ad0c5ab94fde4532b5c2ac3faa685c61-aac473ea903c.cdn.forter.com^
 ||ad1.ad-srv.net^
 ||ad1.adfarm1.adition.com^
 ||ad1.adtitan.net^
@@ -1788,7 +1789,6 @@
 ||ad19digital.checkm8.com^
 ||ad1digital.checkm8.com^
 ||ad1game.ru^
-||ad1x7.mea5ms.com^
 ||ad2.360yield.com^
 ||ad2.ad-srv.net^
 ||ad2.adecn.com^
@@ -2377,6 +2377,7 @@
 ||ads-87rvqi.bidder-embi.media^
 ||ads-a.juicyads.com^
 ||ads-admin.hubs.vn^
+||ads-adrm.adhese.com^
 ||ads-ads-main-awesomeads.sacdn.net^
 ||ads-adsanddata.adhese.com^
 ||ads-adswag.adhese.com^
@@ -2412,6 +2413,7 @@
 ||ads-cdn.fptplay.net^
 ||ads-cdn.loopaautomate.com^
 ||ads-cdn.tenmax.io^
+||ads-cle-nfl.yinzcam.com^
 ||ads-cloud.rovio.com^
 ||ads-collector.luizalabs.com^
 ||ads-colruytgroup.adhese.com^
@@ -2710,6 +2712,7 @@
 ||ads.ami-admin.com^
 ||ads.amigos.com^
 ||ads.amxrtb.com^
+||ads.androworks.org^
 ||ads.annabac.com^
 ||ads.ants.vn^
 ||ads.anura.io^
@@ -3507,6 +3510,7 @@
 ||ads.narrowline.com^
 ||ads.nationalreview.com^
 ||ads.nationchannel.com^
+||ads.navymwr.org^
 ||ads.ncm.com^
 ||ads.ndtv1.com^
 ||ads.nerve.com^
@@ -5823,6 +5827,7 @@
 ||adv.anhsangvacuocsong.vn^
 ||adv.aport.ru^
 ||adv.app.qq.com^
+||adv.aryel.io^
 ||adv.autosurf.vn^
 ||adv.axiatraders.com^
 ||adv.bandi.so^
@@ -5906,6 +5911,7 @@
 ||adv3.clickadu.net^
 ||advack.net^
 ||advaction.ru^
+||advally-baseballamerica-tagan.adlightning.com^
 ||advally-mcm-tagan.adlightning.com^
 ||advally-rogerebert-tagan.adlightning.com^
 ||advally-toyota4runner-tagan.adlightning.com^
@@ -6001,6 +6007,7 @@
 ||adventures-nacho-social.com^
 ||adventurostravel.com^
 ||adventurousamount.com^
+||adventurouscomparison.pro^
 ||adventuroussoul.pro^
 ||adventurousspiritss.sbs^
 ||adventuroustame.com^
@@ -9037,6 +9044,7 @@
 ||assetrinzu.pro^
 ||assets.adspruce.com^
 ||assets.adstage.io^
+||assets.adv.aryel.io^
 ||assets.buysellads.com^
 ||assets.cntdy.mobi^
 ||assets.deployads.com^
@@ -9292,6 +9300,7 @@
 ||aweucn1-2.advanced-web-analytics.com^
 ||aweucn1-3.advanced-web-analytics.com^
 ||aweucn1.advanced-web-analytics.com^
+||aweuw3.advanced-web-analytics.com^
 ||aweuwv.advanced-web-analytics.com^
 ||awppcivuse1.advanced-web-analytics.com^
 ||awpwzbbhixuo.pro^
@@ -10727,6 +10736,7 @@
 ||c.ad-srv.co^
 ||c.ad6media.fr^
 ||c.admaster.com.cn^
+||c.ads.roku.com^
 ||c.adsco.re^
 ||c.adskeeper.co.uk^
 ||c.adskeeper.com^
@@ -11277,6 +11287,7 @@
 ||cdn.oas-c18.adnxs.com^
 ||cdn.optoutadvertising.com^
 ||cdn.otclick-adv.ru^
+||cdn.pave-ads.com^
 ||cdn.popmyads.com^
 ||cdn.premiumads.net^
 ||cdn.proadscdn.com^
@@ -20918,6 +20929,7 @@
 ||live-api.immomo.com^
 ||live-api.oncustomer.asia^
 ||live-trace.bilibili.com^
+||live.pave-ads.com^
 ||live.rads.msn.com^
 ||live.xunlei.com^
 ||liveads.jp^
@@ -24550,6 +24562,7 @@
 ||patulrasse.pro^
 ||paucibarri.pro^
 ||pauciuntip.pro^
+||pave-ads.com^
 ||pavimunwir.pro^
 ||pay-update.maliko.com.mx^
 ||pay.iagadvanced.com^
@@ -25939,6 +25952,7 @@
 ||push-ads-cn.heytapmobi.com^
 ||push-api.topaz-analytics.com^
 ||push.lx.netease.com^
+||push.mayads.store^
 ||push.mob.com^
 ||push.pgl.qq.com^
 ||push.res.meizu.com^
@@ -26269,6 +26283,7 @@
 ||r2.leadsy.ai^
 ||r3.adwo.com^
 ||ra.gtimg.com^
+||raadsomrmitvd.online^
 ||rabbit.tg.meitu.com^
 ||rabblindor.pro^
 ||rabbomescu.pro^
@@ -30796,6 +30811,7 @@
 ||ssp-res.flyme.cn^
 ||ssp-sdk-config.uc.cn^
 ||ssp-service.monetixads.com^
+||ssp-tr-oe.rierra-ads.com^
 ||ssp.1rtb.com^
 ||ssp.ad-plus.com.tr^
 ||ssp.ads.betweendigital.com^
@@ -32801,6 +32817,7 @@
 ||tracker4.yfanads.com^
 ||trackerads.com^
 ||trackers.voodoo-analytics.io^
+||trackerus.maticooads.com^
 ||trackifyads.com^
 ||tracking-ch.adsafety.net^
 ||tracking-dev.adsafety.net^
@@ -34581,6 +34598,7 @@
 ||videoads.creativecdn.com^
 ||videoads.hotstar.com^
 ||videoadschallenge.com^
+||videoapi-2058.smartadserver.com^
 ||videoapi-2161.smartadserver.com^
 ||videoapi.smartadserver.com^
 ||videocdn.adspeed.net^
@@ -34851,6 +34869,7 @@
 ||vp.html5.qq.com^
 ||vpic.video.qq.com^
 ||vpptv.admaster.com.cn^
+||vpyzbp.skadsdkless.appsflyersdk.com^
 ||vqq.admaster.com.cn^
 ||vr.gdt.qq.com^
 ||vrc9kq.skadsdkless.appsflyersdk.com^
@@ -55303,6 +55322,7 @@
 ||xml-v4.optumads.com^
 ||xml-v4.pwr-ads.com^
 ||xml-v4.staradsmedia.com^
+||xml-v4.tenxads.com^
 ||xml-v4.winkleads.com^
 ||xml-v4.xmladsystem.com^
 ||xml-v4.zentrixads.com^
