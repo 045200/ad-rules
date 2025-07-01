@@ -57,6 +57,7 @@ DOMAIN,124.225.195.107,reject
 DOMAIN,12gtest.bj2cu.u3.ucweb.com,reject
 DOMAIN,13gtest.bj2cu.u3.ucweb.com,reject
 DOMAIN,14.152.75.59,reject
+DOMAIN,1416.adsina.allyes.com,reject
 DOMAIN,1418.adsina.allyes.com,reject
 DOMAIN,145.adsina.allyes.com,reject
 DOMAIN,146.adsina.allyes.com,reject
@@ -66,6 +67,7 @@ DOMAIN,1500022744.vodplayer.wxamedia.com,reject
 DOMAIN,1500026601.vodplayer.wxamedia.com,reject
 DOMAIN,153.adsina.allyes.com,reject
 DOMAIN,154.22.214.2,reject
+DOMAIN,154.adsina.allyes.com,reject
 DOMAIN,157.adsina.allyes.com,reject
 DOMAIN,15gtest.bj2cu.u3.ucweb.com,reject
 DOMAIN,1612bejoguy7.pro,reject
@@ -85,6 +87,7 @@ DOMAIN,183.61.169.140,reject
 DOMAIN,183.61.169.142,reject
 DOMAIN,183.61.170.21,reject
 DOMAIN,188bet.pro,reject
+DOMAIN,18daa3c0b73b42aa9dc49a762475eaad-1ad356638475.cdn.forter.com,reject
 DOMAIN,18gtest.bj2cu.u3.ucweb.com,reject
 DOMAIN,18luck.pro,reject
 DOMAIN,19gtest.bj2cu.u3.ucweb.com,reject
@@ -225,6 +228,7 @@ DOMAIN,61.adsina.allyes.com,reject
 DOMAIN,631.dlads.cn,reject
 DOMAIN,64.adsco.re,reject
 DOMAIN,66926e18fb422e99217bead821bfa976.groupsorlink.com,reject
+DOMAIN,6744373190.rtb.monetixads.com,reject
 DOMAIN,69vip.pro,reject
 DOMAIN,6gtest.bj2cu.u3.ucweb.com,reject
 DOMAIN,6gvef.pro,reject
@@ -315,6 +319,7 @@ DOMAIN,9l6ha-9ha0l.ads.tremorhub.com,reject
 DOMAIN,9l6ha-e14kk.ads.tremorhub.com,reject
 DOMAIN,9l6ha.ads.tremorhub.com,reject
 DOMAIN,9osljahs.pro,reject
+DOMAIN,9skpez.skadsdkless.appsflyersdk.com,reject
 DOMAIN,a-ad.adwo.com,reject
 DOMAIN,a-ads.com,reject
 DOMAIN,a-bj.vlion.cn,reject
@@ -1109,6 +1114,7 @@ DOMAIN,ad.clickhere.ru,reject
 DOMAIN,ad.clickotmedia.com,reject
 DOMAIN,ad.clipcentric.com,reject
 DOMAIN,ad.clok.creative.com,reject
+DOMAIN,ad.cmvideo.cn,reject
 DOMAIN,ad.cn.doubleclick.net,reject
 DOMAIN,ad.contentabc.com,reject
 DOMAIN,ad.cooks.com,reject
@@ -1550,6 +1556,7 @@ DOMAIN,ad.sohu.com,reject
 DOMAIN,ad.soicos.com,reject
 DOMAIN,ad.soulapp.cn,reject
 DOMAIN,ad.sp.mbga.jp,reject
+DOMAIN,ad.srv.ad.dev.smartnews.net,reject
 DOMAIN,ad.srvupads.com,reject
 DOMAIN,ad.ssp.d2c.ne.jp,reject
 DOMAIN,ad.stadtplan.net,reject
@@ -1784,6 +1791,7 @@ DOMAIN,ad19.focalink.com,reject
 DOMAIN,ad19digital.checkm8.com,reject
 DOMAIN,ad1digital.checkm8.com,reject
 DOMAIN,ad1game.ru,reject
+DOMAIN,ad1x7.mea5ms.com,reject
 DOMAIN,ad2.360yield.com,reject
 DOMAIN,ad2.ad-srv.net,reject
 DOMAIN,ad2.adecn.com,reject
@@ -2258,6 +2266,7 @@ DOMAIN,admatch-syndication.mochila.com,reject
 DOMAIN,admediator.unityads.unity3d.com,reject
 DOMAIN,admeld.adnxs.com,reject
 DOMAIN,admeridianads.com,reject
+DOMAIN,admeridianads.xml-v4.ak-is2.net,reject
 DOMAIN,admgrapi.mobvista.com,reject
 DOMAIN,admidadsp.com,reject
 DOMAIN,admin.adsplay.net,reject
@@ -2362,8 +2371,10 @@ DOMAIN,ads-24777.iionads.com,reject
 DOMAIN,ads-2477p.iionads.com,reject
 DOMAIN,ads-24789.iionads.com,reject
 DOMAIN,ads-2478i.iionads.com,reject
+DOMAIN,ads-2478p.iionads.com,reject
 DOMAIN,ads-2479l.iionads.com,reject
 DOMAIN,ads-2479t.iionads.com,reject
+DOMAIN,ads-247bf.iionads.com,reject
 DOMAIN,ads-247bg.iionads.com,reject
 DOMAIN,ads-247cr.iionads.com,reject
 DOMAIN,ads-247cu.iionads.com,reject
@@ -2884,6 +2895,7 @@ DOMAIN,ads.cc,reject
 DOMAIN,ads.ccgateway.net,reject
 DOMAIN,ads.ccstock.cn,reject
 DOMAIN,ads.cdn-surfline.com,reject
+DOMAIN,ads.cdn.bndlapi.com,reject
 DOMAIN,ads.cdn.rovio.com,reject
 DOMAIN,ads.cdn.viber.com,reject
 DOMAIN,ads.cdnaz.win,reject
@@ -3396,6 +3408,7 @@ DOMAIN,ads.livetv791.me,reject
 DOMAIN,ads.livetv794.me,reject
 DOMAIN,ads.livetv806.me,reject
 DOMAIN,ads.livetv853.me,reject
+DOMAIN,ads.livetv854.me,reject
 DOMAIN,ads.lmmob.com,reject
 DOMAIN,ads.localnow.api.cms.amdvids.com,reject
 DOMAIN,ads.localyokelmedia.com,reject
@@ -5087,6 +5100,7 @@ DOMAIN,adserver.lonuncavisto.com,reject
 DOMAIN,adserver.lostreality.com,reject
 DOMAIN,adserver.lunarpages.com,reject
 DOMAIN,adserver.lycos.co.jp,reject
+DOMAIN,adserver.maio.jp,reject
 DOMAIN,adserver.matchcraft.com,reject
 DOMAIN,adserver.mconet.hu,reject
 DOMAIN,adserver.merc.com,reject
@@ -5358,7 +5372,6 @@ DOMAIN,adservice.google.sc,reject
 DOMAIN,adservice.google.se,reject
 DOMAIN,adservice.google.sh,reject
 DOMAIN,adservice.google.si,reject
-DOMAIN,adservice.google.sk,reject
 DOMAIN,adservice.google.sm,reject
 DOMAIN,adservice.google.sn,reject
 DOMAIN,adservice.google.so,reject
@@ -6238,7 +6251,6 @@ DOMAIN,advmusic.com,reject
 DOMAIN,advnet.xyz,reject
 DOMAIN,advnt.com,reject
 DOMAIN,advocate-tiukankin.com,reject
-DOMAIN,advocate420.fun,reject
 DOMAIN,advogadobrasileirousa.com,reject
 DOMAIN,advokatemelyanov.ru,reject
 DOMAIN,advolk.com,reject
@@ -7786,6 +7798,7 @@ DOMAIN,api.apiok.net,reject
 DOMAIN,api.app.skysrt.com,reject
 DOMAIN,api.appcloudbox.net,reject
 DOMAIN,api.appier.xyz,reject
+DOMAIN,api.appjiagu.com,reject
 DOMAIN,api.applink.mob.com,reject
 DOMAIN,api.applovefrom.com,reject
 DOMAIN,api.applovin.com,reject
@@ -8179,6 +8192,7 @@ DOMAIN,api.locately.com,reject
 DOMAIN,api.locuslabs.com,reject
 DOMAIN,api.logentries.com,reject
 DOMAIN,api.logg9r.io,reject
+DOMAIN,api.logsnag.com,reject
 DOMAIN,api.looker.com,reject
 DOMAIN,api.luckyorange.com,reject
 DOMAIN,api.lumex.space,reject
@@ -8356,6 +8370,7 @@ DOMAIN,api.primecaster.net,reject
 DOMAIN,api.privy.com,reject
 DOMAIN,api.proba.ai,reject
 DOMAIN,api.products.kameleoon.com,reject
+DOMAIN,api.promptsgod.com,reject
 DOMAIN,api.prooffactor.com,reject
 DOMAIN,api.proofpositivemedia.com,reject
 DOMAIN,api.proxistore.com,reject
@@ -8672,6 +8687,7 @@ DOMAIN,api0.tuisong.baidu.com,reject
 DOMAIN,api0.yfanads.com,reject
 DOMAIN,api1.tuisong.baidu.com,reject
 DOMAIN,api1.yfanads.com,reject
+DOMAIN,api16-access-adx-sg-noncdn.pangle.io,reject
 DOMAIN,api16-access-gcp.pangle.io,reject
 DOMAIN,api16-access-sg.pangle.io,reject
 DOMAIN,api2.adstargeting.com,reject
@@ -12663,6 +12679,7 @@ DOMAIN,conteopera.pro,reject
 DOMAIN,contestava.pro,reject
 DOMAIN,contextads.live,reject
 DOMAIN,contextuads.com,reject
+DOMAIN,contextual.boffoadsfeeds.com,reject
 DOMAIN,contextualadv.com,reject
 DOMAIN,conticalet.pro,reject
 DOMAIN,contounclo.pro,reject
@@ -13623,6 +13640,7 @@ DOMAIN,dcm-gql.digital.disneyadvertising.com,reject
 DOMAIN,dcm.disneyadvertising.com,reject
 DOMAIN,dcntr-ads.com,reject
 DOMAIN,dco-assets.everestads.net,reject
+DOMAIN,dcp.ads.sportradar.com,reject
 DOMAIN,dcrfnt-us.adsmoloco.com,reject
 DOMAIN,dcsdk.100ulife.com,reject
 DOMAIN,dd.toponad.com,reject
@@ -15554,6 +15572,7 @@ DOMAIN,eschispari.pro,reject
 DOMAIN,eschisynap.pro,reject
 DOMAIN,esclaimboz.pro,reject
 DOMAIN,escomjibstu.pro,reject
+DOMAIN,escort-ads.com,reject
 DOMAIN,escresgarr.pro,reject
 DOMAIN,escuerecen.pro,reject
 DOMAIN,esculricon.pro,reject
@@ -18637,6 +18656,7 @@ DOMAIN,ib15.bcc-ads.com,reject
 DOMAIN,ib16.bcc-ads.com,reject
 DOMAIN,ib17.bcc-ads.com,reject
 DOMAIN,ib18.bcc-ads.com,reject
+DOMAIN,ib19.bcc-ads.com,reject
 DOMAIN,ib2.bcc-ads.com,reject
 DOMAIN,ib20.bcc-ads.com,reject
 DOMAIN,ib21.bcc-ads.com,reject
@@ -19773,7 +19793,6 @@ DOMAIN,ipostsfibb.pro,reject
 DOMAIN,ipotatrock.pro,reject
 DOMAIN,ipotilumin.pro,reject
 DOMAIN,ippobesang.pro,reject
-DOMAIN,iptil.richadslead.top,reject
 DOMAIN,ipv4.gdt.qq.com,reject
 DOMAIN,ipv4.kkmh.com,reject
 DOMAIN,ipw.metadsp.co.uk,reject
@@ -19798,6 +19817,7 @@ DOMAIN,iraqtedimos.pro,reject
 DOMAIN,irc.qubiankeji.com,reject
 DOMAIN,irderinga.pro,reject
 DOMAIN,ireppm.pro,reject
+DOMAIN,irhill.skadsdk.appsflyersdk.com,reject
 DOMAIN,irhill.skadsdkless.appsflyersdk.com,reject
 DOMAIN,iridaepigl.pro,reject
 DOMAIN,iridoridis.pro,reject
@@ -20490,6 +20510,7 @@ DOMAIN,kubernetes.adsrvr.org,reject
 DOMAIN,kubet.mobi,reject
 DOMAIN,kuchmiete.pro,reject
 DOMAIN,kudyfya0.pro,reject
+DOMAIN,kugg0c.skadsdkless.appsflyersdk.com,reject
 DOMAIN,kujate-denuxo.pro,reject
 DOMAIN,kuransfumi.pro,reject
 DOMAIN,kurdiscarp.pro,reject
@@ -25583,7 +25604,6 @@ DOMAIN,prigitente.pro,reject
 DOMAIN,primareinv.pro,reject
 DOMAIN,primariech.pro,reject
 DOMAIN,primavera-p6-pro.online,reject
-DOMAIN,primeadslink.top,reject
 DOMAIN,primedadvisors.com,reject
 DOMAIN,primescate.pro,reject
 DOMAIN,primetime.ad.primetime.net,reject
@@ -26257,6 +26277,7 @@ DOMAIN,qzs.gdtimg.com,reject
 DOMAIN,qzs.qq.com,reject
 DOMAIN,r-ad.ne.jp,reject
 DOMAIN,r.adc-serv.net,reject
+DOMAIN,r.ads.sohu.com,reject
 DOMAIN,r.adserver01.de,reject
 DOMAIN,r.cnews.qq.com,reject
 DOMAIN,r.dmp.sina.cn,reject
@@ -26696,6 +26717,7 @@ DOMAIN,rcm-eu.amazon-adsystem.com,reject
 DOMAIN,rcm-fe.amazon-adsystem.com,reject
 DOMAIN,rcm-na.amazon-adsystem.com,reject
 DOMAIN,rcni.advertserve.com,reject
+DOMAIN,rcnpublishing.advertserve.com,reject
 DOMAIN,rcv.a-i-ad.com,reject
 DOMAIN,rcv.aiclk.com,reject
 DOMAIN,rcv.mobad.ijinshan.com,reject
@@ -27237,7 +27259,6 @@ DOMAIN,ricetpoper.pro,reject
 DOMAIN,rich-media.v3.awesomeads.superawesome.tv,reject
 DOMAIN,rich.qq.com,reject
 DOMAIN,richads.com,reject
-DOMAIN,richadslead.top,reject
 DOMAIN,richemater.pro,reject
 DOMAIN,richibis.pro,reject
 DOMAIN,richiscalp.pro,reject
@@ -27857,6 +27878,7 @@ DOMAIN,rtb-eu.rtbflairads.com,reject
 DOMAIN,rtb-lb-event-tm-iad-tm.everesttech.net,reject
 DOMAIN,rtb-use.mfadsrvr.com,reject
 DOMAIN,rtb-useast-v4.adx.pokkt.com,reject
+DOMAIN,rtb-useast.adcannyads.com,reject
 DOMAIN,rtb-useast.admidadsp.com,reject
 DOMAIN,rtb-useast.adsolut.in,reject
 DOMAIN,rtb-useast.advlistings.com,reject
@@ -30037,6 +30059,10 @@ DOMAIN,smarcinfin.pro,reject
 DOMAIN,smargdispr.pro,reject
 DOMAIN,smargdolit.pro,reject
 DOMAIN,smarrscalc.pro,reject
+DOMAIN,smart-ad-advertiser-graph.ad-management.srv.ad.dev.smartnews.net,reject
+DOMAIN,smart-ad-internal.ad.dev.smartnews.net,reject
+DOMAIN,smart-ad-server-internal.ad.dev.smartnews.net,reject
+DOMAIN,smart-ad-server.ad.dev.smartnews.net,reject
 DOMAIN,smart-ad.sakura.ne.jp,reject
 DOMAIN,smart-bit-boost.royaladverts.online,reject
 DOMAIN,smart-ring-consumer.com,reject
@@ -30044,6 +30070,8 @@ DOMAIN,smart-tv.cn,reject
 DOMAIN,smart.tubeadvertising.eu,reject
 DOMAIN,smart1adserver.com,reject
 DOMAIN,smart4ads.com,reject
+DOMAIN,smartad-graphql-dev.ad-management.srv.ad.dev.smartnews.net,reject
+DOMAIN,smartad-graphql.ad-management.srv.ad.dev.smartnews.net,reject
 DOMAIN,smartad.10010.com,reject
 DOMAIN,smartads.statsperform.com,reject
 DOMAIN,smartadserver.com,reject
@@ -31052,6 +31080,7 @@ DOMAIN,stats.ipinyou.com,reject
 DOMAIN,stats.juicyads.com,reject
 DOMAIN,stats.l.doubleclick.net,reject
 DOMAIN,stats.mokeedev.com,reject
+DOMAIN,stats.muchbetteradventures.com,reject
 DOMAIN,stats.netsolads.com,reject
 DOMAIN,stats.pandora.com,reject
 DOMAIN,stats.pflexads.com,reject
@@ -33455,6 +33484,7 @@ DOMAIN,udc.msn.com,reject
 DOMAIN,udc.yahoo.com,reject
 DOMAIN,udcm.yahoo.com,reject
 DOMAIN,udp.push.mob.com,reject
+DOMAIN,ue1-23.nginxborder-server.naiadsystems.com,reject
 DOMAIN,ue1-26.nginxborder-server.naiadsystems.com,reject
 DOMAIN,ue1-28.nginxborder-server.naiadsystems.com,reject
 DOMAIN,ue1b-dv.naiadsystems.com,reject
@@ -35362,6 +35392,7 @@ DOMAIN,webadserver.net,reject
 DOMAIN,webadv.co,reject
 DOMAIN,webapi.3cx.com,reject
 DOMAIN,webapi.hot-mob.com,reject
+DOMAIN,webapi.huilv.cc,reject
 DOMAIN,webapi.salamantex.com,reject
 DOMAIN,webapi.staging.salamantex.com,reject
 DOMAIN,webfile.adview.cn,reject
@@ -35704,6 +35735,7 @@ DOMAIN,wittywombats.pro,reject
 DOMAIN,wittywonderscape.pro,reject
 DOMAIN,wixlabs-adsense-v3.uc.r.appspot.com,reject
 DOMAIN,wjj3n-vjpmh.ads.tremorhub.com,reject
+DOMAIN,wjj3n-yx4rt.ads.tremorhub.com,reject
 DOMAIN,wks.ero-advertising.com,reject
 DOMAIN,wl.adservrs.com.edgekey.net,reject
 DOMAIN,wl.booko.pro,reject
@@ -41594,6 +41626,7 @@ DOMAIN,www.eschispari.pro,reject
 DOMAIN,www.eschisynap.pro,reject
 DOMAIN,www.esclaimboz.pro,reject
 DOMAIN,www.escomjibstu.pro,reject
+DOMAIN,www.escort-ads.com,reject
 DOMAIN,www.escresgarr.pro,reject
 DOMAIN,www.escuerecen.pro,reject
 DOMAIN,www.esculricon.pro,reject
@@ -55307,6 +55340,7 @@ DOMAIN,xml-v4.adverttise.com,reject
 DOMAIN,xml-v4.advlistings.com,reject
 DOMAIN,xml-v4.bidderads.com,reject
 DOMAIN,xml-v4.boffoadsfeeds.com,reject
+DOMAIN,xml-v4.epikads.com,reject
 DOMAIN,xml-v4.kunvertads.com,reject
 DOMAIN,xml-v4.optumads.com,reject
 DOMAIN,xml-v4.pwr-ads.com,reject
