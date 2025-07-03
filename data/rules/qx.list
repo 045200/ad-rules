@@ -1815,7 +1815,6 @@ DOMAIN,ad19digital.checkm8.com,reject
 DOMAIN,ad1digital.checkm8.com,reject
 DOMAIN,ad1game.ru,reject
 DOMAIN,ad1ular.pics,reject
-DOMAIN,ad1x7.mea5ms.com,reject
 DOMAIN,ad2.360yield.com,reject
 DOMAIN,ad2.ad-srv.net,reject
 DOMAIN,ad2.adecn.com,reject
@@ -3943,6 +3942,7 @@ DOMAIN,ads.tapnative.com,reject
 DOMAIN,ads.tarrobads.com,reject
 DOMAIN,ads.tbs.com,reject
 DOMAIN,ads.tcsemotion.com,reject
+DOMAIN,ads.teads.tv,reject
 DOMAIN,ads.technoratimedia.com,reject
 DOMAIN,ads.techvibes.com,reject
 DOMAIN,ads.techweb.com,reject
@@ -4983,6 +4983,7 @@ DOMAIN,adserver-east.extend.tv,reject
 DOMAIN,adserver-espnet.sportszone.net,reject
 DOMAIN,adserver-eu.adtech.advertising.com,reject
 DOMAIN,adserver-images.adikteev.com,reject
+DOMAIN,adserver-prod.tronads.io,reject
 DOMAIN,adserver-toy.adtechjp.com,reject
 DOMAIN,adserver-us.adtech.advertising.com,reject
 DOMAIN,adserver-voice-online.co.uk,reject
@@ -6000,6 +6001,7 @@ DOMAIN,advancedtrustedbusinessesimmediate.top,reject
 DOMAIN,advancedworld.site,reject
 DOMAIN,advanceinvader.com,reject
 DOMAIN,advancelocal.blueconic.net,reject
+DOMAIN,advancelocalmediallc-lehighvalleylivecom.adsbynimbus.com,reject
 DOMAIN,advancelocalmediallc-mlivecom.adsbynimbus.com,reject
 DOMAIN,advancelocalmediallc-njcom.adsbynimbus.com,reject
 DOMAIN,advancelocalmediallc-oregonlivecom.adsbynimbus.com,reject
@@ -7970,6 +7972,7 @@ DOMAIN,api.c.avazunativeads.com,reject
 DOMAIN,api.ca.looker.com,reject
 DOMAIN,api.cactusglobal.io,reject
 DOMAIN,api.callget.cn,reject
+DOMAIN,api.callrail.com,reject
 DOMAIN,api.calltrackingmetrics.com,reject
 DOMAIN,api.campaigns.notino.com,reject
 DOMAIN,api.caroda.io,reject
@@ -11686,6 +11689,7 @@ DOMAIN,cf.iadsdk.apple.com,reject
 DOMAIN,cf.insurads.com,reject
 DOMAIN,cf.xad.com,reject
 DOMAIN,cf04.kanade-ad.net,reject
+DOMAIN,cfapi.upstackdata.io,reject
 DOMAIN,cfd.analytics-iceberg.ltd,reject
 DOMAIN,cfd.blackrockadvisorsltd.bcpl9m7tbz955en94bnn.com,reject
 DOMAIN,cfd.blackrockadvisorsltd.com,reject
@@ -16410,6 +16414,7 @@ DOMAIN,fclick.baidu.com,reject
 DOMAIN,fclog.baidu.com,reject
 DOMAIN,fcs23-1.naiadsystems.com,reject
 DOMAIN,fcvutavuonar.pro,reject
+DOMAIN,fcwx3i.skadsdkless.appsflyersdk.com,reject
 DOMAIN,fdads.sv.publicus.com,reject
 DOMAIN,fds.api.moji.com,reject
 DOMAIN,fe.ono.axp.amazon-adsystem.com,reject
@@ -22757,6 +22762,7 @@ DOMAIN,mezoimpon.pro,reject
 DOMAIN,mfadsrvr.com,reject
 DOMAIN,mg.adskeeper.co.uk,reject
 DOMAIN,mg.games.sina.com.cn,reject
+DOMAIN,mi-sentry.broadviewindustries.com,reject
 DOMAIN,mi-songs.com,reject
 DOMAIN,mi.5.p2l.info,reject
 DOMAIN,mi.adinterax.com,reject
@@ -26118,6 +26124,7 @@ DOMAIN,post.update.fbsbx.com,reject
 DOMAIN,post.xapads.com,reject
 DOMAIN,post1.voiceads.cn,reject
 DOMAIN,postback.adsmoloco.com,reject
+DOMAIN,postback.hilltopads.com,reject
 DOMAIN,postesfrig.pro,reject
 DOMAIN,postfproge.pro,reject
 DOMAIN,postibalon.pro,reject

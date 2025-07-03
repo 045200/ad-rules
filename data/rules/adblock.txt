@@ -2,9 +2,9 @@
 ! Title: Ad-Rules
 ! Homepage: https://github.com/045200/ad-rules
 ! Expires: 12 Hours
-! Version: 2025-07-02 20:39:32（北京时间）
+! Version: 2025-07-03 09:39:20（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 58912
+! Total count: 58919
 
 ###content-wrapper > div.container-fluid.pb-0:first-child > div.video-block.section-padding:last-child > div.row > div.col-md-4:last-child > div.single-video-right > div.row > div.col-md-12:first-child > div.adblock:first-child
 ###vid_overlay
@@ -42,45 +42,45 @@
 13.107.246.73                 vscode.dev  # Timeout
 13.107.42.16                  pipelines.actions.githubusercontent.com
 140.82.112.21                 api.individual.githubcopilot.com
-140.82.112.21                 central.github.com
+140.82.112.22                 collector.github.com
 140.82.112.22                 education.github.com
+140.82.113.18                 github.community
 140.82.113.26                 alive.github.com
-140.82.114.17                 github.community
-140.82.114.22                 collector.github.com
-140.82.114.26                 live.github.com
+140.82.113.26                 live.github.com
+140.82.114.21                 central.github.com
 151.101.193.194               github.global.ssl.fastly.net
-16.15.194.185                 github-production-user-asset-6210df.s3.amazonaws.com
-185.199.108.133               avatars.githubusercontent.com
-185.199.108.133               avatars0.githubusercontent.com
-185.199.108.133               avatars1.githubusercontent.com
-185.199.108.133               avatars2.githubusercontent.com
-185.199.108.133               avatars3.githubusercontent.com
-185.199.108.133               avatars4.githubusercontent.com
-185.199.108.133               avatars5.githubusercontent.com
-185.199.108.133               camo.githubusercontent.com
-185.199.108.133               cloud.githubusercontent.com
-185.199.108.133               desktop.githubusercontent.com
-185.199.108.133               favicons.githubusercontent.com
-185.199.108.133               github.map.fastly.net
-185.199.108.133               media.githubusercontent.com
-185.199.108.133               objects.githubusercontent.com
-185.199.108.133               private-user-images.githubusercontent.com
-185.199.108.133               raw.githubusercontent.com
-185.199.108.133               user-images.githubusercontent.com
-185.199.108.154               github.githubassets.com
-185.199.111.153               github.io
-185.199.111.153               githubstatus.com
+16.182.35.201                 github-production-release-asset-2e65be.s3.amazonaws.com
+185.199.110.133               avatars.githubusercontent.com
+185.199.110.133               avatars0.githubusercontent.com
+185.199.110.133               avatars1.githubusercontent.com
+185.199.110.133               avatars2.githubusercontent.com
+185.199.110.133               avatars3.githubusercontent.com
+185.199.110.133               avatars4.githubusercontent.com
+185.199.110.133               avatars5.githubusercontent.com
+185.199.110.133               camo.githubusercontent.com
+185.199.110.133               cloud.githubusercontent.com
+185.199.110.133               desktop.githubusercontent.com
+185.199.110.133               favicons.githubusercontent.com
+185.199.110.133               github.map.fastly.net
+185.199.110.133               media.githubusercontent.com
+185.199.110.133               objects.githubusercontent.com
+185.199.110.133               private-user-images.githubusercontent.com
+185.199.110.133               raw.githubusercontent.com
+185.199.110.133               user-images.githubusercontent.com
+185.199.110.153               github.io
+185.199.110.153               githubstatus.com
+185.199.111.154               github.githubassets.com
 192.0.66.2                    github.blog
 20.205.243.165                codeload.github.com
 20.205.243.166                gist.github.com
 20.205.243.166                github.com
 20.205.243.168                api.github.com
-3.5.11.228                    github-com.s3.amazonaws.com
-3.5.30.211                    github-cloud.s3.amazonaws.com
+3.5.20.136                    github-cloud.s3.amazonaws.com
+3.5.22.148                    github-com.s3.amazonaws.com
+3.5.25.248                    github-production-user-asset-6210df.s3.amazonaws.com
 3dmgame.com##.alertad
 3dmgame.com##div.content:nth-child(3) > div.Content_R:nth-child(3) > div.dj_warp_e.mg_bt30:nth-child(8)
-52.217.139.97                 github-production-release-asset-2e65be.s3.amazonaws.com
-54.231.227.145                github-production-repository-file-5c1aeb.s3.amazonaws.com
+54.231.136.41                 github-production-repository-file-5c1aeb.s3.amazonaws.com
 @@||1dot1dot1dot1.cloudflare-dns.com^$document
 @@||360.cn^$document
 @@||access1.tpns.tencent.com^$document
@@ -2305,7 +2305,6 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ad1digital.checkm8.com^
 ||ad1game.ru^
 ||ad1ular.pics^
-||ad1x7.mea5ms.com^
 ||ad2.360yield.com^
 ||ad2.ad-srv.net^
 ||ad2.adecn.com^
@@ -4434,6 +4433,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||ads.tarrobads.com^
 ||ads.tbs.com^
 ||ads.tcsemotion.com^
+||ads.teads.tv^
 ||ads.technoratimedia.com^
 ||ads.techvibes.com^
 ||ads.techweb.com^
@@ -5474,6 +5474,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||adserver-espnet.sportszone.net^
 ||adserver-eu.adtech.advertising.com^
 ||adserver-images.adikteev.com^
+||adserver-prod.tronads.io^
 ||adserver-toy.adtechjp.com^
 ||adserver-us.adtech.advertising.com^
 ||adserver-voice-online.co.uk^
@@ -6491,6 +6492,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||advancedworld.site^
 ||advanceinvader.com^
 ||advancelocal.blueconic.net^
+||advancelocalmediallc-lehighvalleylivecom.adsbynimbus.com^
 ||advancelocalmediallc-mlivecom.adsbynimbus.com^
 ||advancelocalmediallc-njcom.adsbynimbus.com^
 ||advancelocalmediallc-oregonlivecom.adsbynimbus.com^
@@ -8478,6 +8480,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||api.ca.looker.com^
 ||api.cactusglobal.io^
 ||api.callget.cn^
+||api.callrail.com^
 ||api.calltrackingmetrics.com^
 ||api.campaigns.notino.com^
 ||api.caroda.io^
@@ -12246,6 +12249,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||cf.insurads.com^
 ||cf.xad.com^
 ||cf04.kanade-ad.net^
+||cfapi.upstackdata.io^
 ||cfd.analytics-iceberg.ltd^
 ||cfd.blackrockadvisorsltd.bcpl9m7tbz955en94bnn.com^
 ||cfd.blackrockadvisorsltd.com^
@@ -16994,6 +16998,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||fclog.baidu.com^
 ||fcs23-1.naiadsystems.com^
 ||fcvutavuonar.pro^
+||fcwx3i.skadsdkless.appsflyersdk.com^
 ||fdads.sv.publicus.com^
 ||fds.api.moji.com^
 ||fe.ono.axp.amazon-adsystem.com^
@@ -23367,6 +23372,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||mfadsrvr.com^
 ||mg.adskeeper.co.uk^
 ||mg.games.sina.com.cn^
+||mi-sentry.broadviewindustries.com^
 ||mi-songs.com^
 ||mi.5.p2l.info^
 ||mi.adinterax.com^
@@ -26741,6 +26747,7 @@ zhidao.baidu.com##div.jump-top-box:last-child > a.jump-goto-star:last-child
 ||post.xapads.com^
 ||post1.voiceads.cn^
 ||postback.adsmoloco.com^
+||postback.hilltopads.com^
 ||postesfrig.pro^
 ||postfproge.pro^
 ||postibalon.pro^
