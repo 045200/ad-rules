@@ -2,9 +2,9 @@
 ! Title: Ad-Rules
 ! Homepage: https://github.com/045200/ad-rules
 ! Expires: 12 Hours
-! Version: 2025-07-11 20:39:15（北京时间）
+! Version: 2025-07-12 09:43:40（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 69552
+! Total count: 69553
 ||*.diwodiwo.xyz^
 ||*.p2p.huya.com^
 ||*.va.huya.com^
@@ -14996,6 +14996,7 @@
 ||data2.ad-score.com^
 ||data2.ero-advertising.com^
 ||dataanalyticsers.pro^
+||datacollection.uve.weibo.com^
 ||dataf.ads.oppomobile.com^
 ||datax.baidu.com^
 ||date.ero-advertising.com^
