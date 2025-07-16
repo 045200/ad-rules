@@ -21,10 +21,11 @@ jobs:
       run: pip install requests
 
     - name: Clean old files
-      run: rm -f data/rules/mihomo.txt
+      run: rm -f data/rules/mihomo.txt data/rules/adblock.mrs # check_config.yaml 现在是手动创建的
 
-    - name: Generate merged rule txt
-      run: python data/python/generate_mihomo_txt.py
+    - name: Process and Generate mihomo.txt
+      run: |
+        python data/python/process_rules.py | python data/python/write_output.py
 
     - name: Install jq
       run: sudo apt-get update && sudo apt-get install -y jq
