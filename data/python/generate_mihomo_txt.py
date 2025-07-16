@@ -35,56 +35,29 @@ def adg_to_mrs(line):
         return None
     if line.startswith('@@'):
         return None
-    # hosts格式
     m = re.match(r'^(0\.0\.0\.0|127\.0\.0\.1)\s+([a-zA-Z0-9\-._]+)$', line)
     if m:
-        domain = m.group(2).lower()
-        return f"HOST,{domain},REJECT"
-    # AdGuard/Adblock域名
+        return m.group(2).lower()
     m = re.match(r'^\|\|([a-zA-Z0-9\-\.]+)\^$', line)
     if m:
-        domain = m.group(1).lower()
-        return f"HOST,{domain},REJECT"
-    # 通配符：如*ads.example.com
+        return m.group(1).lower()
     m = re.match(r'^\*([a-zA-Z0-9\-\.]+)$', line)
     if m:
-        suffix = m.group(1).lower()
-        return f"HOST-SUFFIX,{suffix},REJECT"
-    # 正则表达式：/ads\.js$/
+        return m.group(1).lower()
     m = re.match(r'^/(.+)/$', line)
     if m:
-        return f"URL-REGEX,{m.group(1)},REJECT"
-    # 单纯域名
+        # 返回正则表达式本身，因为 convert-ruleset 可能支持
+        return m.group(1)
     m = re.match(r'^([a-zA-Z0-9\-]+\.[a-zA-Z0-9\-.]+)$', line)
     if m:
-        return f"HOST,{m.group(1).lower()},REJECT"
+        return m.group(1).lower()
     return None
 
 def smart_domain_dedup(rules):
-    host_domains = set()
-    host_suffixes = set()
-    regex_rules = set()
-    for rule in rules:
-        if rule.startswith('HOST,'):
-            domain = rule.split(',')[1]
-            host_domains.add(domain)
-        elif rule.startswith('HOST-SUFFIX,'):
-            suffix = rule.split(',')[1]
-            host_suffixes.add(suffix)
-        elif rule.startswith('URL-REGEX,'):
-            regex_rules.add(rule)
-    # 去除被 HOST 覆盖的 HOST-SUFFIX
-    filtered_suffixes = set()
-    for s in host_suffixes:
-        if not any(d == s or d.endswith('.' + s) for d in host_domains):
-            filtered_suffixes.add(s)
-    results = [f"HOST,{d},REJECT" for d in sorted(host_domains)] + \
-              [f"HOST-SUFFIX,{s},REJECT" for s in sorted(filtered_suffixes)] + \
-              sorted(regex_rules)
-    return results
+    return sorted(list(set(filter(None, rules))))
 
 def download_and_merge(urls):
-    mrs_rules = set()
+    raw_rules = []
     for url in urls:
         print(f"[*] Downloading: {url}")
         text = robust_get(url)
@@ -94,21 +67,15 @@ def download_and_merge(urls):
             line = line.strip()
             rule = adg_to_mrs(line)
             if rule:
-                mrs_rules.add(rule)
-    print(f"[*] Raw merged rules count: {len(mrs_rules)}")
-    # 智能去重
-    deduped = smart_domain_dedup(mrs_rules)
+                raw_rules.append(rule)
+    print(f"[*] Raw merged rules count: {len(raw_rules)}")
+    deduped = smart_domain_dedup(raw_rules)
     print(f"[*] After smart domain dedup: {len(deduped)}")
     return deduped
 
-def write_mihomo_txt(rules, outfile=OUTPUT_TXT, sources=None):
+def write_mihomo_txt(rules, outfile=OUTPUT_TXT):
     os.makedirs(os.path.dirname(outfile), exist_ok=True)
     with open(outfile, "w", encoding="utf-8") as f:
-        if sources:
-            f.write("# Upstream sources:\n")
-            for url in sources:
-                f.write(f"# {url}\n")
-            f.write("\n")
         for r in rules:
             f.write(f"{r}\n")
     if not os.path.exists(outfile) or os.path.getsize(outfile) < 100:
@@ -118,7 +85,7 @@ def write_mihomo_txt(rules, outfile=OUTPUT_TXT, sources=None):
 def main():
     print("[*] Generating mihomo.txt rules...")
     rules = download_and_merge(adblock_urls)
-    write_mihomo_txt(rules, outfile=OUTPUT_TXT, sources=adblock_urls)
+    write_mihomo_txt(rules, outfile=OUTPUT_TXT)
     print("[*] Done.")
 
 if __name__ == "__main__":
