@@ -51,12 +51,17 @@ jobs:
         fi
         chmod +x mihomo-linux-amd64
 
-    # 下面使用 mihomo 的 "mrs pack" 功能将文本转为 mrs 文件
+    - name: Download clash-meta-tools
+      run: |
+        wget -O cmt.gz "https://github.com/MetaCubeX/clash-meta-tools/releases/latest/download/clash-meta-tools-linux-amd64.gz"
+        gunzip -f cmt.gz
+        mv clash-meta-tools-linux-amd64 clash-meta-tools
+        chmod +x clash-meta-tools
+
     - name: Convert mihomo.txt to adblock.mrs
       working-directory: data/rules
       run: |
-        # 你可以用 clash-meta-tools 或 mihomo 自带的 mrs 工具, 这里以 mihomo 为例
-        ../../mihomo-linux-amd64 mrs pack -i mihomo.txt -o adblock.mrs
+        ../../clash-meta-tools mrs pack -i mihomo.txt -o adblock.mrs
 
     - name: Validate mrs rules with mihomo (retry 3 times)
       working-directory: data/rules
