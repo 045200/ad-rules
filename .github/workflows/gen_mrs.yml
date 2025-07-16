@@ -3,7 +3,7 @@ name: Generate and Validate Mihomo MRS Rules
 on:
   schedule:
     - cron: '0 0 * * *'    # 每天00:00 UTC自动同步
-  workflow_dispatch:        # 支持手动触发
+  workflow_dispatch:
 
 jobs:
   build:
@@ -20,11 +20,11 @@ jobs:
     - name: Install dependencies
       run: pip install requests
 
-    - name: Clean old mrs file (保险，可选)
-      run: rm -f data/rules/adblock.mrs
+    - name: Clean old files
+      run: rm -f data/rules/mihomo.txt data/rules/adblock.mrs
 
-    - name: Generate MRS rules
-      run: python data/python/generate_mrs.py
+    - name: Generate merged rule txt
+      run: python data/python/generate_mihomo_txt.py
 
     - name: Install jq
       run: sudo apt-get update && sudo apt-get install -y jq
@@ -40,8 +40,6 @@ jobs:
             break
           elif [ $i -eq 3 ]; then
             echo "Failed to download mihomo after 3 tries"
-            echo "Raw API response:"
-            curl -sSL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest"
             exit 1
           fi
           sleep 2
@@ -52,7 +50,13 @@ jobs:
           mv -f "$BIN" mihomo-linux-amd64
         fi
         chmod +x mihomo-linux-amd64
-        ls -l mihomo-linux-amd64
+
+    # 下面使用 mihomo 的 "mrs pack" 功能将文本转为 mrs 文件
+    - name: Convert mihomo.txt to adblock.mrs
+      working-directory: data/rules
+      run: |
+        # 你可以用 clash-meta-tools 或 mihomo 自带的 mrs 工具, 这里以 mihomo 为例
+        ../../mihomo-linux-amd64 mrs pack -i mihomo.txt -o adblock.mrs
 
     - name: Validate mrs rules with mihomo (retry 3 times)
       working-directory: data/rules
