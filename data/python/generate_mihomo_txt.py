@@ -103,20 +103,14 @@ def download_and_merge(urls):
 
 def write_mihomo_txt(rules, outfile=OUTPUT_TXT, sources=None):
     os.makedirs(os.path.dirname(outfile), exist_ok=True)
-    # 先删除旧文件（保险起见）
-    if os.path.exists(outfile):
-        os.remove(outfile)
     with open(outfile, "w", encoding="utf-8") as f:
-        # 写入上游链接注释
         if sources:
             f.write("# Upstream sources:\n")
             for url in sources:
                 f.write(f"# {url}\n")
             f.write("\n")
-        # 写入规则
         for r in rules:
             f.write(f"{r}\n")
-    # 简单有效性校验
     if not os.path.exists(outfile) or os.path.getsize(outfile) < 100:
         raise RuntimeError("mihomo.txt 生成失败或文件过小，已中止工作流。")
     print(f"[+] Wrote {len(rules)} rules to {outfile}")
