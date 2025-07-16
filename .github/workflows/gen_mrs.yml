@@ -29,14 +29,14 @@ jobs:
     - name: Install jq
       run: sudo apt-get update && sudo apt-get install -y jq
 
-    - name: Download Mihomo (linux-arm64, robust, jq)
+    - name: Download Mihomo (linux-amd64, robust, jq)
       run: |
         set -e
         for i in 1 2 3; do
           url=$(curl -sSL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" \
-            | jq -r '.assets[] | select(.name | test("linux-arm64.*gz$")) | .browser_download_url' | head -n1)
+            | jq -r '.assets[] | select(.name | test("linux-amd64.*gz$")) | .browser_download_url' | head -n1)
           echo "Download url: $url"
-          if [ -n "$url" ] && wget -O mihomo-linux-arm64.gz "$url"; then
+          if [ -n "$url" ] && wget -O mihomo-linux-amd64.gz "$url"; then
             break
           elif [ $i -eq 3 ]; then
             echo "Failed to download mihomo after 3 tries"
@@ -46,19 +46,19 @@ jobs:
           fi
           sleep 2
         done
-        gunzip -f mihomo-linux-arm64.gz
-        BIN=$(ls | grep '^mihomo-linux-arm64' | grep -v '\.gz' | head -n1)
-        if [ "$BIN" != "mihomo-linux-arm64" ]; then
-          mv -f "$BIN" mihomo-linux-arm64
+        gunzip -f mihomo-linux-amd64.gz
+        BIN=$(ls | grep '^mihomo-linux-amd64' | grep -v '\.gz' | head -n1)
+        if [ "$BIN" != "mihomo-linux-amd64" ]; then
+          mv -f "$BIN" mihomo-linux-amd64
         fi
-        chmod +x mihomo-linux-arm64
-        ls -l mihomo-linux-arm64
+        chmod +x mihomo-linux-amd64
+        ls -l mihomo-linux-amd64
 
     - name: Validate mrs rules with mihomo (retry 3 times)
       working-directory: data/rules
       run: |
         for i in 1 2 3; do
-          if ../../mihomo-linux-arm64 -t -c check_config.yaml; then
+          if ../../mihomo-linux-amd64 -t -c check_config.yaml; then
             echo "Mihomo check passed"
             exit 0
           else
