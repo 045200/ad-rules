@@ -53,10 +53,12 @@ jobs:
 
     - name: Download clash-meta-tools
       run: |
-        wget -O cmt.gz "https://github.com/MetaCubeX/clash-meta-tools/releases/latest/download/clash-meta-tools-linux-amd64.gz"
-        gunzip -f cmt.gz
+        URL=$(curl -sSL "https://api.github.com/repos/MetaCubeX/clash-meta-tools/releases/latest" | \
+          jq -r '.assets[] | select(.name|test("linux-amd64$")) | .browser_download_url' | head -n1)
+        echo "Download URL: $URL"
+        wget -O clash-meta-tools-linux-amd64 "$URL"
+        chmod +x clash-meta-tools-linux-amd64
         mv clash-meta-tools-linux-amd64 clash-meta-tools
-        chmod +x clash-meta-tools
 
     - name: Convert mihomo.txt to adblock.mrs
       working-directory: data/rules
