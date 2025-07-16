@@ -58,7 +58,7 @@ jobs:
       working-directory: data/rules
       run: |
         for i in 1 2 3; do
-          if ../../mihomo-linux-amd64 -t -c check_config.yaml; then
+          if ../../mihomo-linux-amd64 -t -f check_config.yaml; then
             echo "Mihomo check passed"
             exit 0
           else
