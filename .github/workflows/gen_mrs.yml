@@ -31,6 +31,7 @@ jobs:
 
     - name: Download Mihomo (linux-arm64, robust, jq)
       run: |
+        set -e
         for i in 1 2 3; do
           url=$(curl -sSL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" \
             | jq -r '.assets[] | select(.name | test("linux-arm64.*gz$")) | .browser_download_url' | head -n1)
@@ -47,8 +48,11 @@ jobs:
         done
         gunzip -f mihomo-linux-arm64.gz
         BIN=$(ls | grep '^mihomo-linux-arm64' | grep -v '\.gz' | head -n1)
-        mv "$BIN" mihomo-linux-arm64
+        if [ "$BIN" != "mihomo-linux-arm64" ]; then
+          mv -f "$BIN" mihomo-linux-arm64
+        fi
         chmod +x mihomo-linux-arm64
+        ls -l mihomo-linux-arm64
 
     - name: Validate mrs rules with mihomo (retry 3 times)
       working-directory: data/rules
