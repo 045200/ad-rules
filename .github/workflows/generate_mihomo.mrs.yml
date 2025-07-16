@@ -1,0 +1,88 @@
+name: Generate Mihomo MRS Rules
+
+on:
+  schedule:
+    - cron: '0 0 * * *'    # 每天00:00 UTC自动同步
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Pull Changes
+        run: git pull
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Clean old files
+        run: rm -f data/rules/mihomo.txt data/rules/adblock.mrs
+
+      - name: Generate merged rule txt
+        id: generate_rules
+        run: python data/python/generate_mihomo_txt.py
+
+      - name: Check and Retry mihomo.txt Generation
+        id: check_mihomo_txt
+        run: |
+          MAX_RETRIES=3
+          RETRY_INTERVAL=5  # seconds
+          FILE_PATH="data/rules/mihomo.txt"
+          retry_count=0
+
+          while [ ! -f "$FILE_PATH" ] && [ "$retry_count" -lt "$MAX_RETRIES" ]; do
+            echo "mihomo.txt not found. Retry attempt $((retry_count + 1))/$MAX_RETRIES..."
+            sleep "$RETRY_INTERVAL"
+            # Re-run the generate step
+            python data/python/generate_mihomo_txt.py
+            retry_count=$((retry_count + 1))
+          done
+
+          if [ ! -f "$FILE_PATH" ]; then
+            echo "Error: mihomo.txt was not generated after $MAX_RETRIES attempts."
+            exit 1
+          else
+            echo "mihomo.txt successfully generated."
+          fi
+
+      - name: Download Mihomo (linux-amd64)
+        run: |
+          curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases \
+            | grep "browser_download_url.*mihomo-linux-amd64.*.gz" \
+            | head -n 1 \
+            | cut -d '"' -f 4 \
+            | xargs wget -q -O mihomo-linux-amd64.gz
+          gunzip -f mihomo-linux-amd64.gz
+          chmod +x mihomo-linux-amd64
+
+      - name: Convert mihomo.txt to adblock.mrs
+        working-directory: data/rules
+        run: |
+          ../../mihomo-linux-amd64 mrs pack -i mihomo.txt -o adblock.mrs
+
+      - name: Get current date
+        id: date
+        run: |
+          echo "DATE=$(TZ=Europe/Moscow date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
+
+      - name: Commit and Push Changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'auto: update adblock.mrs ${{ env.DATE }}'
+          push: true
+          cwd: .
+          default_author: github_actions
+          fetch: --tags --force
+          pathspec_error_handling: ignore
+          add: 'data/rules/adblock.mrs'
