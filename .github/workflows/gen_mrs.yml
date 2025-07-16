@@ -23,9 +23,32 @@ jobs:
     - name: Clean old files
       run: rm -f data/rules/mihomo.txt data/rules/adblock.mrs # check_config.yaml 现在是手动创建的
 
-    - name: Process and Generate mihomo.txt
+    - name: Generate merged rule txt
+      id: generate_rules
+      run: python data/python/generate_mihomo_txt.py
+
+    - name: Check and Retry mihomo.txt Generation
+      id: check_mihomo_txt
       run: |
-        python data/python/process_rules.py | python data/python/write_output.py
+        MAX_RETRIES=3
+        RETRY_INTERVAL=5  # seconds
+        FILE_PATH="data/rules/mihomo.txt"
+        retry_count=0
+
+        while [ ! -f "$FILE_PATH" ] && [ "$retry_count" -lt "$MAX_RETRIES" ]; do
+          echo "mihomo.txt not found. Retry attempt $((retry_count + 1))/$MAX_RETRIES..."
+          sleep "$RETRY_INTERVAL"
+          # Re-run the generate step
+          python data/python/generate_mihomo_txt.py
+          retry_count=$((retry_count + 1))
+        done
+
+        if [ ! -f "$FILE_PATH" ]; then
+          echo "Error: mihomo.txt was not generated after $MAX_RETRIES attempts."
+          exit 1
+        else
+          echo "mihomo.txt successfully generated."
+        fi
 
     - name: Install jq
       run: sudo apt-get update && sudo apt-get install -y jq
