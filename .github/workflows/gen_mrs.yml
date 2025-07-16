@@ -29,41 +29,25 @@ jobs:
     - name: Install jq
       run: sudo apt-get update && sudo apt-get install -y jq
 
-    - name: Download Mihomo (linux-amd64, robust, jq)
+    - name: Download Mihomo (linux-amd64)
       run: |
         set -e
-        for i in 1 2 3; do
-          url=$(curl -sSL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" \
-            | jq -r '.assets[] | select(.name | test("linux-amd64.*gz$")) | .browser_download_url' | head -n1)
-          echo "Download url: $url"
-          if [ -n "$url" ] && wget -O mihomo-linux-amd64.gz "$url"; then
-            break
-          elif [ $i -eq 3 ]; then
-            echo "Failed to download mihomo after 3 tries"
-            exit 1
-          fi
-          sleep 2
-        done
+        url=$(curl -sSL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" \
+          | jq -r '.assets[] | select(.name | test("linux-amd64.*gz$")) | .browser_download_url' | head -n1)
+        echo "Download url: $url"
+        wget -O mihomo-linux-amd64.gz "$url"
         gunzip -f mihomo-linux-amd64.gz
         BIN=$(ls | grep '^mihomo-linux-amd64' | grep -v '\.gz' | head -n1)
         if [ "$BIN" != "mihomo-linux-amd64" ]; then
           mv -f "$BIN" mihomo-linux-amd64
         fi
         chmod +x mihomo-linux-amd64
-
-    - name: Download clash-meta-tools
-      run: |
-        URL=$(curl -sSL "https://api.github.com/repos/MetaCubeX/clash-meta-tools/releases/latest" | \
-          jq -r '.assets[] | select(.name|test("linux-amd64$")) | .browser_download_url' | head -n1)
-        echo "Download URL: $URL"
-        wget -O clash-meta-tools-linux-amd64 "$URL"
-        chmod +x clash-meta-tools-linux-amd64
-        mv clash-meta-tools-linux-amd64 clash-meta-tools
+        ./mihomo-linux-amd64 -v
 
     - name: Convert mihomo.txt to adblock.mrs
       working-directory: data/rules
       run: |
-        ../../clash-meta-tools mrs pack -i mihomo.txt -o adblock.mrs
+        ../../mihomo-linux-amd64 mrs pack -i mihomo.txt -o adblock.mrs
 
     - name: Validate mrs rules with mihomo (retry 3 times)
       working-directory: data/rules
