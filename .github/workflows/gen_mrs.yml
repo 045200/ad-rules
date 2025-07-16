@@ -21,7 +21,7 @@ jobs:
       run: pip install requests
 
     - name: Clean old files
-      run: rm -f data/rules/mihomo.txt data/rules/adblock.mrs # check_config.yaml 现在是手动创建的，不需要在这里删除
+      run: rm -f data/rules/mihomo.txt
 
     - name: Generate merged rule txt
       run: python data/python/generate_mihomo_txt.py
