@@ -15,6 +15,8 @@ adblock_urls = [
     "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt"
 ]
 
+OUTPUT_TXT = "data/rules/mihomo.txt"
+
 def robust_get(url, retries=3, timeout=30):
     for i in range(retries):
         try:
@@ -99,39 +101,30 @@ def download_and_merge(urls):
     print(f"[*] After smart domain dedup: {len(deduped)}")
     return deduped
 
-def write_mrs(rules, outfile="data/rules/adblock.mrs"):
+def write_mihomo_txt(rules, outfile=OUTPUT_TXT, sources=None):
     os.makedirs(os.path.dirname(outfile), exist_ok=True)
     # 先删除旧文件（保险起见）
     if os.path.exists(outfile):
         os.remove(outfile)
     with open(outfile, "w", encoding="utf-8") as f:
-        f.write("[Rule]\n")
+        # 写入上游链接注释
+        if sources:
+            f.write("# Upstream sources:\n")
+            for url in sources:
+                f.write(f"# {url}\n")
+            f.write("\n")
+        # 写入规则
         for r in rules:
             f.write(f"{r}\n")
     # 简单有效性校验
     if not os.path.exists(outfile) or os.path.getsize(outfile) < 100:
-        raise RuntimeError("adblock.mrs 生成失败或文件过小，已中止工作流。")
+        raise RuntimeError("mihomo.txt 生成失败或文件过小，已中止工作流。")
     print(f"[+] Wrote {len(rules)} rules to {outfile}")
 
-def write_check_config(outfile="data/rules/check_config.yaml", mrs_path="./adblock.mrs"):
-    config = f"""mixed-port: 7890
-rules:
-  - 'RULE-SET,adblock,REJECT'
-rule-providers:
-  adblock:
-    type: file
-    behavior: classical
-    path: {mrs_path}
-"""
-    with open(outfile, 'w', encoding='utf-8') as f:
-        f.write(config)
-    print(f"[+] Wrote {outfile} for mihomo check.")
-
 def main():
-    print("[*] Generating mihomo mrs rules...")
+    print("[*] Generating mihomo.txt rules...")
     rules = download_and_merge(adblock_urls)
-    write_mrs(rules)
-    write_check_config()
+    write_mihomo_txt(rules, outfile=OUTPUT_TXT, sources=adblock_urls)
     print("[*] Done.")
 
 if __name__ == "__main__":
