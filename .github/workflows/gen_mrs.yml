@@ -1,11 +1,9 @@
-name: Generate Mihomo MRS Rules
+name: Generate and Validate Mihomo MRS Rules
 
 on:
-  push:
-    branches: [ main ]
   schedule:
-    - cron: '0 0 * * *'   # 每天00:00自动同步
-  workflow_dispatch:       # 支持手动触发
+    - cron: '0 0 * * *'    # 每天00:00 UTC自动同步
+  workflow_dispatch:        # 支持手动触发
 
 jobs:
   build:
@@ -24,6 +22,39 @@ jobs:
 
     - name: Generate MRS rules
       run: python data/python/generate_mrs.py
+
+    - name: Download Mihomo (linux-arm64, fuzzy match, robust)
+      run: |
+        for i in 1 2 3; do
+          url=$(curl -sSL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" | grep -Eo 'https://[^"]*mihomo-[^"]*linux-arm64[^"]*\.gz' | head -n1)
+          echo "Download url: $url"
+          if [ -n "$url" ] && wget -O mihomo-linux-arm64.gz "$url"; then
+            break
+          elif [ $i -eq 3 ]; then
+            echo "Failed to download mihomo after 3 tries"
+            exit 1
+          fi
+          sleep 2
+        done
+        gunzip -f mihomo-linux-arm64.gz
+        BIN=$(ls | grep '^mihomo-linux-arm64' | grep -v '\.gz' | head -n1)
+        mv "$BIN" mihomo-linux-arm64
+        chmod +x mihomo-linux-arm64
+
+    - name: Validate mrs rules with mihomo (retry 3 times)
+      working-directory: data/rules
+      run: |
+        for i in 1 2 3; do
+          if ../../mihomo-linux-arm64 -t -c check_config.yaml; then
+            echo "Mihomo check passed"
+            exit 0
+          else
+            echo "Mihomo check failed, retry $i/3"
+            sleep 2
+          fi
+        done
+        echo "Mihomo check failed after 3 attempts"
+        exit 1
 
     - name: Commit and push changes
       uses: EndBug/add-and-commit@v9
