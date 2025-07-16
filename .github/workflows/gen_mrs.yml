@@ -1,97 +1,106 @@
-name: Generate and Validate Mihomo MRS Rules
+name: Generate and Validate Mihomo MRS Rules (using convert-ruleset)
 
 on:
   schedule:
     - cron: '0 0 * * *'    # 每天00:00 UTC自动同步
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
+      - name: Pull Changes
+        run: git pull
 
-    - name: Install dependencies
-      run: pip install requests
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-    - name: Clean old files
-      run: rm -f data/rules/mihomo.txt data/rules/adblock.mrs # check_config.yaml 现在是手动创建的
+      - name: Install dependencies
+        run: pip install requests
 
-    - name: Generate merged rule txt
-      id: generate_rules
-      run: python data/python/generate_mihomo_txt.py
+      - name: Clean old files
+        run: rm -f data/rules/mihomo.txt data/rules/adblock.mrs
 
-    - name: Check and Retry mihomo.txt Generation
-      id: check_mihomo_txt
-      run: |
-        MAX_RETRIES=3
-        RETRY_INTERVAL=5  # seconds
-        FILE_PATH="data/rules/mihomo.txt"
-        retry_count=0
+      - name: Generate merged rule txt
+        id: generate_rules
+        run: python data/python/generate_mihomo_txt.py
 
-        while [ ! -f "$FILE_PATH" ] && [ "$retry_count" -lt "$MAX_RETRIES" ]; do
-          echo "mihomo.txt not found. Retry attempt $((retry_count + 1))/$MAX_RETRIES..."
-          sleep "$RETRY_INTERVAL"
-          # Re-run the generate step
-          python data/python/generate_mihomo_txt.py
-          retry_count=$((retry_count + 1))
-        done
+      - name: Check and Retry mihomo.txt Generation
+        id: check_mihomo_txt
+        run: |
+          MAX_RETRIES=3
+          RETRY_INTERVAL=5  # seconds
+          FILE_PATH="data/rules/mihomo.txt"
+          retry_count=0
 
-        if [ ! -f "$FILE_PATH" ]; then
-          echo "Error: mihomo.txt was not generated after $MAX_RETRIES attempts."
-          exit 1
-        else
-          echo "mihomo.txt successfully generated."
-        fi
+          while [ ! -f "$FILE_PATH" ] && [ "$retry_count" -lt "$MAX_RETRIES" ]; do
+            echo "mihomo.txt not found. Retry attempt $((retry_count + 1))/$MAX_RETRIES..."
+            sleep "$RETRY_INTERVAL"
+            # Re-run the generate step
+            python data/python/generate_mihomo_txt.py
+            retry_count=$((retry_count + 1))
+          done
 
-    - name: Install jq
-      run: sudo apt-get update && sudo apt-get install -y jq
-
-    - name: Download Mihomo (linux-amd64)
-      run: |
-        set -e
-        url=$(curl -sSL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" \
-          | jq -r '.assets[] | select(.name | test("linux-amd64.*gz$")) | .browser_download_url' | head -n1)
-        echo "Download url: $url"
-        wget -O mihomo-linux-amd64.gz "$url"
-        gunzip -f mihomo-linux-amd64.gz
-        BIN=$(ls | grep '^mihomo-linux-amd64' | grep -v '\.gz' | head -n1)
-        if [ "$BIN" != "mihomo-linux-amd64" ]; then
-          mv -f "$BIN" mihomo-linux-amd64
-        fi
-        chmod +x mihomo-linux-amd64
-        ./mihomo-linux-amd64 -v
-
-    - name: Convert mihomo.txt to adblock.mrs
-      working-directory: data/rules
-      run: |
-        ../../mihomo-linux-amd64 mrs pack -i mihomo.txt -o adblock.mrs
-
-    - name: Validate mrs rules with mihomo (retry 3 times)
-      working-directory: data/rules
-      run: |
-        for i in 1 2 3; do
-          if ../../mihomo-linux-amd64 -t -f check_config.yaml; then
-            echo "Mihomo check passed"
-            exit 0
+          if [ ! -f "$FILE_PATH" ]; then
+            echo "Error: mihomo.txt was not generated after $MAX_RETRIES attempts."
+            exit 1
           else
-            echo "Mihomo check failed, retry $i/3"
-            sleep 2
+            echo "mihomo.txt successfully generated."
           fi
-        done
-        echo "Mihomo check failed after 3 attempts"
-        exit 1
 
-    - name: Commit and push changes
-      uses: EndBug/add-and-commit@v9
-      with:
-        author_name: github-actions
-        author_email: github-actions@github.com
-        message: 'auto: update adblock.mrs'
-        add: 'data/rules/adblock.mrs'
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Download and install Mihomo
+        run: |
+          curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases \
+            | grep "browser_download_url.*mihomo-linux-amd64-alpha.*.deb" \
+            | head -n 1 \
+            | cut -d '"' -f 4 \
+            | xargs wget -q -O mihomo-linux-amd64-alpha.deb
+          sudo apt install --fix-missing ./mihomo-linux-amd64-alpha.deb
+        shell: bash
+
+      - name: Convert mihomo.txt to adblock.mrs
+        working-directory: data/rules
+        run: |
+          mihomo convert-ruleset domain text mihomo.txt adblock.mrs
+
+      - name: Validate mrs rules with mihomo (retry 3 times)
+        working-directory: data/rules
+        run: |
+          for i in 1 2 3; do
+            if mihomo -t -f check_config.yaml; then
+              echo "Mihomo check passed"
+              exit 0
+            else
+              echo "Mihomo check failed, retry $i/3"
+              sleep 2
+            fi
+          done
+          echo "Mihomo check failed after 3 attempts"
+          exit 1
+
+      - name: Get current date
+        id: date
+        run: |
+          echo "DATE=$(TZ=Europe/Moscow date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
+
+      - name: Commit and Push Changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'auto: update adblock.mrs ${{ env.DATE }}'
+          push: true
+          cwd: .
+          default_author: github_actions
+          fetch: --tags --force
+          pathspec_error_handling: ignore
+          add: 'data/rules/adblock.mrs'
