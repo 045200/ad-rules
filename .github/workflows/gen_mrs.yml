@@ -20,18 +20,27 @@ jobs:
     - name: Install dependencies
       run: pip install requests
 
+    - name: Clean old mrs file (保险，可选)
+      run: rm -f data/rules/adblock.mrs
+
     - name: Generate MRS rules
       run: python data/python/generate_mrs.py
 
-    - name: Download Mihomo (linux-arm64, fuzzy match, robust)
+    - name: Install jq
+      run: sudo apt-get update && sudo apt-get install -y jq
+
+    - name: Download Mihomo (linux-arm64, robust, jq)
       run: |
         for i in 1 2 3; do
-          url=$(curl -sSL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" | grep -Eo 'https://[^"]*mihomo-[^"]*linux-arm64[^"]*\.gz' | head -n1)
+          url=$(curl -sSL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest" \
+            | jq -r '.assets[] | select(.name | test("linux-arm64.*gz$")) | .browser_download_url' | head -n1)
           echo "Download url: $url"
           if [ -n "$url" ] && wget -O mihomo-linux-arm64.gz "$url"; then
             break
           elif [ $i -eq 3 ]; then
             echo "Failed to download mihomo after 3 tries"
+            echo "Raw API response:"
+            curl -sSL "https://api.github.com/repos/MetaCubeX/mihomo/releases/latest"
             exit 1
           fi
           sleep 2
