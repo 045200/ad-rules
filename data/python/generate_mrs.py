@@ -31,7 +31,6 @@ def robust_get(url, retries=3, timeout=30):
 def adg_to_mrs(line):
     if not line or line.startswith('!') or line.startswith('#'):
         return None
-    # 过滤白名单
     if line.startswith('@@'):
         return None
     # hosts格式
@@ -59,6 +58,29 @@ def adg_to_mrs(line):
         return f"HOST,{m.group(1).lower()},REJECT"
     return None
 
+def smart_domain_dedup(rules):
+    host_domains = set()
+    host_suffixes = set()
+    regex_rules = set()
+    for rule in rules:
+        if rule.startswith('HOST,'):
+            domain = rule.split(',')[1]
+            host_domains.add(domain)
+        elif rule.startswith('HOST-SUFFIX,'):
+            suffix = rule.split(',')[1]
+            host_suffixes.add(suffix)
+        elif rule.startswith('URL-REGEX,'):
+            regex_rules.add(rule)
+    # 去除被 HOST 覆盖的 HOST-SUFFIX
+    filtered_suffixes = set()
+    for s in host_suffixes:
+        if not any(d == s or d.endswith('.' + s) for d in host_domains):
+            filtered_suffixes.add(s)
+    results = [f"HOST,{d},REJECT" for d in sorted(host_domains)] + \
+              [f"HOST-SUFFIX,{s},REJECT" for s in sorted(filtered_suffixes)] + \
+              sorted(regex_rules)
+    return results
+
 def download_and_merge(urls):
     mrs_rules = set()
     for url in urls:
@@ -71,7 +93,11 @@ def download_and_merge(urls):
             rule = adg_to_mrs(line)
             if rule:
                 mrs_rules.add(rule)
-    return sorted(mrs_rules)
+    print(f"[*] Raw merged rules count: {len(mrs_rules)}")
+    # 智能去重
+    deduped = smart_domain_dedup(mrs_rules)
+    print(f"[*] After smart domain dedup: {len(deduped)}")
+    return deduped
 
 def write_mrs(rules, outfile="data/rules/adblock.mrs"):
     os.makedirs(os.path.dirname(outfile), exist_ok=True)
@@ -81,10 +107,25 @@ def write_mrs(rules, outfile="data/rules/adblock.mrs"):
             f.write(f"{r}\n")
     print(f"[+] Wrote {len(rules)} rules to {outfile}")
 
+def write_check_config(outfile="data/rules/check_config.yaml", mrs_path="./adblock.mrs"):
+    config = f"""mixed-port: 7890
+rules:
+  - 'RULE-SET,adblock,REJECT'
+rule-providers:
+  adblock:
+    type: file
+    behavior: classical
+    path: {mrs_path}
+"""
+    with open(outfile, 'w', encoding='utf-8') as f:
+        f.write(config)
+    print(f"[+] Wrote {outfile} for mihomo check.")
+
 def main():
     print("[*] Generating mihomo mrs rules...")
     rules = download_and_merge(adblock_urls)
     write_mrs(rules)
+    write_check_config()
     print("[*] Done.")
 
 if __name__ == "__main__":
