@@ -2,9 +2,9 @@
 ! Title: Ad-Rules
 ! Homepage: https://github.com/045200/ad-rules
 ! Expires: 12 Hours
-! Version: 2025-07-17 09:44:39（北京时间）
+! Version: 2025-07-17 20:41:21（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3501
+! Total count: 3502
 @@-ds.metric.gstatic.com^|
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
 @@.com/o.js$domain=2biqu.com
@@ -1981,6 +1981,7 @@
 @@||miniapp.bilibili.com^
 @@||miniapp.gtimg.cn^
 @@||minigame.zijieapi.com^
+@@||minigame5-normal-hl.zijieapi.com^
 @@||minorshort.weixin.qq.com^
 @@||mip.xiachufang.com^
 @@||mipcache.bdstatic.com^
