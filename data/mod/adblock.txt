@@ -1,3 +1,232 @@
+# ===== 小米MIUI/HyperOS系统广告 =====
+# 核心广告域名
+||ad.mi.com^
+||ad.xiaomi.com^
+||ad1.xiaomi.com^
+||ad.api.miui.com^
+||addev.miui.com^
+||adv.sec.miui.com^
+||tracking.miui.com^
+||data.mistat.xiaomi.com^
+||sdkconfig.ad.xiaomi.com^
+||mads.*.xiaomi.com^
+||api.ad.xiaomi.com^
+||api.brs.miui.com^
+||api.io.mi.com^
+||bss.pandora.xiaomi.com^
+||cdn.ad.xiaomi.com^
+||e.ad.xiaomi.com^
+||globalapi.ad.xiaomi.com^
+||m.ad.xiaomi.com^
+||new.api.ad.xiaomi.com^
+||rpt.ad.xiaomi.com^
+||v.ad.xiaomi.com^
+||v1.ad.xiaomi.com^
+||t7z.cupid.ptqy.gitv.tv^  # 小米视频广告
+# 负一屏、文件夹推荐广告
+||recommendation.xiaomi.com^
+||feed.baidu.com^$domain=miui.com
+||api.miui.sec.miui.com^
+||resolver.msg.xiaomi.net^$domain=mi.com
+# 应用商店、浏览器广告
+||appstore.cdn.pandora.xiaomi.com^
+||mishop.pandora.xiaomi.com^
+||mibrowser.pandora.xiaomi.com^
+||adv.sec.miui.com^$domain=browser.miui.com
+||gallery.pandora.xiaomi.com^
+||shop.pandora.xiaomi.com^
+||browser.pandora.xiaomi.com^
+||search.ad.xiaomi.com^
+# 天气、日历广告
+||weather.ad.xiaomi.com^
+||calendar.ad.xiaomi.com^
+||api.micloud.xiaomi.com^$domain=weather.xiaomi.com
+||weatherapi.market.xiaomi.com^
+||weather.miui.com^$script
+# 下载管理、手机管家广告
+||download.ad.xiaomi.com^
+||security.ad.xiaomi.com^
+||cleaner.ad.xiaomi.com^
+||stat.pandora.xiaomi.com^
+||resolver.gslb.mi-idc.com^$domain=miui.com
+||file.market.xiaomi.com^$script
+# 视频广告
+||logonext.tv.kuyun.com^
+||tv.ads.umeng.com^
+||tvapi.kuyun.com^
+||v.admaster.com.cn^
+||api.tv.mi.com^
+# ===== 通用国内App广告（开屏/弹窗/横幅） =====
+# 腾讯系广告
+||ad.qun.qq.com^
+||ads.tencent.com^
+||adcdn.tencentmusic.com^
+||gdt.qq.com^
+||e.qq.com^
+||report.qq.com^
+||beacon.qq.com^
+||tajs.qq.com^
+||tcss.qq.com^
+||sngmta.qq.com^
+||pingma.qq.com^
+||adnet.qq.com^
+# 阿里系广告
+||adash.man.aliyuncs.com^
+||adashbc.ut.taobao.com^
+||adashx.m.taobao.com^
+||amdc.m.taobao.com^
+||acs.m.taobao.com^
+||ad.mail.taobao.com^
+||ad.youku.com^
+||ad.api.3g.youku.com^
+# 字节跳动（抖音/今日头条）
+||log.snssdk.com^
+||ad.toutiao.com^
+||adx.toutiao.com^
+||is.snssdk.com^
+||lf1-ttcdn-tos.pstatp.com^$domain=snssdk.com
+||api-access.pangolin-sdk-toutiao.com^
+# 百度系广告
+||ad.duapps.com^
+||adscdn.baidu.com^
+||mobads.baidu.com^
+||mobads-logs.baidu.com^
+||cbjs.baidu.com^
+||cpro.baidu.com^
+||pos.baidu.com^
+# 其他常见广告联盟
+||ad.360.cn^
+||ad.kuaishou.com^
+||ad.weibo.com^
+||ad.api.moji.com^
+||adcdn.hpplay.com^
+||adcdn.hpplay.cn^
+||adcdn.hpplay.com.cn^
+||adcdn.oppomobile.com^
+||ad.vivo.com.cn^
+||adsfs.oppomobile.com^
+# ===== 开屏广告 & 摇一摇跳转 =====
+||openad.umeng.com^
+||splashad.umeng.com^
+||track.umeng.com^
+||sdkclick.umeng.com^
+||adnew.umeng.com^
+# ===== 数据追踪 & 广告SDK =====
+||sensorsdata.cn^
+||sensorsdata.com^
+||log.b612kaji.com^
+||log2.music.126.net^
+||log1.music.126.net^
+||log3.music.126.net^
+||log4.music.126.net^
+||log5.music.126.net^
+||log6.music.126.net^
+# ===== 屏蔽广告相关IP =====
+123.151.0.0/16  # 腾讯
+140.207.0.0/16  # 腾讯
+182.254.0.0/16  # 腾讯
+106.11.0.0/16   # 阿里
+112.13.0.0/16   # 阿里
+223.111.0.0/16  # 小米
+# ===== 抖音（Douyin/TikTok）广告 & 追踪 =====
+||snssdk.com^
+||ixigua.com^
+||pstatp.com^
+||toutiao.com^
+||bytedance.com^
+||byteimg.com^
+||bytecdn.cn^
+||douyincdn.com^
+||douyinpic.com^
+||douyinliving.com^
+||iesdouyin.com^
+||ixiguavideo.com^
+||bytedns.net^
+||bytedns01.com^
+||bytedns02.com^
+||bdurl.com^
+||bytegoofy.com^
+||byteoversea.com^
+||muscdn.com^
+||musical.ly^
+||tiktokv.com^
+||ttlivecdn.com^
+||tiktokcdn-us.com^
+||tiktokcdn.com^
+||tiktok.com^$dnstype=~A|~AAAA
+# ===== 广告 & 数据分析 =====
+||log.snssdk.com^
+||mon.snssdk.com^
+||analytics.snssdk.com^
+||toblog.snssdk.com^
+||applog.musical.ly^
+||sdk.toutiao.com^
+||adjust.com^
+||appsflyer.com^
+# ===== 西瓜视频（Xigua Video）广告 =====
+||ixigua.com^$dnstype=~A|~AAAA
+||ixiguavideo.com^
+||xiguavideo.com^
+||xigua.com^
+||xiguaplayer.com^
+# ===== 今日头条（Toutiao）广告 =====
+||toutiao.com^$dnstype=~A|~AAAA
+||toutiaocloud.com^
+||toutiaocloud.net^
+||toutiaocdn.com^
+# ===== 剪映（CapCut/Jianying）广告 =====
+||capcut.com^$dnstype=~A|~AAAA
+||bytedanceapi.com^
+# ===== 飞书（Lark/Feishu）广告 =====
+||feishu.cn^$dnstype=~A|~AAAA
+||larksuite.com^
+||larkoffice.com^
+# ===== 豆包AI（Doubao AI）广告 =====
+||doubao.com^$dnstype=~A|~AAAA
+||bytemind.com^
+# ===== 其他字节跳动相关广告 =====
+||huoshan.com^
+||wukong.com^
+||tuchong.com^
+||mubu.com^
+||feiliao.com^
+||baike.com^
+||flipchat.cn^
+||dig.bdurl.net^
+! 微信朋友圈广告屏蔽规则 - 精简优化版
+! 最后更新: 2023-11-15
+! 适用于AdGuard Home
+! 注意事项: 这些规则可能会随微信更新而需要调整
+! 基础广告域名屏蔽
+||ads.tencent.com^
+||ad.tencent.com^
+||ad.qq.com^
+||ad.gt.qq.com^
+||gdt.qq.com^
+||pgdt.gtimg.cn^
+||pgdt.ugdtimg.com^
+||e.qq.com^
+||monitor.qq.com^
+||report.qq.com^
+||tajs.qq.com^
+||beacon.qq.com^
+! 微信朋友圈特定广告路径 (使用通配符简化)
+||weixin.qq.com/mp/ad*^
+||weixin.qq.com/mp/*/ad*^
+||weixin.qq.com/mp/*/*/ad*^
+||weixin.qq.com/mp/getappmsgad^
+||weixin.qq.com/mp/advertisement^
+||weixin.qq.com/mp/cgi-bin/ad^
+||weixin.qq.com/mp/res/ad^
+||weixin.qq.com/mp/static/ad^
+||weixin.qq.com/mp/tpl/ad^
+||weixin.qq.com/mp/video/ad^
+||weixin.qq.com/mp/webview/ad^
+||weixin.qq.com/mp/wxad^
+! 微信广告图片资源
+||wx.qpic.cn/ad/
+||wx.qpic.cn/wechatad/
+||wx.qpic.cn/mp/ad/
 !屏蔽B站直播P2P上传
 *.chat.bilibili.com
 !Amazon ADS
