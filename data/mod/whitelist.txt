@@ -1,3 +1,7 @@
+! 避免误杀的例外规则 (确保正常功能)
+@@||wx.qpic.cn^$domain=weixin.qq.com,image
+@@||wx.qpic.cn^$domain=weixin.qq.com,media
+@@||wx.qpic.cn/^$domain=weixin.qq.com,~image,~media
 !网易验证
 @@||cstaticdun.126.net^
 !QQ音乐PC端登录
